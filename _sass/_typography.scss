@@ -61,6 +61,10 @@ ul.footer-list {
 			&:last-child {
 				border-right:none;
 			}
+			a {
+				font-family: $sans-serif;
+				font-weight:200;
+			}
 		}
 	}
 p {

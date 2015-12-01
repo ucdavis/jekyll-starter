@@ -22,10 +22,9 @@ nav {
 #nav li {
     position: relative;
     a {
-        font-family: $sans-serif;
         font-size: 1.4rem;
         text-transform: uppercase;
-        font-weight:600;
+        font-weight:500;
         display: block;
         color: $secondary-font;
         &:hover {
