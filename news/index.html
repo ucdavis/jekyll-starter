@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<div class="banner">
+    <div class="banner_contents">
+        <h2>Become a Tiger</h2>
+        <p>
+            I'm sort of a softy, I couldn't shoot Bambi except with a camera.
+        </p>
+        <a href="" class="btn darken_primary">Click me</a>
+    </div>
+</div>
+<main>
+    <div class="main_contents">
+        <aside>
+            <h3>Lagunitas</h3>
+            <p>Adding new quotes to the generator nearly daily. Shareable quote images coming in a few days.</p>
+        </aside>
+        <article>
+            <h1 class="document_header">Site News</h1>
+            <h2 class="document_description">A collection of interesting tidebits</h2>
+            <ul class="post-list">
+                {% for post in site.posts %}
+                <li>
+                    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+                    <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+                </li>
+                {% endfor %}
+            </ul>
+            <p class="rss-subscribe">subscribe <a href="{{ " /feed.xml " | prepend: site.baseurl }}">via RSS</a></p>
+        </article>
+    </div>
+</main>

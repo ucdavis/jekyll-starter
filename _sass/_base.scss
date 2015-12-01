@@ -1,0 +1,58 @@
+header {
+    border-top: 3px solid $primary-color;
+    border-bottom: 1px solid $borders;
+    height: auto;
+    padding-top: 1.5%;
+    padding-bottom: 0.5%;
+    background-color: #ffffff;
+    .header_contents {
+        @include container;
+        .site_logo {
+            width: 30%;
+            display: inline-block;
+        }
+    }
+    .rocket_logo {
+        width: 20%;
+    }
+}
+
+main {
+    .main_contents {
+        @include container;
+        // background-color:#fff;
+        // border:1px solid $borders;
+        // border-radius:2px;
+        padding: 1% 2%;
+        margin-top: 2%;
+    }
+}
+
+aside {
+    width: 28%;
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 2%;
+    margin-top: 1%;
+    margin-right: 2%;
+}
+
+article {
+    width: 64%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 1%;
+    padding-left: 1%;
+}
+
+footer {
+    .footer_contents {
+        @include container;
+        margin-top: 7%;
+        .foot_top {
+            border-bottom: 1px solid transparentize($primary-color, .5);
+            padding-bottom: 8px;
+            margin-bottom: 8px;
+        }
+    }
+}
