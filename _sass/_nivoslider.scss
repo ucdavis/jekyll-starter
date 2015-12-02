@@ -82,7 +82,6 @@
     color: $primary-font;
     width: auto;
     z-index: 8;
-    padding: 1% 2%;
     overflow: hidden;
     display: none;
     -webkit-box-sizing: border-box;
@@ -91,7 +90,6 @@
     /* Firefox, other Gecko */
     box-sizing: border-box;
     /* Opera/IE 8+ */
-    max-width: 650px;
     //theme
     width: 55%;
     text-align: left;
