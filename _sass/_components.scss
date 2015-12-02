@@ -1,15 +1,25 @@
+// ul {
+//     li {
+//         &.bullet-divider:after {
+//             content: "\2022";
+//             font-size: 20px;
+//             color:$tertiary-font;
+//         }
+//     }
+// }
 
 .banner {
-    background-color:$primary-color;
-    padding:2% 0;
+    background-color: $primary-color;
+    padding: 2% 0;
     .banner_contents {
         @include container;
     }
 }
+
 .btn {
     padding: 14px 30px 12px;
     margin-top: 2.5%;
-    background-color:$secondary-color;
+    background-color: $secondary-color;
     box-shadow: 0px -3px 0px rgba(0, 0, 0, 0.15) inset;
     border-radius: 2px;
     font-family: $sans-serif;
@@ -24,27 +34,34 @@
         color: #fff;
     }
     &.darken_primary {
-        background-color:darken($primary-color,25)
+        background-color: darken($primary-color, 25)
     }
 }
+
 .float-right {
-  float:right;
+    float: right;
 }
+
 .bg-sunny-grass {
-  background-color:$sunny-grass !important;
+    background-color: $sunny-grass !important;
 }
+
 .bg-wine-grape {
-  background-color:$wine-grape !important;
+    background-color: $wine-grape !important;
 }
+
 .bg-recpool-blue {
-  background-color:$recpool-blue !important;
+    background-color: $recpool-blue !important;
 }
+
 .bg-unitrans-red {
-  background-color:$unitrans-red !important;
+    background-color: $unitrans-red !important;
 }
+
 .bg-golden-lupine {
-  background-color:$golden-lupine !important;
+    background-color: $golden-lupine !important;
 }
+
 .bg-california-poppy {
-  background-color:$california-poppy !important;
+    background-color: $california-poppy !important;
 }

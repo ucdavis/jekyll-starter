@@ -14,7 +14,7 @@
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
   <script src="js/jquery.nivo.slider.pack.js" type="text/javascript"></script>
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+  // <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
 
   <script type="text/javascript" src="js/nav.js"></script>
 
@@ -32,7 +32,7 @@
     <header>
     <div class="header_contents">
         <div class="logo">
-            <a href="/"><img class="rocket_logo" src="/media/jekyll_logo.svg" alt=""></a>
+            <a href="/"><img class="caeslogo" src="/media/caes_logo.svg" alt=""></a>
         </div>
     </div>
 </header>
@@ -50,16 +50,13 @@
                 </ul>
             </li>
             <li>
-                <a href="/learning-materials">Portfolio</a>
+                <a href="/learning-materials">Components</a>
             </li>
             <li>
-                <a href="/about">Components</a>
+                <a href="/about">Features</a>
             </li>
             <li>
-                <a href="/about">Our Work</a>
-            </li>
-            <li>
-                <a href="/news">News</a>
+                <a href="/about">Typography</a>
             </li>
         </ul>
         <!--         <div class="search_form">
@@ -108,15 +105,24 @@
     <div class="footer_contents">
         <div class="foot_top">
             <ul class="footer-list no-bullet">
-                <li><a href="http://kb.sparknearby.com">Jekyll Starter</a></li>
-                <li><a href="/places/lnnbibQCca/Haight%20Ashbury%2C%20San%20Francisco">Trending places</a></li>
+                <li><a href="/">Jekyll Starter</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </div>
         <div class="foot_bottom">
             <ul class="footer-list no-bullet">
-                <li><a href="https://spectafy.com/">Spectafy Labs</a></li>
-                <li><a href="http://kb.sparknearby.com/legal">Legal</a></li>
-                <li><a href="/posts/all">Recent</a></li>
+                <li>&copy; Copyright 2000-
+                    <script language="JavaScript" type="text/javascript">
+                    now = new Date
+                    theYear = now.getYear()
+                    if (theYear < 1900)
+                        theYear = theYear + 1900
+                    document.write(theYear)
+                    </script>
+                    The Regents of the University of California, Davis campus. All rights reserved.
+                </li>
+                <!-- <li><a href="http://kb.sparknearby.com/legal">Contact</a></li>
+                <li><a href="/posts/all">Recent</a></li> -->
             </ul>
             <ul class="footer-list no-bullet float-right">
                 <li><a href="https://twitter.com/SparkNearby"><i class="fa fa-twitter"></i></a></li>
@@ -125,6 +131,7 @@
         </div>
     </div>
 </footer>
+
 
   </body>
 <script type="text/javascript">

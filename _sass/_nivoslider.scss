@@ -15,6 +15,7 @@
     width: 100%;
     height: auto;
     overflow: hidden;
+    border-bottom:3px solid $blue;
 }
 
 .nivoSlider img {
@@ -107,12 +108,12 @@
     }
     p {
         font-size: 1.6rem;
-        padding: 12px;
+        padding: 10px;
         background-color: rgba(255, 255, 255, 0.9);
-        max-width: 60rem;
+        max-width: 55rem;
         color: #242424;
         font-family: "ff-tisa-web-pro", Georgia, serif;
-        margin-top:0px;
+        margin-top: 0px;
     }
 }
 
@@ -148,10 +149,26 @@
 .nivo-controlNav {
     text-align: center;
     padding: 15px 0;
+    text-align: right;
+    margin-top: -23px;
+    z-index: 100;
+    position: relative;
+    color: rgba(255, 255, 255, 0.01);
+    margin-right: 5%;
 }
 
 .nivo-controlNav a {
     cursor: pointer;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background: url(/media/bullets.svg) no-repeat;
+    color: rgba(255, 255, 255, 0.01);
+    border: 0;
+    margin: 0 2px;
+    &.active {
+      background-position: 0 -22px;
+    }
 }
 
 .nivo-controlNav a.active {

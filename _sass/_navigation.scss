@@ -1,7 +1,6 @@
 .nav_wrapper {
     background-color:$bg-color;
     padding:0.5% 0%;
-    border-bottom:1px solid $borders;
 }
 nav {
     @include container;
@@ -106,6 +105,7 @@ header {
     display: block;
     left: 0;
     right: 0;
+    z-index: 9999;
 }
 
 #nav li:not(:first-child):hover ul {

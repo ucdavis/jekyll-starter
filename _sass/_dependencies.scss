@@ -24,6 +24,9 @@
     $bg-color:          rgb(247,247,247); // background
     $borders:           #C8C7CC; // border color
 
+    $blue: #016FC4;
+    $gold: #DDB307;
+
 // UC Davis Colors
   // Supplemental bright color palette for UC Davis
   $unitrans-red:    #ba0c2f;
@@ -220,7 +223,7 @@ html {
   // }
   
   &:before {
-    $custom-stops: #DDB307 61%, #004B85 72%, #016FC4 100%;
+    $custom-stops: #DDB307 69%, #004B85 78%, #016FC4 100%;
     
     // Custom stops
     background: stripes($custom-stops, 90deg);
