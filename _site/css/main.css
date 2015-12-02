@@ -13,7 +13,7 @@ html {
     top: auto;
     bottom: 0; }
   html:before {
-    background: linear-gradient(90deg, #1abc9c 29%, #2ecc71 29%, #2ecc71 33%, #3498db 33%, #3498db 57%, #9b59b6 57%, #9b59b6 83%, #34495e 83%); }
+    background: linear-gradient(90deg, #1abc9c 18%, #2ecc71 18%, #2ecc71 34%, #3498db 34%, #3498db 56%, #9b59b6 56%, #9b59b6 84%, #34495e 84%); }
 
 html {
   font-size: 10px;
