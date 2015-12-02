@@ -593,7 +593,7 @@
         animSpeed: 500,
         pauseTime: 6000,
         startSlide: 0,
-        directionNav: true,
+        directionNav: false,
         controlNav: true,
         controlNavThumbs: false,
         pauseOnHover: true,

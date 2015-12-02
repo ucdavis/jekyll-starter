@@ -13,7 +13,7 @@ html {
     top: auto;
     bottom: 0; }
   html:before {
-    background: linear-gradient(90deg, #DDB307 26.33333%, #004B85 26.33333%, #004B85 61.66667%, #016FC4 61.66667%); }
+    background: linear-gradient(90deg, #DDB307 61%, #004B85 61%, #004B85 72%, #016FC4 72%); }
 
 html {
   font-size: 10px;
@@ -390,6 +390,24 @@ input[type="button"].button-primary:focus {
 .float-right {
   float: right; }
 
+.bg-sunny-grass {
+  background-color: #78be20 !important; }
+
+.bg-wine-grape {
+  background-color: #642667 !important; }
+
+.bg-recpool-blue {
+  background-color: #008eaa !important; }
+
+.bg-unitrans-red {
+  background-color: #ba0c2f !important; }
+
+.bg-golden-lupine {
+  background-color: #ffcd00 !important; }
+
+.bg-california-poppy {
+  background-color: #ed8800 !important; }
+
 .nav_wrapper {
   background-color: #f7f7f7;
   padding: 0.5% 0%;
@@ -620,12 +638,7 @@ nav {
 /* Caption styles */
 .nivo-caption {
   position: absolute;
-  left: 0px;
-  bottom: 0px;
-  background: #fff;
   color: #333433;
-  width: auto;
-  z-index: 8;
   overflow: hidden;
   display: none;
   -webkit-box-sizing: border-box;
@@ -640,7 +653,6 @@ nav {
   padding: .8em 1em;
   height: auto;
   bottom: 2%;
-  position: absolute;
   z-index: 100;
   left: 9%; }
   .nivo-caption h2 {
