@@ -57,7 +57,7 @@ ul.footer-list {
     margin-top: 0px;
     li {
         display: inline-block;
-        border-right:1px solid transparentize($primary-color,.5);
+        border-right: 1px solid transparentize($primary-color, .5);
         padding-right: 10px;
         margin-right: 10px;
         padding-top: 0px;
@@ -68,12 +68,12 @@ ul.footer-list {
         color: $tertiary-font;
         margin-top: 4px;
         .foot_bottom & {
-        	border-right:none;
-        	padding-right:5px;
-        	margin-right:5px;
+            border-right: none;
+            padding-right: 5px;
+            margin-right: 5px;
         }
         &:last-child {
-        	border-right:none;
+            border-right: none;
         }
         a {
             font-family: $sans-serif;
@@ -90,6 +90,15 @@ p {
     color: $primary-font;
     .banner & {
         color: #fff;
+    }
+    &.document_description {
+        padding-bottom: 8px;
+        margin-bottom: 8px;
+        border-bottom: 1px solid $borders;
+        font-size: 1.6rem;
+        color: $tertiary-font;
+        font-weight: 400;
+        margin-top: 0px;
     }
 }
 
@@ -110,11 +119,9 @@ h6 {
 h1,
 .h1 {
     font-size: 2.8rem;
-    &.document_header {
-        margin-bottom: 5px;
-        font-weight: 400;
-        color: $primary-font;
-    }
+    margin-bottom: 5px;
+    font-weight: 400;
+    color: $primary-font;
 }
 
 h2,
@@ -124,16 +131,8 @@ h2,
     color: $secondary-font;
     .banner & {
         color: #fff;
-        font-family: $sans-serif;
-    }
-    &.document_description {
-        padding-bottom: 8px;
-        margin-bottom: 8px;
-        border-bottom: 1px solid $borders;
-        font-size: 1.6rem;
-        color: $tertiary-font;
-        font-weight: 400;
-        margin-top: 0px;
+        font-size: 2.6rem;
+        font-weight: 200;
     }
 }
 

@@ -79,6 +79,14 @@ p {
   color: #333433; }
   .banner p {
     color: #fff; }
+  p.document_description {
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #C8C7CC;
+    font-size: 1.6rem;
+    color: #A6A6A6;
+    font-weight: 400;
+    margin-top: 0px; }
 
 h1,
 h2,
@@ -95,12 +103,10 @@ h6 {
 
 h1,
 .h1 {
-  font-size: 2.8rem; }
-  h1.document_header,
-  .h1.document_header {
-    margin-bottom: 5px;
-    font-weight: 400;
-    color: #333433; }
+  font-size: 2.8rem;
+  margin-bottom: 5px;
+  font-weight: 400;
+  color: #333433; }
 
 h2,
 .h2 {
@@ -110,16 +116,8 @@ h2,
   .banner h2, .banner
   .h2 {
     color: #fff;
-    font-family: "proxima-nova", arial, sans-serif; }
-  h2.document_description,
-  .h2.document_description {
-    padding-bottom: 8px;
-    margin-bottom: 8px;
-    border-bottom: 1px solid #C8C7CC;
-    font-size: 1.6rem;
-    color: #A6A6A6;
-    font-weight: 400;
-    margin-top: 0px; }
+    font-size: 2.6rem;
+    font-weight: 200; }
 
 h3,
 .h3 {
