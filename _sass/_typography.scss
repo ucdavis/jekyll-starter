@@ -14,9 +14,9 @@ html {
 
 a {
     text-decoration: none;
-    color: $primary-color;
+    color: $blue;
     &:hover {
-        color: $secondary-color;
+        color: $gold;
     }
 }
 
@@ -36,9 +36,10 @@ ul,
 ol {
     padding-left: 0px;
     li {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
+        line-height: 1.6;
         letter-spacing: .025rem;
-        font-family: $serif;
+        font-family: $sans-serif;
         color: $primary-font;
         a {
             // font-size1.5rem;
@@ -100,6 +101,11 @@ p {
         font-weight: 400;
         margin-top: 0px;
     }
+    &.image_caption {
+    	font-size:1.4rem;
+    	line-height: 1.4;
+    	color:$tertiary-font;
+    }
 }
 
 h1,
@@ -146,3 +152,16 @@ h4,
 
 h5,
 .h5 {}
+
+blockquote {
+	background-color:$bg-color;
+	padding:10px 12px;
+	border-left:3px solid $tertiary-font;
+	font-size:1.5rem;
+	line-height:1.7;
+	color:$secondary-font;
+	font-weight:400;
+	font-family:$sans-serif;
+	margin-right:0px;
+	margin-left:60px;
+}
