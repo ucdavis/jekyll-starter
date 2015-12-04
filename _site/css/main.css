@@ -36,7 +36,7 @@ ol {
   ul li,
   ol li {
     font-size: 1.6rem;
-    line-height: 1.6;
+    line-height: 1.8;
     letter-spacing: .025rem;
     font-family: "proxima-nova", arial, sans-serif;
     color: #333433; }
@@ -91,7 +91,8 @@ p {
   p.image_caption {
     font-size: 1.4rem;
     line-height: 1.4;
-    color: #A6A6A6; }
+    color: #A6A6A6;
+    margin-bottom: 0px; }
 
 h1,
 h2,
@@ -110,14 +111,14 @@ h6 {
 
 h1,
 .h1 {
-  font-size: 3rem;
+  font-size: 2.8rem;
   margin-bottom: 5px;
   font-weight: 400;
   color: #333433; }
 
 h2,
 .h2 {
-  font-size: 2.6rem;
+  font-size: 2.2rem;
   font-weight: 400; }
   .banner h2, .banner
   .h2 {
@@ -478,6 +479,15 @@ form {
   padding: 2%;
   border-left: 3px solid #028474;
   padding-left: 4%; }
+
+label {
+  display: block;
+  font-family: "proxima-nova", arial, sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #5a585c;
+  text-transform: uppercase;
+  margin-bottom: 5px; }
 
 .nav_wrapper {
   background-color: #f7f7f7;

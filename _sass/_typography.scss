@@ -37,7 +37,7 @@ ol {
     padding-left: 0px;
     li {
         font-size: 1.6rem;
-        line-height: 1.6;
+        line-height: 1.8;
         letter-spacing: .025rem;
         font-family: $sans-serif;
         color: $primary-font;
@@ -105,6 +105,7 @@ p {
     	font-size:1.4rem;
     	line-height: 1.4;
     	color:$tertiary-font;
+    	margin-bottom:0px;
     }
 }
 
@@ -126,7 +127,7 @@ h6 {
 
 h1,
 .h1 {
-    font-size: 3rem;
+    font-size: 2.8rem;
     margin-bottom: 5px;
     font-weight: 400;
     color: $primary-font;
@@ -134,7 +135,7 @@ h1,
 
 h2,
 .h2 {
-    font-size: 2.6rem;
+    font-size: 2.2rem;
     font-weight: 400;
     .banner & {
         color: #fff;
