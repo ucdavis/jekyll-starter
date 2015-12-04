@@ -7,7 +7,20 @@
 //         }
 //     }
 // }
-
+//images 
+.image-wrapper {
+    width:auto;
+    margin-top:7px;
+    image {
+        margin:0px;
+        padding:0px;
+    }
+    &.left {
+        float:left;
+        margin-right:4%;
+        margin-left:-15%;
+    }
+}
 .banner {
     background-color: $primary-color;
     padding: 2% 0;
