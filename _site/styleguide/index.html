@@ -99,11 +99,11 @@
             <blockquote>
                 lo-fi kale chips skateboard narwhal Schlitz small batch banjo gastropub. Etsy meh Wes Anderson brunch mlkshk, chia viral Intelligentsia fanny pack Schlitz ugh dreamcatcher slow-carb
             </blockquote>
-            
-            
             <p>Keffiyeh semiotics YOLO letterpress kogi mixtape, cray VHS aesthetic Thundercats mlkshk flannel Vice bitters Echo Park. Pinterest scenester you probably haven't heard of them skateboard, sartorial brunch artisan. <a href="calvindoval.com">Mustache wolf</a> messenger bag Portland literally gentrify, meggings Marfa bitters umami swag pug cray Bushwick.</p>
             <div class="image-wrapper left"><img src="/media/stork.jpg" srcset="/media/stork.jpg 1x, /media/stork@2x.jpg 2x" alt="Photograph of a Stork">
-            <p class="image_caption">This stork is famous.</p></div><p>Tree trunks grow however makes them happy. And I know you're saying, 'Oh Bob, you've done it this time.' And you may be right. In your imagination you can go anywhere you want. Let all these little things happen. Don't fight them. Learn to use them.</p>
+                <p class="image_caption">This stork is famous.</p>
+            </div>
+            <p>Tree trunks grow however makes them happy. And I know you're saying, 'Oh Bob, you've done it this time.' And you may be right. In your imagination you can go anywhere you want. Let all these little things happen. Don't fight them. Learn to use them.</p>
             <p>I'm gonna start with a little Alizarin crimson and a touch of Prussian blue Decide where your cloud lives. Maybe he lives right in here. That's crazy. This is a happy place, little squirrels live here and play. You can do it. There isn't a rule. You just practice and find out which way works best for you.</p>
             <p>It's so important to do something every day that will make you happy. Use absolutely no pressure. Just like an angel's wing. If we're gonna walk though the woods, we need a little path. That is when you can experience true joy, when you have no fear. You've got to learn to fight the temptation to resist these things. Just let them happen. Let's get crazy.</p>
             <ul>
@@ -111,42 +111,48 @@
                 <li>Reason number two</li>
                 <li>Reason number three</li>
             </ul>
-            <form method="post" action="/contact">
-                <fieldset>
-                    <!-- Text input-->
-                    <div class="mc-field-group field field_short">
-                        <label class="field__label" for="mce-LNAME">Name</label>
-                        <input class="field__input" type="text" name="name" required placeholder="Name">
-                    </div>
-                    <div class="mc-field-group field field_short">
-                        <label class="field__label" for="mce-EMAIL">Email Address</label>
-                        <input class="field__input" type="email" name="email" class="required email" required placeholder="Email">
-                    </div>
-                    <div class="mc-field-group text_area">
-                        <textarea class="field__textarea" name="message" required placeholder="Message"></textarea>
-                    </div>
-                    <!--             <div class="mc-field-group field contact_message">
-                <label class="field__label" for="mce-LNAME">Message</label>
-                <input class="field__input" type="text"  required placeholder="Message">
-            </div> -->
-                    <button type="submit" class="btn btn-green">Send</button>
-                </fieldset>
+            <form action="#" method="post">
+                <h2 class="form_title">
+                    Form title h2.form_title
+                </h2>
+                <div>
+                    <label for="name">Text Input:</label>
+                    <input type="text" name="name" id="name" value="" tabindex="1" />
+                </div>
+                <div>
+                    <h4>Radio Button Choice</h4>
+                    <label for="radio-choice-1">Choice 1</label>
+                    <input type="radio" name="radio-choice-1" id="radio-choice-1" tabindex="2" value="choice-1" />
+                    <label for="radio-choice-2">Choice 2</label>
+                    <input type="radio" name="radio-choice-2" id="radio-choice-2" tabindex="3" value="choice-2" />
+                </div>
+                <div>
+                    <label for="select-choice">Select Dropdown Choice:</label>
+                    <select name="select-choice" id="select-choice">
+                        <option value="Choice 1">Choice 1</option>
+                        <option value="Choice 2">Choice 2</option>
+                        <option value="Choice 3">Choice 3</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="textarea">Textarea:</label>
+                    <textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>
+                </div>
+                <div>
+                    <label for="checkbox">Checkbox:</label>
+                    <input type="checkbox" name="checkbox" id="checkbox" />
+                </div>
+                <div>
+                    <input type="submit" value="Submit" />
+                </div>
             </form>
-            <hr />
-            <!-- Standard button -->
-            <button type="button" class="btn btn-oj">Orange</button>
-            <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-            <button type="button" class="btn btn-green">Green</button>
-            <button type="button" class="btn btn-blue">Blue</button>
-            <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-            <button type="button" class="btn btn-yellow">Yellow</button>
-            <br />
-            <br />
-            <!-- Indicates a successful or positive action -->
-            <button type="button" class="btn btn-fb">Facebook</button>
-            <!-- Contextual button for informational alert messages -->
-            <button type="button" class="btn btn-google">Google</button>
-            <hr />
+            <!-- Standard a -->
+            <a href="#" class="btn">Default</a>
+            <!-- Provides extra visual weight and identifies the primary action in a set of as -->
+            <a href="#" class="btn btn-blue">Blue</a>
+            <a href="#" class="btn btn-green">Green</a>
+            <!-- Provides extra visual weight and identifies the primary action in a set of as -->
+            <a href="#" class="btn btn-red">Red</a>
         </article>
     </div>
 </main>

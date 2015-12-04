@@ -140,6 +140,12 @@ h2,
         color: #fff;
         font-weight: 200;
     }
+    &.form_title {
+    	font-size:2rem;
+    	margin-top:0px;
+    	margin-bottom:20px;
+    	color:$mint-green;
+    }
 }
 
 h3,

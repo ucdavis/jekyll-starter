@@ -30,7 +30,7 @@
 }
 
 .btn {
-    padding: 14px 30px 12px;
+    padding: 1% 2%;
     margin-top: 2.5%;
     background-color: $secondary-color;
     box-shadow: 0px -3px 0px rgba(0, 0, 0, 0.15) inset;
@@ -46,8 +46,14 @@
         opacity: .85;
         color: #fff;
     }
-    &.darken_primary {
-        background-color: darken($primary-color, 25)
+    &.btn-red {
+        background-color: $unitrans-red;
+    }
+    &.btn-blue {
+        background-color: $blue;
+    }
+    &.btn-green {
+        background-color: $sunny-grass;
     }
 }
 
