@@ -1,10 +1,9 @@
 ---
 layout: post
-title:  "UC Davis Apple Harvest"
-description: "Apple's aplenty for all at UC Davis"
+title:  "Bob Ross, adored by the nation"
+description: "Tune in while we stream Bob Ross for 24 hr"
 author: "Cal Doval"
-date:   2015-09-22 16:25:17
-tags: "Apple"
+date:   2015-11-28 16:25:17
 ---
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.

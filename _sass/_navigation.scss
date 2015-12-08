@@ -1,6 +1,7 @@
 .nav_wrapper {
     background-color:$bg-color;
     padding:0.5% 0%;
+    border-bottom:1px solid $borders;
 }
 nav {
     @include container;
@@ -96,7 +97,8 @@ header {
     a {
         color: $secondary-font;
         &:hover {
-            color: $primary-color;
+            color: $secondary-color;
+            // background-color:#f0f0f0;
         }
     }
 }

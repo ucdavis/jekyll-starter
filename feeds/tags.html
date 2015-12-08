@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<main>
+    <div class="main_contents">
+        <aside>
+            <h3>Jekyll Starter News template</h3>
+            <p>Adding new quotes to the generator nearly daily. Shareable quote images coming in a few days.</p>
+        </aside>
+        <article>
+            <h1>Tag Collection - Apple</h1>
+            <p class="document_description">A collection of interesting tidebits relating to Apple</p>
+            <ul class="feed-list">
+                {% for post in site.tags.Apple %}
+                <li>
+                    <h2 class="feed-title">
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+                    <h5 class="feed-date">{{ post.date | date: "%b %-d, %Y" }}</h5>
+                    <p class="feed-description">{{ post.description }}</p>
+                </li>
+                {% endfor %}
+            </ul>
+            <!-- <p class="rss-subscribe">subscribe <a href="{{ " /feed.xml " | prepend: site.baseurl }}">via RSS</a></p> -->
+        </article>
+    </div>
+</main>

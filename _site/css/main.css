@@ -44,6 +44,11 @@ ol {
   ol.no-bullet li {
     list-style-type: none; }
 
+ul.feed-list li {
+  margin-top: 4%;
+  margin-bottom: 2%;
+  list-style-type: none; }
+
 ul.footer-list {
   list-style-type: none;
   padding-left: 0px;
@@ -93,6 +98,8 @@ p {
     line-height: 1.4;
     color: #A6A6A6;
     margin-bottom: 0px; }
+  p.feed-description {
+    margin-top: 0px; }
 
 h1,
 h2,
@@ -130,6 +137,9 @@ h2,
     margin-top: 0px;
     margin-bottom: 20px;
     color: #028474; }
+  h2.feed-title,
+  .h2.feed-title {
+    margin-bottom: 0px; }
 
 h3,
 .h3 {
@@ -138,6 +148,14 @@ h3,
 h4,
 .h4 {
   font-size: 1.4rem; }
+
+h5.feed-date {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: #A6A6A6;
+  font-family: "proxima-nova", arial, sans-serif;
+  margin-top: 0px;
+  margin-bottom: 8px; }
 
 blockquote {
   background-color: #f7f7f7;
@@ -491,7 +509,8 @@ label {
 
 .nav_wrapper {
   background-color: #f7f7f7;
-  padding: 0.5% 0%; }
+  padding: 0.5% 0%;
+  border-bottom: 1px solid #C8C7CC; }
 
 nav {
   max-width: 1200px;
@@ -538,7 +557,7 @@ nav {
   #nav li ul a {
     color: #5a585c; }
     #nav li ul a:hover {
-      color: #1A3E68; }
+      color: #CFA21A; }
 
 #nav li:hover ul {
   display: block;
