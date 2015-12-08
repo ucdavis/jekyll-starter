@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: news
 title:  "UC Davis Apple Harvest"
 description: "Apple's aplenty for all at UC Davis"
 author: "Cal Doval"

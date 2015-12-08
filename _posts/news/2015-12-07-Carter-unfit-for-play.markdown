@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: news
 title:  "Carter unfit for play"
 description: "Dan Carter (Racing Metro) is unfit for this weekends match"
 author: "Frederick Ferguson"

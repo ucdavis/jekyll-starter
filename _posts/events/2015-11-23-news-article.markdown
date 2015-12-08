@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: event
 title:  "College Celebration"
 description: "Join UC Davis in their 5th Annual College Celebration"
 author: "Frederick Ferguson"
