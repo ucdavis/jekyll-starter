@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Components
 ---
 
 <div class="banner">
@@ -14,17 +15,50 @@ layout: default
 <main>
     <div class="main_contents">
         <aside>
-            <h3>Lagunitas</h3>
-            <p>Adding new quotes to the generator nearly daily. Shareable quote images coming in a few days.</p>
+            <h3>Site components</h3>
+            <ul>
+                <li><a href="#nivo">Slider</a></li>
+                <li>
+                    <a href=""></a>
+                </li>
+                <li>
+                    <a href=""></a>
+                </li>
+                <li>
+                    <a href=""></a>
+                </li>
+            </ul>
         </aside>
         <article>
-            <h1 class="document_header">Heading 1</h1>
-            <h2 class="document_description">Heading 2</h2>
-            <p>Comfortable seats, ample legroom, electrical outlets, and on-board food services at the Sea View Cafe.</p>
-            <p>From Sacramento and the Bay Area, the San Joaquin travels through California's Central Valley, offering daily <a href="http://cydoval.com">Round Trips</a> to Bakersfield with convenient Thruway bus connections to Los Angeles.
-            </p>
-            <h2>Amtrak California</h2>
-            <p>The Capitol Corridor is a convenient alternative to California's congested freeways, from Sacramento to the San Francisco-Oakland Bay area and south to San Jose. Adding new quotes to the generator nearly daily. Shareable quote images coming in a few days.</p>
+            <div class="section-divider">
+                <h1 class="document_header">
+            <a name="nivo"></a>
+            Nivo Slider</h1>
+                <h2 class="document_description">Add a Nivo Slider to your awesome jekyll site</h2>
+                <div class="row">
+                    <div class="twelve columns">
+                        <div id="slider" class="nivoSlider">
+                            <img src="/media/slide1.jpg" title="#htmlcaption1" />
+                            <img src="/media/slide2.jpg" title="#htmlcaption2" />
+                            <img src="/media/slide3.jpg" title="#htmlcaption3" />
+                        </div>
+                        <div id="htmlcaption1" class="nivo-html-caption">
+                            <h2>Are you a beet?</h2>
+                            <p>Titanium white, Thalo green, Prussian blue, Van Dyke brown, Alizarin crimson, Sap green, Cad yellow, and Permanent red.</p>
+                        </div>
+                        <div id="htmlcaption2" class="nivo-html-caption">
+                            <h2 class="bg-wine-grape">Red hot Chili Peppers</h2>
+                            <p>This is your world, whatever makes you happy you can put in it.</p>
+                        </div>
+                        <div id="htmlcaption3" class="nivo-html-caption">
+                            <h2 class="bg-sunny-grass">Prussian blue</h2>
+                            <p>
+                                You can create the world you want to see and be a part of
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </article>
     </div>
 </main>
