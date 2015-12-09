@@ -585,6 +585,9 @@ input[type="button"].button-primary:focus {
   display: table;
   clear: both; }
 
+.section_divider {
+  margin-bottom: 10%; }
+
 .image-wrapper {
   width: auto;
   margin-top: 7px; }
@@ -656,11 +659,11 @@ input[type="button"].button-primary:focus {
   color: #fff;
   margin-bottom: 3%;
   position: relative; }
-  .video_wrapper .vlanding__words {
+  .video_wrapper .video_words {
     margin: 0 auto;
     width: 100%;
     max-width: 60rem;
-    padding-top: 11%; }
+    margin-top: -100px; }
 
 form {
   background-color: #f7f7f7;
