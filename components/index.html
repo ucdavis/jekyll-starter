@@ -5,11 +5,7 @@ title: Components
 
 <div class="banner">
     <div class="banner_contents">
-        <h2>Become a Tiger</h2>
-        <p>
-            I'm sort of a softy, I couldn't shoot Bambi except with a camera.
-        </p>
-        <a href="" class="btn darken_primary">Click me</a>
+        <h2>Components</h2>
     </div>
 </div>
 <main>
@@ -19,7 +15,7 @@ title: Components
             <ul>
                 <li><a href="#nivo">Slider</a></li>
                 <li>
-                    <a href=""></a>
+                    <a href="#bgvideo"></a>
                 </li>
                 <li>
                     <a href=""></a>
@@ -30,11 +26,11 @@ title: Components
             </ul>
         </aside>
         <article>
-            <div class="section-divider">
+            <div class="section_divider">
                 <h1 class="document_header">
             <a name="nivo"></a>
             Nivo Slider</h1>
-                <h2 class="document_description">Add a Nivo Slider to your awesome jekyll site</h2>
+                <p class="document_description">Add a Nivo Slider to your awesome jekyll site</p>
                 <div class="row">
                     <div class="twelve columns">
                         <div id="slider" class="nivoSlider">
@@ -82,6 +78,33 @@ title: Components
                     </div>
                 </div>
             </div>
+            <div class="section_divider">
+                <h1 class="document_header">
+                    <a name="bgvideo"></a>
+                    Background Video
+                    </h1>
+                <p class="document_description">Add a video background to your awesome jekyll site</p>
+                <div class="video_wrapper">
+                    <div class="video">
+                        <video muted="true" autoplay="true" loop="true" poster="/media/video/philpash.jpg">
+                            <source src="/media/video/philpash.webm" type="video/webm">
+                            <source src="/media/video/philpash.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="video_words">
+                        <h1>Whose world will you&nbsp;change?</h1>
+                        <h3>A gift to UC Davis can make a world of&nbsp;difference.</h3>
+                    </div>
+                    <div class="video_form">
+                        <form novalidate="novalidate" class="video-form" action="/Search/Results" method="GET">
+                            <input name="appeal" type="hidden">
+                            <input name="donor" type="hidden">
+                            <input id="search" name="q" class="form-control video-input" placeholder="Find your Philanthropic Passion" type="search">
+                            <input class="video-btn" value="Search" name="search" type="submit">
+                        </form>
+                    </div>
+                </div>
+                </div>
         </article>
-    </div>
+        </div>
 </main>

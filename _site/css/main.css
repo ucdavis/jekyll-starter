@@ -649,6 +649,19 @@ input[type="button"].button-primary:focus {
 .bg-california-poppy {
   background-color: #ed8800 !important; }
 
+.video_wrapper {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 3%;
+  position: relative; }
+  .video_wrapper .vlanding__words {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 60rem;
+    padding-top: 11%; }
+
 form {
   background-color: #f7f7f7;
   padding: 2%;
