@@ -11,7 +11,7 @@ layout: default
             <h1>Jekyll Starter Events template</h1>
             <p class="document_description">A collection of interesting tidebits</p>
             <ul class="feed-list">
-                {% for post in site.tags.Apple %}
+                {% for post in site.categories.events %}
                 <li>
                     <h2 class="feed-title">
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
