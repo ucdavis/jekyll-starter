@@ -1,0 +1,20 @@
+<ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }},</span>
+        <span class="post-meta">por</span>
+        <span class="post-meta">{{ post.author }}</span>
+      </li>
+
+      //IMAGE
+      <img src="{{ site.baseurl }}/media/{{ post.image }}">
+      //IMAGE
+
+
+      {{ post.excerpt }}
+      <a class="btn btn-default" href="{{ post.url | prepend: site.baseurl }}">Continuar lendo</a>
+    {% endfor %}
+  </ul>

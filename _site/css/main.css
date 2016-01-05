@@ -13,7 +13,7 @@ html {
     top: auto;
     bottom: 0; }
   html:before {
-    background: linear-gradient(90deg, #1abc9c 18%, #2ecc71 18%, #2ecc71 34%, #3498db 34%, #3498db 56%, #9b59b6 56%, #9b59b6 84%, #34495e 84%); }
+    background: linear-gradient(90deg, #1abc9c 27%, #2ecc71 27%, #2ecc71 32%, #3498db 32%, #3498db 60%, #9b59b6 60%, #9b59b6 78%, #34495e 78%); }
 
 html {
   font-size: 10px;
@@ -385,7 +385,7 @@ input[type="button"].button-primary:focus {
     opacity: .85;
     color: #fff; }
   .btn.darken_primary {
-    background-color: #010102; }
+    background-color: #000102; }
 
 .float-right {
   float: right; }
