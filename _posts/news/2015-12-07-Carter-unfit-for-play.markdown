@@ -5,7 +5,7 @@ description: "Dan Carter (Racing Metro) is unfit for this weekends match"
 author: "Frederick Ferguson"
 date:   2015-12-07 12:25:17
 tags: "Rugby"
-category: "News"
+category: "news"
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
