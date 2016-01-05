@@ -6,8 +6,8 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 05 Jan 2016 13:49:34 -0800</pubDate>
-    <lastBuildDate>Tue, 05 Jan 2016 13:49:34 -0800</lastBuildDate>
+    <pubDate>Tue, 05 Jan 2016 13:51:33 -0800</pubDate>
+    <lastBuildDate>Tue, 05 Jan 2016 13:51:33 -0800</lastBuildDate>
     <generator>Jekyll v3.0.0</generator>
     
       <item>
@@ -61,6 +61,8 @@
         
         
         <category>news</category>
+        
+        <category>News</category>
         
       </item>
     
