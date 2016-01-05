@@ -14,8 +14,8 @@ layout: default
                 {% for post in site.categories.Event %}
                 <li>
                     <h2 class="feed-title">
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+                      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                    </h2>
                     <h5 class="feed-date">{{ post.date | date: "%b %-d, %Y" }}</h5>
                     <p class="feed-description">{{ post.description }}</p>
                 </li>
