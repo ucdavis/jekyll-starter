@@ -8,11 +8,13 @@ layout: default
             <p>Adding new quotes to the generator nearly daily. Shareable quote images coming in a few days.</p>
         </aside>
         <article>
+            
             <h1>Jekyll Starter News template</h1>
             <p class="document_description">A collection of interesting tidebits</p>
             <ul class="feed-list">
                 {% for post in site.categories.news %}
                 <li>
+                    <img src="{% if post.image %} • {{ post.image }}{% endif %}">
                     <h2 class="feed-title">
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>

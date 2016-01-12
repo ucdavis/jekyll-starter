@@ -3,7 +3,7 @@ layout: news
 title:  "Crazed Cage"
 description: "Insight into his insanity"
 author: "Sam Manning"
-date:   2016-01-12 16:25:17
+date:   2016-01-12 06:25:17
 category: "news"
 image: /media/cage.png
 ---
