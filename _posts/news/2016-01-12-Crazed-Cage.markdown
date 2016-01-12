@@ -5,7 +5,7 @@ description: "Insight into his insanity"
 author: "Sam Manning"
 date:   2016-01-12 16:25:17
 category: "news"
-image:media/"cage.png"
+image: /media/cage.png
 ---
 
 Latte cinnamon variety instant, variety pumpkin spice cortado skinny half and half. Et decaffeinated, robusta, aftertaste froth, café au lait, crema sit trifecta a cortado skinny.
