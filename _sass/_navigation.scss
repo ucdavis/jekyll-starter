@@ -1,7 +1,7 @@
 .nav_wrapper {
     background-color:$bg-color;
     padding:0.5% 0%;
-    border-bottom:1px solid $borders;
+    padding-bottom:0px;
 }
 nav {
     @include container;
