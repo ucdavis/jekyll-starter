@@ -18,6 +18,9 @@ a {
     &:hover {
         color: $gold;
     }
+    nav &.active {
+        border-bottom:3px solid $gold;
+    }
 }
 
 // ol {

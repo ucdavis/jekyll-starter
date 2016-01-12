@@ -89,7 +89,7 @@
             <ul class="feed-list">
                 
                 <li>
-                    <img src=" • /media/cage.png">
+                    <img src="/media/cage.png">
                     <h2 class="feed-title">
           <a class="post-link" href="/news/2016/01/11/Crazed-Cage.html">Crazed Cage</a>
         </h2>
@@ -98,7 +98,7 @@
                 </li>
                 
                 <li>
-                    <img src="">
+                    
                     <h2 class="feed-title">
           <a class="post-link" href="/news/2015/12/07/Carter-unfit-for-play.html">Carter unfit for play</a>
         </h2>
@@ -107,7 +107,7 @@
                 </li>
                 
                 <li>
-                    <img src="">
+                    
                     <h2 class="feed-title">
           <a class="post-link" href="/news/2015/11/28/Bob-Ross-Symposium.html">Bob Ross, adored by the nation</a>
         </h2>
@@ -116,7 +116,7 @@
                 </li>
                 
                 <li>
-                    <img src="">
+                    
                     <h2 class="feed-title">
           <a class="post-link" href="/news/2015/11/23/news-article.html">College Celebration</a>
         </h2>
@@ -125,7 +125,7 @@
                 </li>
                 
                 <li>
-                    <img src="">
+                    
                     <h2 class="feed-title">
           <a class="post-link" href="/news/2015/09/22/welcome-to-jekyll.html">UC Davis Apple Harvest</a>
         </h2>
@@ -177,6 +177,9 @@
 <script type="text/javascript">
 $(window).load(function() {
     $('#slider').nivoSlider();
+});
+$(function() {
+  $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
 });
 </script>
 </html>
