@@ -4,10 +4,10 @@
     <title>Jekyll Starter</title>
     <description>This is a Jekyll Starter template developed by cydoval.com.
 </description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 12 Jan 2016 10:31:57 -0800</pubDate>
-    <lastBuildDate>Tue, 12 Jan 2016 10:31:57 -0800</lastBuildDate>
+    <link>http://jekyll-starter.ucdavis.edu/</link>
+    <atom:link href="http://jekyll-starter.ucdavis.edu/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 12 Jan 2016 16:14:25 -0800</pubDate>
+    <lastBuildDate>Tue, 12 Jan 2016 16:14:25 -0800</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -22,8 +22,8 @@
 
 </description>
         <pubDate>Mon, 11 Jan 2016 22:25:17 -0800</pubDate>
-        <link>http://yourdomain.com/news/2016/01/11/Crazed-Cage.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/news/2016/01/11/Crazed-Cage.html</guid>
+        <link>http://jekyll-starter.ucdavis.edu/news/2016/01/11/Crazed-Cage/</link>
+        <guid isPermaLink="true">http://jekyll-starter.ucdavis.edu/news/2016/01/11/Crazed-Cage/</guid>
         
         
         <category>news</category>
@@ -48,8 +48,8 @@
 
 </description>
         <pubDate>Mon, 07 Dec 2015 04:25:17 -0800</pubDate>
-        <link>http://yourdomain.com/news/2015/12/07/Carter-unfit-for-play.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/news/2015/12/07/Carter-unfit-for-play.html</guid>
+        <link>http://jekyll-starter.ucdavis.edu/news/2015/12/07/Carter-unfit-for-play/</link>
+        <guid isPermaLink="true">http://jekyll-starter.ucdavis.edu/news/2015/12/07/Carter-unfit-for-play/</guid>
         
         <category>Rugby</category>
         
@@ -74,8 +74,8 @@
 
 </description>
         <pubDate>Sat, 28 Nov 2015 08:25:17 -0800</pubDate>
-        <link>http://yourdomain.com/news/2015/11/28/Bob-Ross-Symposium.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/news/2015/11/28/Bob-Ross-Symposium.html</guid>
+        <link>http://jekyll-starter.ucdavis.edu/news/2015/11/28/Bob-Ross-Symposium/</link>
+        <guid isPermaLink="true">http://jekyll-starter.ucdavis.edu/news/2015/11/28/Bob-Ross-Symposium/</guid>
         
         
         <category>news</category>
@@ -100,8 +100,8 @@
 
 </description>
         <pubDate>Mon, 23 Nov 2015 04:25:17 -0800</pubDate>
-        <link>http://yourdomain.com/event/2015/11/23/news-article.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/event/2015/11/23/news-article.html</guid>
+        <link>http://jekyll-starter.ucdavis.edu/event/2015/11/23/news-article/</link>
+        <guid isPermaLink="true">http://jekyll-starter.ucdavis.edu/event/2015/11/23/news-article/</guid>
         
         
         <category>event</category>
@@ -126,8 +126,8 @@
 
 </description>
         <pubDate>Mon, 23 Nov 2015 04:25:17 -0800</pubDate>
-        <link>http://yourdomain.com/news/2015/11/23/news-article.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/news/2015/11/23/news-article.html</guid>
+        <link>http://jekyll-starter.ucdavis.edu/news/2015/11/23/news-article/</link>
+        <guid isPermaLink="true">http://jekyll-starter.ucdavis.edu/news/2015/11/23/news-article/</guid>
         
         <category>Apple</category>
         
@@ -152,8 +152,8 @@
 
 </description>
         <pubDate>Tue, 22 Sep 2015 09:25:17 -0700</pubDate>
-        <link>http://yourdomain.com/event/2015/09/22/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/event/2015/09/22/welcome-to-jekyll.html</guid>
+        <link>http://jekyll-starter.ucdavis.edu/event/2015/09/22/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://jekyll-starter.ucdavis.edu/event/2015/09/22/welcome-to-jekyll/</guid>
         
         
         <category>event</category>
@@ -176,8 +176,8 @@
 
 </description>
         <pubDate>Tue, 22 Sep 2015 09:25:17 -0700</pubDate>
-        <link>http://yourdomain.com/news/2015/09/22/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/news/2015/09/22/welcome-to-jekyll.html</guid>
+        <link>http://jekyll-starter.ucdavis.edu/news/2015/09/22/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://jekyll-starter.ucdavis.edu/news/2015/09/22/welcome-to-jekyll/</guid>
         
         <category>Apple</category>
         
