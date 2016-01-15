@@ -7,7 +7,8 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://jekyll-starter.ucdavis.edu" # the base hostname & protocol for your site
 
 permalink: pretty
-relative_permalinks: true
+
+paginate: 3
 
 # Build settings
 markdown: kramdown

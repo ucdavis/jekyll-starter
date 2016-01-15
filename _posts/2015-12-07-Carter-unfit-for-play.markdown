@@ -1,10 +1,10 @@
 ---
-layout: news
-title:  "College Celebration"
-description: "Join UC Davis in their 5th Annual College Celebration"
+layout: post
+title:  "Carter unfit for play"
+description: "Dan Carter (Racing Metro) is unfit for this weekends match"
 author: "Frederick Ferguson"
-date:   2015-11-23 12:25:17
-tags:  "Apple"
+date:   2015-12-07 12:25:17
+tags: "Rugby"
 category: "news"
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.

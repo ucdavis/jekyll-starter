@@ -1,5 +1,5 @@
 ---
-layout: news
+layout: post
 title:  "Crazed Cage"
 description: "Insight into his insanity"
 author: "Sam Manning"
