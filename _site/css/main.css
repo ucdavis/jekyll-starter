@@ -685,7 +685,8 @@ label {
 .nav_wrapper {
   background-color: #f7f7f7;
   padding: 0.5% 0%;
-  padding-bottom: 0px; }
+  padding-bottom: 0px;
+  border-bottom: 1px solid #C8C7CC; }
 
 nav {
   max-width: 1200px;

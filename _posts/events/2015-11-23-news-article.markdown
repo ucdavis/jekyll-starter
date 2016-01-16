@@ -1,11 +1,11 @@
 ---
-layout: post
+layout: event
 title:  "College Celebration"
 description: "Join UC Davis in their 5th Annual College Celebration"
 author: "Frederick Ferguson"
 date:   2015-11-23 12:25:17
 tags:  "Apple"
-category: "news"
+category: "events"
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

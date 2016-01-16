@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title:  "Bob Ross, adored by the nation"
 description: "Tune in while we stream Bob Ross for 24 hr"
 author: "Cal Doval"

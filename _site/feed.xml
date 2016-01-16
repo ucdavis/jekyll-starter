@@ -6,8 +6,8 @@
 </description>
     <link>http://jekyll-starter.ucdavis.edu/</link>
     <atom:link href="http://jekyll-starter.ucdavis.edu/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 15 Jan 2016 15:57:01 -0800</pubDate>
-    <lastBuildDate>Fri, 15 Jan 2016 15:57:01 -0800</lastBuildDate>
+    <pubDate>Fri, 15 Jan 2016 16:07:42 -0800</pubDate>
+    <lastBuildDate>Fri, 15 Jan 2016 16:07:42 -0800</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -100,13 +100,13 @@
 
 </description>
         <pubDate>Mon, 23 Nov 2015 04:25:17 -0800</pubDate>
-        <link>http://jekyll-starter.ucdavis.edu/news/2015/11/23/news-article/</link>
-        <guid isPermaLink="true">http://jekyll-starter.ucdavis.edu/news/2015/11/23/news-article/</guid>
+        <link>http://jekyll-starter.ucdavis.edu/events/2015/11/23/news-article/</link>
+        <guid isPermaLink="true">http://jekyll-starter.ucdavis.edu/events/2015/11/23/news-article/</guid>
         
         <category>Apple</category>
         
         
-        <category>news</category>
+        <category>events</category>
         
       </item>
     
@@ -126,13 +126,13 @@
 
 </description>
         <pubDate>Tue, 22 Sep 2015 09:25:17 -0700</pubDate>
-        <link>http://jekyll-starter.ucdavis.edu/news/2015/09/22/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://jekyll-starter.ucdavis.edu/news/2015/09/22/welcome-to-jekyll/</guid>
+        <link>http://jekyll-starter.ucdavis.edu/events/2015/09/22/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://jekyll-starter.ucdavis.edu/events/2015/09/22/welcome-to-jekyll/</guid>
         
         <category>Apple</category>
         
         
-        <category>news</category>
+        <category>events</category>
         
       </item>
     
