@@ -1,7 +1,7 @@
 ---
 layout: article
 title:  "Crazed Cage"
-description: "Insight into his insanity"
+description: "Have fun with it. Van Dyke Brown is a very nice brown, it's almost like a chocolate brown. We'll paint one happy little tree right here."
 author: "Sam Manning"
 date:   2016-01-12 06:25:17
 category: "news"

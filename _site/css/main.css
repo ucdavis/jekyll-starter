@@ -601,6 +601,13 @@ input[type="button"].button-primary:focus {
     margin-right: 4%;
     margin-left: -15%; }
 
+.img_article_thumb {
+  float: left;
+  max-width: 125px;
+  padding-right: 2%;
+  padding-top: 1%;
+  padding-bottom: 4%; }
+
 .banner {
   background-color: #1A3E68;
   padding: 2% 0; }

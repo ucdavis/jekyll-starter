@@ -1,11 +1,12 @@
 ---
 layout: article
 title:  "Carter unfit for play"
-description: "Dan Carter (Racing Metro) is unfit for this weekends match"
+description: "The light is your friend. Preserve it. Just go back and put one little more happy tree in there. There comes a nice little fluffer."
 author: "Frederick Ferguson"
 date:   2015-12-07 12:25:17
 tags: "Rugby"
 category: "news"
+image: /media/news_placeholder2.jpg
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
