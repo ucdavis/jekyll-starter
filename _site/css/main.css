@@ -31,6 +31,14 @@ a {
     color: #DDB307; }
   nav a.active {
     border-bottom: 3px solid #DDB307; }
+  a.archive {
+    text-align: right; }
+    a.archive p {
+      color: #016FC4;
+      margin-top: -40px;
+      font-size: 1.4rem; }
+      a.archive p:hover {
+        color: #DDB307; }
 
 ul,
 ol {
@@ -48,7 +56,7 @@ ol {
 
 ul.feed-list li {
   margin-top: 4%;
-  margin-bottom: 2%;
+  margin-bottom: 6%;
   list-style-type: none; }
 
 ul.footer-list {
@@ -604,7 +612,7 @@ input[type="button"].button-primary:focus {
 .img_article_thumb {
   float: left;
   max-width: 125px;
-  padding-right: 2%;
+  padding-right: 3%;
   padding-top: 1%;
   padding-bottom: 4%; }
 

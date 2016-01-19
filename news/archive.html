@@ -4,16 +4,13 @@ layout: default
 <main>
     <div class="main_contents">
         <aside>
-            <h3>Jekyll Starter News template</h3>
-            <p>Adding new quotes to the generator nearly daily. Shareable quote images coming in a few days.</p>
+            <h3>Archive</h3>
+            <p>Complete Archive</p>
         </aside>
         <article>
             
             <h1>Jekyll Starter News template</h1>
             <p class="document_description">A collection of interesting tidebits</p>
-            <a class="archive" href="/news/archive">
-                <p>See the Archive</p> 
-            </a>
             <ul class="feed-list">
                 {% for post in site.categories.news %}
                 <li>
@@ -26,7 +23,7 @@ layout: default
                 </li>
                 {% endfor %}
             </ul>
-            
+
             <!-- <p class="rss-subscribe">subscribe <a href="{{ " /feed.xml " | prepend: site.baseurl }}">via RSS</a></p> -->
         </article>
     </div>
