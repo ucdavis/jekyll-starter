@@ -1,14 +1,14 @@
-//
-// @font-face {
-//   font-family: 'klinic_light';
-//   src:
-//        url('/fonts/klinic_light.woff') format('woff'), Pretty Modern Browsers
-//        url('/fonts/klinic_light.ttf')  format('truetype'), /* Safari, Android, iOS */
-// }
+
+@font-face {
+  font-family: 'klinic_light';
+  src:
+       url('/fonts/klinic_light.woff') format('woff'), Pretty Modern Browsers
+       url('/fonts/klinic_light.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
 
 // fonts
     $sans-serif:        "proxima-nova",arial, sans-serif;// light 300, reg 400, medium 500, semibold 600
-    $serif:             "serifa",Georgia, serif;// light 300, book 400, regular 500
+    $serif:             klinic_light,Georgia, serif;// light 300, book 400, regular 500
 
 // pretty colors 
 

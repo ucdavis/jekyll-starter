@@ -5,7 +5,7 @@ description: "Have fun with it. Van Dyke Brown is a very nice brown, it's almost
 author: "Sam Manning"
 date:   2016-01-12 06:25:17
 category: "news"
-image: /media/cage.png
+image: /media/placeholder3.jpg
 ---
 
 Latte cinnamon variety instant, variety pumpkin spice cortado skinny half and half. Et decaffeinated, robusta, aftertaste froth, café au lait, crema sit trifecta a cortado skinny.

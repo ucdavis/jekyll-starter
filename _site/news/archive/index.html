@@ -100,7 +100,7 @@
             <ul class="feed-list">
                 
                 <li>
-                    <img class="img_article_thumb" src="/media/cage.png">
+                    <img class="img_article_thumb" src="/media/placeholder3.jpg">
                     <h2 class="feed-title">
           <a class="post-link" href="/news/2016/01/11/Crazed-Cage/">Crazed Cage</a>
         </h2>
@@ -109,7 +109,7 @@
                 </li>
                 
                 <li>
-                    <img class="img_article_thumb" src="/media/news_placeholder2.jpg">
+                    <img class="img_article_thumb" src="/media/placeholder2.jpg">
                     <h2 class="feed-title">
           <a class="post-link" href="/news/2015/12/07/Carter-unfit-for-play/">Carter unfit for play</a>
         </h2>
@@ -118,7 +118,7 @@
                 </li>
                 
                 <li>
-                    <img class="img_article_thumb" src="/media/news_placeholder.jpg">
+                    <img class="img_article_thumb" src="/media/placeholder1.jpg">
                     <h2 class="feed-title">
           <a class="post-link" href="/news/2015/11/28/Bob-Ross-Symposium/">Bob Ross, adored by the nation</a>
         </h2>
@@ -173,7 +173,9 @@ $(window).load(function() {
     $('#slider').nivoSlider();
 });
 $(function() {
-  $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+   if (location.pathname.split("/")[1]) {
+       $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+   }
 });
 </script>
 </html>

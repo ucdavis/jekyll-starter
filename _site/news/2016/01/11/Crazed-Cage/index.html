@@ -93,10 +93,10 @@
             <p>This is a news template!</p>
         </aside>
         <article>
-            <img class="image_wrapper img_article_main" src="/media/cage.png">
+            <img class="image_wrapper img_article_main" src="/media/placeholder3.jpg">
             <h1 class="document_heade">Crazed Cage</h1>
             <h1 class="post-title"></h1>
-            <h2 class="document_description">Jan 11, 2016 • Sam Manning</h2>
+            <h5 class="feed-date">Jan 11, 2016 by Sam Manning</h5>
            	<p><p>Latte cinnamon variety instant, variety pumpkin spice cortado skinny half and half. Et decaffeinated, robusta, aftertaste froth, café au lait, crema sit trifecta a cortado skinny.</p>
 
 <p>Half and half skinny, cultivar, pumpkin spice to go roast saucer robust to go blue mountain. Est, eu instant americano ristretto americano robust.</p>
@@ -150,7 +150,9 @@ $(window).load(function() {
     $('#slider').nivoSlider();
 });
 $(function() {
-  $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+   if (location.pathname.split("/")[1]) {
+       $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+   }
 });
 </script>
 </html>
