@@ -1,10 +1,10 @@
 @charset "UTF-8";
 @font-face {
   font-family: 'klinic_light';
-  src: url("/media/klinic_light.woff") format("woff"), url("/media/klinic_light.ttf") format("truetype"); }
+  src: url("/media/fonts/klinic_light.woff") format("woff"), url("/media/fonts/klinic_light.ttf") format("truetype"); }
 @font-face {
   font-family: 'klinic_medium';
-  src: url("/media/klinic_medium.woff") format("woff"), url("/media/klinic_medium.ttf") format("truetype"); }
+  src: url("/media/fonts/klinic_medium.woff") format("woff"), url("/media/fonts/klinic_medium.ttf") format("truetype"); }
 html {
   position: relative;
   height: 100%; }
@@ -126,11 +126,11 @@ h4,
 h5,
 h6 {
   color: #333433;
-  font-family: "klinic_light", Georgia, serif;
+  font-family: "klinic_medium", Georgia, serif;
   margin-top: 1rem;
   margin-bottom: 1rem;
   line-height: 1.5;
-  font-family: "klinic_light", Georgia, serif;
+  font-family: "klinic_medium", Georgia, serif;
   font-weight: 400;
   color: #333433; }
 
