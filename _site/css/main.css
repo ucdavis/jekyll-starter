@@ -119,6 +119,13 @@ p {
     display: inline; }
   p.feed-description {
     margin-top: 0px; }
+  p.feed-summary {
+    color: #5a585c;
+    font-size: 1.8rem;
+    border-bottom: 1px solid #C8C7CC;
+    margin-bottom: 2%;
+    padding-bottom: 2%;
+    margin-top: 0px; }
 
 h1,
 h2,

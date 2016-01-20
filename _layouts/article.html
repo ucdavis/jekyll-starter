@@ -9,10 +9,16 @@ layout: default
             <p>This is a news template!</p>
         </aside>
         <article>
-            <img class="image_wrapper img_article_main" src="{{ page.image }}">
+            
             <h1 class="document_heade">{{ page.title }}</h1>
             <h1 class="post-title">{{ page.publish }}</h1>
-            <h5 class="feed-date">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} by {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</h5>
+            <h5 class="feed-date">Published {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} by {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</h5>
+            <p class="feed-summary">{{ page.description }}</p>
+            {% if page.image %} <div class="image-wrapper full-width"><img class="" src="{{ page.image }}">
+            <p class="image_caption">
+                {{ page.image-caption }}
+            </p>
+            </div>{% endif %}
            	<p>{{ content }}</p>
         </article>
     </div>

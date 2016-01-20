@@ -134,6 +134,14 @@ p {
     &.feed-description {
         margin-top:0px;
     }
+    &.feed-summary {
+        color:$secondary-font;
+        font-size:1.8rem;
+        border-bottom:1px solid $borders;
+        margin-bottom:2%;
+        padding-bottom:2%;
+        margin-top:0px;
+    }
 }
 
 h1,
