@@ -62,6 +62,9 @@ ol {
   ol.no-bullet li {
     list-style-type: none; }
 
+ul.event-info li b {
+  color: #ba0c2f; }
+
 ul.feed-list li {
   margin-top: 6%;
   margin-bottom: 4%;
@@ -648,7 +651,7 @@ input[type="button"].button-primary:focus {
     min-width: 300px; }
 
 .btn {
-  padding: 1% 2%;
+  padding: 1.5% 3.5%;
   margin-top: 2.5%;
   background-color: #CFA21A;
   box-shadow: 0px -3px 0px rgba(0, 0, 0, 0.15) inset;
@@ -658,7 +661,6 @@ input[type="button"].button-primary:focus {
   font-weight: 400;
   color: #fff;
   display: inline-block;
-  text-transform: uppercase;
   text-decoration: none; }
   .btn:hover {
     opacity: .85;

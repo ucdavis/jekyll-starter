@@ -4,6 +4,12 @@ title:  "College Celebration"
 description: "Join UC Davis in their 5th Annual College Celebration"
 author: "Frederick Ferguson"
 date:   2015-11-23 12:25:17
+event-date: August 5th
+event-time: 15:30 - 16:30
+event-contact: Calvin Doval
+event-email: cydoval@mac.com
+event-location: 38 Mrak
+event-button: http://cydoval.com/
 tags:  "Apple"
 category: "events"
 ---

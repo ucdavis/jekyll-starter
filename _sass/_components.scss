@@ -48,7 +48,7 @@
 }
 
 .btn {
-    padding: 1% 2%;
+    padding: 1.5% 3.5%;
     margin-top: 2.5%;
     background-color: $secondary-color;
     box-shadow: 0px -3px 0px rgba(0, 0, 0, 0.15) inset;
@@ -58,7 +58,7 @@
     font-weight: 400;
     color: #fff;
     display: inline-block;
-    text-transform: uppercase;
+    // text-transform: uppercase;
     text-decoration: none;
     &:hover {
         opacity: .85;

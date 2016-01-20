@@ -66,6 +66,13 @@ ol {
         list-style-type: none;
     }
 }
+ul.event-info {
+    li {
+        b {
+            color:$unitrans-red;
+        }
+    }
+}
 ul.feed-list {
 	li {
 		margin-top:6%;
