@@ -68,8 +68,10 @@ ol {
 }
 ul.feed-list {
 	li {
-		margin-top:4%;
-		margin-bottom:6%;
+		margin-top:6%;
+		margin-bottom:4%;
+        border-bottom:1px solid $borders;
+        padding-bottom:2%;
 		list-style-type: none;
 	}
 }
