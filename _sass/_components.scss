@@ -15,14 +15,21 @@
 .image-wrapper {
     width:auto;
     margin-top:7px;
-    image {
+    img {
         margin:0px;
         padding:0px;
+        padding-bottom:10px;
     }
     &.left {
         float:left;
-        margin-right:4%;
-        margin-left:-15%;
+        max-width:300px;
+    }
+    &.right {
+        float:right;
+        max-width:300px;
+    }
+    &.full-width {
+        max-width:800px;
     }
 }
 .img_article_main {
