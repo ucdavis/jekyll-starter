@@ -16,14 +16,23 @@
     {% include footer.html %}
 
   </body>
-<script type="text/javascript">
-$(window).load(function() {
-    $('#slider').nivoSlider();
-});
-$(function() {
-   if (location.pathname.split("/")[1]) {
-       $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
-   }
-});
-</script>
+  <!--   slider -->
+  <script type="text/javascript">
+  $(window).load(function() {
+      $('#slider').nivoSlider();
+  });</script>
+  <!-- active nav -->
+  <script type="text/javascript">
+  $(function() {
+     if (location.pathname.split("/")[1]) {
+         $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+     }
+  });
+  </script>
+  <!-- Searchpopup -->
+  <script src="/js/classie.js"></script>
+  <script src="/js/uisearch.js"></script>
+  <script>
+    new UISearch( document.getElementById( 'sb-search' ) );
+  </script>
 </html>
