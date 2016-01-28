@@ -9,7 +9,6 @@ layout: default
             <p>This is a news template!</p>
         </aside>
         <article>
-            
             <h1 class="document_heade">{{ page.title }}</h1>
             <h1 class="post-title">{{ page.publish }}</h1>
             <h5 class="feed-date">Published {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} by {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</h5>
@@ -20,6 +19,7 @@ layout: default
             </p>
             </div>{% endif %}
            	<p>{{ content }}</p>
+            {% include newsletter.html %}
         </article>
     </div>
 </main>

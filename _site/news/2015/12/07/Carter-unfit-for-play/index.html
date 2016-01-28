@@ -102,7 +102,6 @@
             <p>This is a news template!</p>
         </aside>
         <article>
-            
             <h1 class="document_heade">Carter unfit for play</h1>
             <h1 class="post-title"></h1>
             <h5 class="feed-date">Published Dec 7, 2015 by Frederick Ferguson</h5>
@@ -114,7 +113,10 @@
             </div>
            	<p><p>You’ll find this post in your <code>_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code>jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
 
-<div class="image-wrapper left"><img src="/media/stork.jpg" srcset="/media/stork.jpg 1x, /media/stork@2x.jpg 2x" alt="Photograph of a Stork" />
+<div class="image-wrapper left">
+<a href="/media/stork.jpg" data-lightbox="example-set">
+	<img src="/media/stork.jpg" srcset="/media/stork.jpg 1x, /media/stork@2x.jpg 2x" alt="Photograph of a Stork" />
+</a>
             <br />
                 <p class="image_caption">image-wrapper left</p>
             </div>
@@ -128,6 +130,18 @@
 <p>Check out the <a href="http://jekyllrb.com">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://github.com/jekyll/jekyll-help">Jekyll’s dedicated Help repository</a>.</p>
 
 </p>
+            <input type='button' name='osx' value='Demo' class='osx demo'/> or <a href='#' class='osx'>Demo</a>
+<div id="osx-modal-content">
+      <div id="osx-modal-title">OSX Style Modal Dialog</div>
+      <div class="close"><a href="#" class="simplemodal-close">x</a></div>
+      <div id="osx-modal-data">
+        <h2>Hello! I'm SimpleModal!</h2>
+        <p>SimpleModal is a lightweight jQuery Plugin which provides a powerful interface for modal dialog development. Think of it as a modal dialog framework.</p>
+        <p>SimpleModal gives you the flexibility to build whatever you can envision, while shielding you from related cross-browser issues inherent with UI development..</p>
+        <p>As you can see by this example, SimpleModal can be easily configured to behave like an OSX dialog. With a handful options, 2 custom callbacks and some styling, you have a visually appealing dialog that is ready to use!</p>
+        <p><button class="simplemodal-close">Close</button> <span>(or press ESC or click the overlay)</span></p>
+      </div>
+    </div>
         </article>
     </div>
 </main>
@@ -183,7 +197,11 @@
   <!-- Searchpopup -->
   <script src="/js/classie.js"></script>
   <script src="/js/uisearch.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
   <script>
     new UISearch( document.getElementById( 'sb-search' ) );
   </script>
+  <script src="/js/lightbox-plus-jquery.min.js"></script>
+  <script type='text/javascript' src='/js/jquery.simplemodal.js'></script>
+  <script type='text/javascript' src='/js/osx.js'></script>
 </html>
