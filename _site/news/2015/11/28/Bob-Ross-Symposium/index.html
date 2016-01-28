@@ -9,9 +9,6 @@
   <title>Bob Ross, adored by the nation</title>
   <meta name="description" content="You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different wa...">
 
-  <script src="https://use.typekit.net/ved8sye.js"></script>
-  <script>try{Typekit.load({ async: true });}catch(e){}</script>
-
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
   <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
 
@@ -20,7 +17,9 @@
 
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://jekyll-starter.ucdavis.edu/news/2015/11/28/Bob-Ross-Symposium/">
-  <link rel="alternate" type="application/rss+xml" title="Jekyll Starter" href="http://jekyll-starter.ucdavis.edu/feed.xml" />
+<link rel="alternate" type="application/rss+xml" title="Jekyll Starter" href="http://jekyll-starter.ucdavis.edu/feed.xml" />
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
   <link rel="image_src" href="/media/thumbnail.jpg" />
   <meta property="og:image" content="/media/thumbnail.jpg">
@@ -120,18 +119,30 @@
 <span class="c1">#=&gt; prints &#39;Hi, Tom&#39; to STDOUT.</span></code></pre></div>
 
 </p>
-            <input type='button' name='osx' value='Demo' class='osx demo'/> or <a href='#' class='osx'>Demo</a>
-<div id="osx-modal-content">
-      <div id="osx-modal-title">OSX Style Modal Dialog</div>
-      <div class="close"><a href="#" class="simplemodal-close">x</a></div>
-      <div id="osx-modal-data">
-        <h2>Hello! I'm SimpleModal!</h2>
-        <p>SimpleModal is a lightweight jQuery Plugin which provides a powerful interface for modal dialog development. Think of it as a modal dialog framework.</p>
-        <p>SimpleModal gives you the flexibility to build whatever you can envision, while shielding you from related cross-browser issues inherent with UI development..</p>
-        <p>As you can see by this example, SimpleModal can be easily configured to behave like an OSX dialog. With a handful options, 2 custom callbacks and some styling, you have a visually appealing dialog that is ready to use!</p>
-        <p><button class="simplemodal-close">Close</button> <span>(or press ESC or click the overlay)</span></p>
-      </div>
+            
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+    Launch demo modal
+</button>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
     </div>
+</div>
+
         </article>
     </div>
 </main>
@@ -171,6 +182,12 @@
 
 
   </body>
+  <!-- Modal -->
+  <script>
+    $('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').focus()
+  })
+  </script>
   <!--   slider -->
   <script type="text/javascript">
   $(window).load(function() {
@@ -184,14 +201,20 @@
      }
   });
   </script>
+  <!-- Typekit -->
+  <script src="https://use.typekit.net/ved8sye.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
   <!-- Searchpopup -->
   <script src="/js/classie.js"></script>
   <script src="/js/uisearch.js"></script>
-  <script src="/js/bootstrap.min.js"></script>
   <script>
     new UISearch( document.getElementById( 'sb-search' ) );
   </script>
-  
-  <script type='text/javascript' src='/js/jquery.simplemodal.js'></script>
-  <script type='text/javascript' src='/js/osx.js'></script>
+
+  <!-- lightbox -->
+  <script>
+    $('#myLightbox').lightbox(options)
+  </script>
+  <script src="/js/bootstrap-lightbox.min.js"></script>
 </html>

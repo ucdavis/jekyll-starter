@@ -16,6 +16,12 @@
     {% include footer.html %}
 
   </body>
+  <!-- Modal -->
+  <script>
+    $('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').focus()
+  })
+  </script>
   <!--   slider -->
   <script type="text/javascript">
   $(window).load(function() {
@@ -29,14 +35,20 @@
      }
   });
   </script>
+  <!-- Typekit -->
+  <script src="https://use.typekit.net/ved8sye.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
   <!-- Searchpopup -->
   <script src="/js/classie.js"></script>
   <script src="/js/uisearch.js"></script>
-  <script src="/js/bootstrap.min.js"></script>
   <script>
     new UISearch( document.getElementById( 'sb-search' ) );
   </script>
-  
-  <script type='text/javascript' src='/js/jquery.simplemodal.js'></script>
-  <script type='text/javascript' src='/js/osx.js'></script>
+
+  <!-- lightbox -->
+  <script>
+    $('#myLightbox').lightbox(options)
+  </script>
+  <script src="/js/bootstrap-lightbox.min.js"></script>
 </html>

@@ -10,9 +10,6 @@
   <meta name="description" content="This is a Jekyll Starter template developed by cydoval.com.
 ">
 
-  <script src="https://use.typekit.net/ved8sye.js"></script>
-  <script>try{Typekit.load({ async: true });}catch(e){}</script>
-
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
   <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
 
@@ -21,7 +18,9 @@
 
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://jekyll-starter.ucdavis.edu/page2/">
-  <link rel="alternate" type="application/rss+xml" title="Jekyll Starter" href="http://jekyll-starter.ucdavis.edu/feed.xml" />
+<link rel="alternate" type="application/rss+xml" title="Jekyll Starter" href="http://jekyll-starter.ucdavis.edu/feed.xml" />
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
   <link rel="image_src" href="/media/thumbnail.jpg" />
   <meta property="og:image" content="/media/thumbnail.jpg">
@@ -170,6 +169,12 @@
 
 
   </body>
+  <!-- Modal -->
+  <script>
+    $('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').focus()
+  })
+  </script>
   <!--   slider -->
   <script type="text/javascript">
   $(window).load(function() {
@@ -183,14 +188,20 @@
      }
   });
   </script>
+  <!-- Typekit -->
+  <script src="https://use.typekit.net/ved8sye.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
   <!-- Searchpopup -->
   <script src="/js/classie.js"></script>
   <script src="/js/uisearch.js"></script>
-  <script src="/js/bootstrap.min.js"></script>
   <script>
     new UISearch( document.getElementById( 'sb-search' ) );
   </script>
-  
-  <script type='text/javascript' src='/js/jquery.simplemodal.js'></script>
-  <script type='text/javascript' src='/js/osx.js'></script>
+
+  <!-- lightbox -->
+  <script>
+    $('#myLightbox').lightbox(options)
+  </script>
+  <script src="/js/bootstrap-lightbox.min.js"></script>
 </html>

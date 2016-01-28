@@ -808,6 +808,18 @@ body.lb-disable-scrolling {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1; }
 
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  display: none;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+  outline: 0; }
+
 .section_divider {
   margin-bottom: 10%; }
 
@@ -898,71 +910,6 @@ body.lb-disable-scrolling {
     width: 100%;
     max-width: 60rem;
     margin-top: -100px; }
-
-#osx-modal-content,
-#osx-modal-data {
-  display: none; }
-
-/* Overlay */
-#osx-overlay {
-  background-color: #000; }
-
-/* Container */
-#osx-container {
-  background-color: #eee;
-  color: #000;
-  font: 16px/24px "Lucida Grande", Arial, sans-serif;
-  padding-bottom: 4px;
-  width: 600px;
-  -moz-border-radius-bottomleft: 6px;
-  -webkit-border-bottom-left-radius: 6px;
-  -moz-border-radius-bottomright: 6px;
-  -webkit-border-bottom-right-radius: 6px;
-  border-radius: 0 0 6px 6px;
-  -moz-box-shadow: 0 0 64px #000;
-  -webkit-box-shadow: 0 0 64px #000;
-  box-shadow: 0 0 64px #000; }
-
-#osx-container a {
-  color: #ddd; }
-
-#osx-container #osx-modal-title {
-  color: #000;
-  background-color: #ddd;
-  border-bottom: 1px solid #ccc;
-  font-weight: bold;
-  padding: 6px 8px;
-  text-shadow: 0 1px 0 #f4f4f4; }
-
-#osx-container .close {
-  display: none;
-  position: absolute;
-  right: 0;
-  top: 0; }
-
-#osx-container .close a {
-  display: block;
-  color: #777;
-  font-weight: bold;
-  padding: 6px 12px 0;
-  text-decoration: none;
-  text-shadow: 0 1px 0 #f4f4f4; }
-
-#osx-container .close a:hover {
-  color: #000; }
-
-#osx-container #osx-modal-data {
-  font-size: 12px;
-  padding: 6px 12px; }
-
-#osx-container h2 {
-  margin: 10px 0 6px; }
-
-#osx-container p {
-  margin-bottom: 10px; }
-
-#osx-container span {
-  color: #777; }
 
 form main {
   background-color: #f7f7f7;
@@ -1387,3 +1334,237 @@ nav {
 
 .nivo-controlNav a.active {
   font-weight: bold; }
+
+[role="button"] {
+  cursor: pointer; }
+
+.modal-open {
+  overflow: hidden; }
+
+.modal {
+  display: none;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  -webkit-overflow-scrolling: touch;
+  outline: 0; }
+
+.modal.fade .modal-dialog {
+  -webkit-transform: translate(0, -25%);
+  -ms-transform: translate(0, -25%);
+  -o-transform: translate(0, -25%);
+  transform: translate(0, -25%);
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  -o-transition: -o-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out; }
+
+.modal.in .modal-dialog {
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0); }
+
+.modal-open .modal {
+  overflow-x: hidden;
+  overflow-y: auto; }
+
+.modal-dialog {
+  position: relative;
+  width: auto;
+  margin: 10px; }
+
+.modal-content {
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #999;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  outline: 0; }
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+  background-color: #000; }
+
+.modal-backdrop.fade {
+  opacity: 0;
+  filter: alpha(opacity=0); }
+
+.modal-backdrop.in {
+  opacity: .5;
+  filter: alpha(opacity=50); }
+
+.modal-header {
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5; }
+
+.modal-header .close {
+  margin-top: -2px; }
+
+.modal-title {
+  margin: 0;
+  line-height: 1.42857; }
+
+.modal-body {
+  position: relative;
+  padding: 15px; }
+
+.modal-footer {
+  padding: 15px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5; }
+
+.modal-footer .btn + .btn {
+  margin-left: 5px;
+  margin-bottom: 0; }
+
+.modal-footer .btn-group .btn + .btn {
+  margin-left: -1px; }
+
+.modal-footer .btn-block + .btn-block {
+  margin-left: 0; }
+
+.modal-scrollbar-measure {
+  position: absolute;
+  top: -9999px;
+  width: 50px;
+  height: 50px;
+  overflow: scroll; }
+
+@media (min-width: 768px) {
+  .modal-dialog {
+    width: 600px;
+    margin: 30px auto; }
+
+  .modal-content {
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); }
+
+  .modal-sm {
+    width: 300px; } }
+@media (min-width: 992px) {
+  .modal-lg {
+    width: 900px; } }
+.clearfix:before,
+.clearfix:after,
+.modal-header:before,
+.modal-header:after,
+.modal-footer:before,
+.modal-footer:after {
+  content: " ";
+  display: table; }
+
+.clearfix:after,
+.modal-header:after,
+.modal-footer:after {
+  clear: both; }
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.pull-right {
+  float: right !important; }
+
+.pull-left {
+  float: left !important; }
+
+.hide {
+  display: none !important; }
+
+.show {
+  display: block !important; }
+
+.invisible {
+  visibility: hidden; }
+
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0; }
+
+.hidden {
+  display: none !important; }
+
+.affix {
+  position: fixed; }
+
+/*!
+* bootstrap-lightbox.css v0.6.1 
+* Copyright 2013 Jason Butz
+* http://www.apache.org/licenses/LICENSE-2.0.txt
+*/
+.lightbox {
+  position: relative;
+  top: 70px;
+  z-index: 1050;
+  line-height: 0;
+  text-align: center;
+  background-color: transparent;
+  outline: none; }
+
+.lightbox .hide {
+  display: none; }
+
+.lightbox .in {
+  display: block; }
+
+.lightbox-content {
+  display: inline-block;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #999;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  *border: 1px solid #999;
+  /* IE6-7 */
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box; }
+
+.lightbox-content .lightbox-caption {
+  position: absolute;
+  right: 12px;
+  bottom: 11px;
+  left: 11px;
+  padding: 2%;
+  font-size: 14px;
+  line-height: 18px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 -1px 0 #000000;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+  background: #000;
+  background: rgba(0, 0, 0, 0.6); }
+
+.lightbox-header .close {
+  margin-top: -16px;
+  margin-right: -16px;
+  font-size: 2em;
+  color: white;
+  opacity: .8;
+  filter: alpha(opacity=80); }
+
+.lightbox-header .close :hover {
+  opacity: .4;
+  filter: alpha(opacity=40); }
