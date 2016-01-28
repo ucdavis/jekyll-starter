@@ -11,8 +11,6 @@ image-caption: Take a look at the source for this post
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-
-
 <div class="image-wrapper left">
 	<a href="#" data-featherlight="#mylightbox">
 		<img src="/media/stork.jpg" srcset="/media/stork.jpg 1x, /media/stork@2x.jpg 2x" alt="Photograph of a Stork">
