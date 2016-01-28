@@ -121,7 +121,7 @@ p {
     font-size: 1.4rem;
     line-height: 1.4;
     color: #A6A6A6;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     display: inline; }
   p.feed-description {
     margin-top: 0px; }
@@ -657,7 +657,8 @@ input[type="button"].button-primary:focus {
     padding-right: 5%; }
   .image-wrapper.right {
     float: right;
-    max-width: 300px; }
+    max-width: 300px;
+    padding-left: 5%; }
   .image-wrapper.full-width {
     max-width: 800px; }
 
