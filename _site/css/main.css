@@ -899,7 +899,8 @@ body.lb-disable-scrolling {
     max-width: 60rem;
     margin-top: -100px; }
 
-#osx-modal-content, #osx-modal-data {
+#osx-modal-content,
+#osx-modal-data {
   display: none; }
 
 /* Overlay */
@@ -910,7 +911,7 @@ body.lb-disable-scrolling {
 #osx-container {
   background-color: #eee;
   color: #000;
-  font: 16px/24px "Lucida Grande",Arial,sans-serif;
+  font: 16px/24px "Lucida Grande", Arial, sans-serif;
   padding-bottom: 4px;
   width: 600px;
   -moz-border-radius-bottomleft: 6px;
