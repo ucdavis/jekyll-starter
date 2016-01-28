@@ -106,20 +106,29 @@
             <p>This is a news template!</p>
         </aside>
         <article>
-            <h1 class="document_heade">Carter unfit for play</h1>
-            <h1 class="post-title"></h1>
+            <h1>Carter unfit for play</h1>
             <h5 class="feed-date">Published Dec 7, 2015 by Frederick Ferguson</h5>
             <p class="feed-summary">The light is your friend. Preserve it. Just go back and put one little more happy tree in there. There comes a nice little fluffer.</p>
-             <div class="image-wrapper full-width"><img class="" src="/media/placeholder2.jpg">
-            <p class="image_caption">
-                Take a look at the source for this post
-            </p>
+
+             
+            <div class="image-wrapper full-width">
+                <a href="#" data-featherlight="#mylightbox">
+                    <img src="/media/placeholder2.jpg" alt="Photograph of a Stork">
+                </a>
+                <div id="mylightbox"><img src="/media/placeholder2.jpg" alt="">
+                    <p class="lightbox_caption">Take a look at the source for this post</p>
+                </div>
+                <p class="image_caption">
+                    Take a look at the source for this post
+                </p>
             </div>
+            
+
            	<p><p>You’ll find this post in your <code>_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code>jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
 
 <div class="image-wrapper left">
 	<a href="#" data-featherlight="#mylightbox">
-		<img src="/media/stork.jpg" srcset="/media/stork.jpg 1x, /media/stork@2x.jpg 2x" alt="Photograph of a Stork" />
+		<img src="/media/stork@2x.jpg" alt="Photograph of a Stork" />
 	</a>
 	<div id="mylightbox"><img src="/media/stork@2x.jpg" alt="" />
 		<p class="lightbox_caption">image-wrapper left</p>

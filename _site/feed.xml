@@ -6,8 +6,8 @@
 </description>
     <link>http://jekyll-starter.ucdavis.edu/</link>
     <atom:link href="http://jekyll-starter.ucdavis.edu/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 28 Jan 2016 15:00:21 -0800</pubDate>
-    <lastBuildDate>Thu, 28 Jan 2016 15:00:21 -0800</lastBuildDate>
+    <pubDate>Thu, 28 Jan 2016 15:16:58 -0800</pubDate>
+    <lastBuildDate>Thu, 28 Jan 2016 15:16:58 -0800</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -78,7 +78,7 @@ sententia?&lt;/p&gt;
 
 &lt;div class=&quot;image-wrapper left&quot;&gt;
 	&lt;a href=&quot;#&quot; data-featherlight=&quot;#mylightbox&quot;&gt;
-		&lt;img src=&quot;/media/stork.jpg&quot; srcset=&quot;/media/stork.jpg 1x, /media/stork@2x.jpg 2x&quot; alt=&quot;Photograph of a Stork&quot; /&gt;
+		&lt;img src=&quot;/media/stork@2x.jpg&quot; alt=&quot;Photograph of a Stork&quot; /&gt;
 	&lt;/a&gt;
 	&lt;div id=&quot;mylightbox&quot;&gt;&lt;img src=&quot;/media/stork@2x.jpg&quot; alt=&quot;&quot; /&gt;
 		&lt;p class=&quot;lightbox_caption&quot;&gt;image-wrapper left&lt;/p&gt;

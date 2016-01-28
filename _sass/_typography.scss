@@ -172,7 +172,7 @@ h6 {
 
 h1,
 .h1 {
-    font-size: 2.6rem;
+    font-size: 2.8rem;
     margin-bottom: 5px;
     font-weight: 400;
     color: $primary-font;
@@ -195,6 +195,11 @@ h2,
     &.feed-title {
         margin-bottom:0px;
         font-size:3.2rem;
+        a {
+            color:$primary-font;
+            &:hover{
+                color:$primary-color;}
+        }
     }
 }
 
