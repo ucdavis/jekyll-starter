@@ -80,6 +80,7 @@ ul.feed-list {
         border-bottom:1px solid $borders;
         padding-bottom:2%;
 		list-style-type: none;
+        min-height:242px;
 	}
 }
 ul.footer-list {
@@ -193,6 +194,7 @@ h2,
     }
     &.feed-title {
         margin-bottom:0px;
+        font-size:3.2rem;
     }
 }
 
