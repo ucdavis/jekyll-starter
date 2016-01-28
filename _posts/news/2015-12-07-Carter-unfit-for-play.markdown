@@ -14,12 +14,14 @@ You’ll find this post in your `_posts` directory. Go ahead and edit it and re-
 
 
 <div class="image-wrapper left">
-<a href="/media/stork.jpg" data-lightbox="example-set">
-	<img src="/media/stork.jpg" srcset="/media/stork.jpg 1x, /media/stork@2x.jpg 2x" alt="Photograph of a Stork">
-</a>
-            <br>
-                <p class="image_caption">image-wrapper left</p>
-            </div>
+	<a href="#" data-featherlight="#mylightbox">
+		<img src="/media/stork.jpg" srcset="/media/stork.jpg 1x, /media/stork@2x.jpg 2x" alt="Photograph of a Stork">
+	</a>
+	<div id="mylightbox"><img src="/media/stork@2x.jpg" alt="">
+		<p class="lightbox_caption">image-wrapper left</p>
+	</div>
+	<p class="image_caption">image-wrapper left</p>
+</div>
 
 ##Header
 
