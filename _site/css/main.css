@@ -235,7 +235,6 @@ main .main_contents {
   width: 80%;
   margin: 0 auto;
   min-width: 300px;
-  padding: 1% 2%;
   margin-top: 2%; }
 
 aside {
@@ -672,6 +671,8 @@ input[type="button"].button-primary:focus {
 .banner {
   background-color: #1A3E68;
   padding: 2% 0; }
+  .banner.banner_fish {
+    background: url(media/fish_banner.jpg) cover no-repeat; }
   .banner .banner_contents {
     max-width: 1200px;
     width: 80%;
