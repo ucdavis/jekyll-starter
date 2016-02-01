@@ -628,18 +628,6 @@ input[type="button"].button-primary:focus {
   display: table;
   clear: both; }
 
-.modal {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 1050;
-  display: none;
-  overflow: hidden;
-  -webkit-overflow-scrolling: touch;
-  outline: 0; }
-
 .section_divider {
   margin-bottom: 10%; }
 
@@ -689,6 +677,7 @@ input[type="button"].button-primary:focus {
   font-size: 1.4rem;
   font-weight: 400;
   color: #fff;
+  cursor: pointer;
   display: inline-block;
   text-decoration: none; }
   .btn:hover {
@@ -1175,6 +1164,16 @@ nav {
   z-index: 1050;
   -webkit-overflow-scrolling: touch;
   outline: 0; }
+
+.close {
+  float: right;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  filter: alpha(opacity=20);
+  opacity: .2; }
 
 .modal.fade .modal-dialog {
   -webkit-transform: translate(0, -25%);

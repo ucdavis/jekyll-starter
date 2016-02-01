@@ -24,16 +24,17 @@
   </script>
   <!--   slider -->
   <script type="text/javascript">
-  $(window).load(function() {
-      $('#slider').nivoSlider();
-  });</script>
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+  </script>
   <!-- active nav -->
   <script type="text/javascript">
-  $(function() {
-     if (location.pathname.split("/")[1]) {
-         $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
-     }
-  });
+    $(function() {
+       if (location.pathname.split("/")[1]) {
+           $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+       }
+    });
   </script>
   <!-- Searchpopup -->
   <script src="/js/classie.js"></script>
