@@ -840,26 +840,18 @@ nav {
   .search_form {
     top: 168px; } }
 @media only screen and (max-width: 640px) {
-  #nav > a {
-    width: 4.5em;
-    /* 50 */
-    height: 4.5em;
-    /* 50 */
-    text-align: left;
-    text-indent: -9999px;
-    background-color: #222222;
-    position: relative;
-    border-radius: 2px;
-    margin: 1% 0; }
+  .nav_open, .nav_close {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    font-size: 20px;
+    background-color: #016FC4;
+    color: #fff; }
 
-  #nav > a:before,
-  #nav > a:after {
-    position: absolute;
-    border: 2px solid #fff;
-    top: 35%;
-    left: 25%;
-    right: 25%;
-    content: ''; }
+  #nav > a {
+    text-align: left;
+    position: relative; }
 
   #nav > a:after {
     top: 60%; }
