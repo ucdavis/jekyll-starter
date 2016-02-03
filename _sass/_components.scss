@@ -43,17 +43,6 @@
     padding-bottom: 4%;
 }
 
-.banner {
-    background-color: $primary-color;
-    padding: 2% 0;
-    &.banner_fish {
-        background:url(media/fish_banner.jpg) cover no-repeat;
-    }
-    .banner_contents {
-        @include container;
-    }
-}
-
 .btn {
     padding: 1.5% 3.5%;
     margin-top: 2.5%;

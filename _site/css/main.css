@@ -656,17 +656,6 @@ input[type="button"].button-primary:focus {
   padding-top: 1%;
   padding-bottom: 4%; }
 
-.banner {
-  background-color: #1A3E68;
-  padding: 2% 0; }
-  .banner.banner_fish {
-    background: url(media/fish_banner.jpg) cover no-repeat; }
-  .banner .banner_contents {
-    max-width: 1200px;
-    width: 80%;
-    margin: 0 auto;
-    min-width: 300px; }
-
 .btn {
   padding: 1.5% 3.5%;
   margin-top: 2.5%;
@@ -914,6 +903,21 @@ nav {
   border-bottom-color: #c7c8c0;
   border-width: 6px;
   margin-left: -6px; }
+
+.banner {
+  background-color: #1A3E68;
+  padding: 2% 0; }
+  .banner.banner_fish {
+    background-image: url(/media/fish_banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .banner.banner_fish h2, .banner.banner_fish p {
+      text-shadow: 1px 1px 2px #1c1c1c; }
+  .banner .banner_contents {
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+    min-width: 300px; }
 
 /*
  * jQuery Nivo Slider v3.2
