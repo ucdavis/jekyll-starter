@@ -29,7 +29,6 @@
   <link rel="stylesheet" href="/css/main.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel="canonical" href="http://jekyll-starter.ucdavis.edu/about/">
-  <link href="//cdn.rawgit.com/noelboss/featherlight/1.3.5/release/featherlight.min.css" type="text/css" rel="stylesheet" />
   
   <link rel="alternate" type="application/rss+xml" title="Jekyll Starter" href="http://jekyll-starter.ucdavis.edu/feed.xml" />
 
@@ -168,5 +167,18 @@
   </script>
 
   <!-- featherlight -->
-  <script src="//cdn.rawgit.com/noelboss/featherlight/1.3.5/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+    $(document).ready(function(){
+    $('.gallery').featherlightGallery();
+  });
+    $.featherlightGallery.prototype.afterContent = function() {
+    var caption = this.$currentTarget.find('img').attr('alt');
+    this.$instance.find('.caption').remove();
+    $('<div class="caption">').text(caption).appendTo(this.$instance.find('.featherlight-content'));
+  };
+  </script>
+    <script src="/js/featherlight.min.js" type="text/javascript" charset="utf-8">
+    </script>
+    <script src="/js/featherlight.gallery.min.js" type="text/javascript" charset="utf-8">
+    </script> -->
 </html>

@@ -6,8 +6,8 @@
 </description>
     <link>http://jekyll-starter.ucdavis.edu/</link>
     <atom:link href="http://jekyll-starter.ucdavis.edu/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 02 Feb 2016 11:59:42 -0800</pubDate>
-    <lastBuildDate>Tue, 02 Feb 2016 11:59:42 -0800</lastBuildDate>
+    <pubDate>Wed, 03 Feb 2016 08:36:21 -0800</pubDate>
+    <lastBuildDate>Wed, 03 Feb 2016 08:36:21 -0800</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -76,15 +76,22 @@ sententia?&lt;/p&gt;
         <title>Carter unfit for play</title>
         <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
-&lt;div class=&quot;image-wrapper left&quot;&gt;
+&lt;div class=&quot;image_wrapper image_center image_full&quot;&gt;
+	&lt;a class=&quot;gallery&quot; href=&quot;/media/stork@2x.jpg&quot;&gt;&lt;img alt=&quot;bonjour&quot; src=&quot;/media/stork@2x.jpg&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;image_wrapper image_center image_full&quot;&gt;
+	&lt;a class=&quot;gallery&quot; href=&quot;/media/placeholder2.jpg&quot;&gt;&lt;img alt=&quot;bonjour&quot; src=&quot;/media/placeholder2.jpg&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;!-- &lt;div class=&quot;image-wrapper left&quot;&gt;
 	&lt;a href=&quot;#&quot; data-featherlight=&quot;#mylightbox&quot;&gt;
-		&lt;img src=&quot;/media/stork@2x.jpg&quot; alt=&quot;Photograph of a Stork&quot; /&gt;
+		&lt;img src=&quot;/media/stork@2x.jpg&quot; alt=&quot;Photograph of a Stork&quot;&gt;
 	&lt;/a&gt;
-	&lt;div id=&quot;mylightbox&quot;&gt;&lt;img src=&quot;/media/stork@2x.jpg&quot; alt=&quot;&quot; /&gt;
+	&lt;div id=&quot;mylightbox&quot;&gt;&lt;img src=&quot;/media/stork@2x.jpg&quot; alt=&quot;&quot;&gt;
 		&lt;p class=&quot;lightbox_caption&quot;&gt;image-wrapper left&lt;/p&gt;
 	&lt;/div&gt;
 	&lt;p class=&quot;image_caption&quot;&gt;image-wrapper left&lt;/p&gt;
-&lt;/div&gt;
+&lt;/div&gt; --&gt;
 
 &lt;h2 id=&quot;header&quot;&gt;Header&lt;/h2&gt;
 
