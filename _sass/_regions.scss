@@ -13,3 +13,18 @@
         @include container;
     }
 }
+.news_landing {
+	background-color:$bg-color;
+	.news_landing_contents {
+		@include container;
+		.news_landing_piece {
+			display:inline-block;
+			width:31%;
+			margin-right:1%;
+			vertical-align: top;
+			&:last-child {
+				margin-right:0px;
+			}
+		}
+	}
+}

@@ -919,6 +919,21 @@ nav {
     margin: 0 auto;
     min-width: 300px; }
 
+.news_landing {
+  background-color: #f7f7f7; }
+  .news_landing .news_landing_contents {
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+    min-width: 300px; }
+    .news_landing .news_landing_contents .news_landing_piece {
+      display: inline-block;
+      width: 31%;
+      margin-right: 1%;
+      vertical-align: top; }
+      .news_landing .news_landing_contents .news_landing_piece:last-child {
+        margin-right: 0px; }
+
 /*
  * jQuery Nivo Slider v3.2
  * http://nivo.dev7studios.com
