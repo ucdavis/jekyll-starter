@@ -22,12 +22,32 @@
 	margin-top:-29px;
 	.news_landing_contents {
 		@include container;
+		.news_landing_current {
+			display:inline-block;
+			vertical-align: top;
+			width:75%;
+			background-color:green;
+		}
+		.news_landing_more {
+			width:22%;
+			background-color:pink;
+			margin-left:2%;
+			display:inline-block;
+			vertical-align: top;
+		}
 		.news_landing_piece {
 			display:inline-block;
-			width:31%;
-			margin-right:1%;
+			width:29%;
+			margin-right:5%;
 			vertical-align: top;
-
+			img.img_article_thumb {
+				float:none;
+				width:100%;
+				margin:0px;
+				padding:0px;
+				margin-bottom:3%;
+				max-width:100%;
+			}
 			&:last-child {
 				margin-right:0px;
 			}

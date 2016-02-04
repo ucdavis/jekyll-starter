@@ -109,14 +109,6 @@ p {
   color: #333433; }
   .banner p {
     color: #fff; }
-  p.document_description {
-    padding-bottom: 8px;
-    margin-bottom: 8px;
-    border-bottom: 1px solid #C8C7CC;
-    font-size: 1.6rem;
-    color: #A6A6A6;
-    font-weight: 400;
-    margin-top: 0px; }
   p.image_caption {
     font-size: 1.4rem;
     line-height: 1.4;
@@ -125,6 +117,8 @@ p {
     display: inline; }
   p.feed-description {
     margin-top: 0px; }
+    .news_landing p.feed-description {
+      font-size: 1.4rem; }
   p.feed-summary {
     color: #5a585c;
     font-size: 1.8rem;
@@ -154,6 +148,13 @@ h1,
   margin-bottom: 5px;
   font-weight: 400;
   color: #333433; }
+  .news_landing h1, .news_landing
+  .h1 {
+    font-size: 2.8rem;
+    color: #5a585c;
+    font-family: "proxima-nova", arial, sans-serif;
+    font-weight: 300;
+    margin-bottom: 20px; }
 
 h2,
 .h2 {
@@ -173,6 +174,9 @@ h2,
   .h2.feed-title {
     margin-bottom: 0px;
     font-size: 3.2rem; }
+    .news_landing h2.feed-title, .news_landing
+    .h2.feed-title {
+      font-size: 2.4rem; }
     h2.feed-title a,
     .h2.feed-title a {
       color: #333433; }
@@ -931,11 +935,29 @@ nav {
     width: 80%;
     margin: 0 auto;
     min-width: 300px; }
+    .news_landing .news_landing_contents .news_landing_current {
+      display: inline-block;
+      vertical-align: top;
+      width: 75%;
+      background-color: green; }
+    .news_landing .news_landing_contents .news_landing_more {
+      width: 22%;
+      background-color: pink;
+      margin-left: 2%;
+      display: inline-block;
+      vertical-align: top; }
     .news_landing .news_landing_contents .news_landing_piece {
       display: inline-block;
-      width: 31%;
-      margin-right: 1%;
+      width: 29%;
+      margin-right: 5%;
       vertical-align: top; }
+      .news_landing .news_landing_contents .news_landing_piece img.img_article_thumb {
+        float: none;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        margin-bottom: 3%;
+        max-width: 100%; }
       .news_landing .news_landing_contents .news_landing_piece:last-child {
         margin-right: 0px; }
 
