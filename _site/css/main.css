@@ -928,7 +928,7 @@ nav {
   border-bottom: 1px solid #C8C7CC;
   padding-bottom: 2%;
   margin-bottom: 2%;
-  padding-top: 3%;
+  padding-top: 2%;
   margin-top: -29px; }
   .news_landing .news_landing_contents {
     max-width: 1200px;
@@ -938,12 +938,12 @@ nav {
     .news_landing .news_landing_contents .news_landing_current {
       display: inline-block;
       vertical-align: top;
-      width: 75%;
-      background-color: green; }
+      width: 75%; }
     .news_landing .news_landing_contents .news_landing_more {
       width: 22%;
-      background-color: pink;
       margin-left: 2%;
+      border-left: 1px solid #C8C7CC;
+      padding-left: 2%;
       display: inline-block;
       vertical-align: top; }
     .news_landing .news_landing_contents .news_landing_piece {
