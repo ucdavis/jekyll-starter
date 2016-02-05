@@ -77,7 +77,7 @@
      @media (max-width: 750px) { @content ; }
   }
   @else if $point == mobileonly {
-     @media (max-width: 600px)  { @content ; }
+     @media (max-width: 640px)  { @content ; }
 
   }
   @else if $point == smallmobile {

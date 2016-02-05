@@ -833,14 +833,32 @@ nav {
   .search_form {
     top: 168px; } }
 @media only screen and (max-width: 640px) {
+  nav a.active {
+    border-bottom: none !important; }
+
+  ul#nav_upperlevel {
+    width: 80%;
+    margin-left: 10%;
+    border: 1px solid #C8C7CC;
+    margin-top: -6px;
+    border-top: 3px solid #016FC4;
+    margin-bottom: 5%; }
+
   .nav_open, .nav_close {
     width: 40px;
-    height: 40px;
-    border-radius: 50%;
+    height: 33px;
     line-height: 40px;
     font-size: 20px;
     background-color: #016FC4;
-    color: #fff; }
+    color: #fff;
+    margin-left: 10%;
+    margin-top: 3px;
+    margin-bottom: 6px; }
+    .nav_open i, .nav_close i {
+      font-size: 24px;
+      padding-left: 9px; }
+    .nav_open i.fa-times, .nav_close i.fa-times {
+      padding-left: 11px; }
 
   #nav > a {
     text-align: left;

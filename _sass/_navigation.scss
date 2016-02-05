@@ -163,14 +163,34 @@ header {
 /* 640 */
 
 {
+    nav a.active {
+        border-bottom:none !important;
+    }
+    ul#nav_upperlevel {
+        width:80%;
+        margin-left:10%;
+        border:1px solid $borders;
+        margin-top:-6px;
+        border-top:3px solid $blue;
+        margin-bottom:5%;
+    }
     .nav_open, .nav_close {
         width: 40px;
-        height: 40px;
-        border-radius:50%;
+        height: 33px;
         line-height:40px;
         font-size:20px;
          background-color: $blue;
          color:#fff;
+         margin-left:10%;
+         margin-top:3px;
+         margin-bottom:6px;
+         i {
+            font-size:24px;
+            padding-left:9px;
+         }
+         i.fa-times {
+            padding-left:11px;
+         }
     }
     #nav > a {
         text-align: left;
