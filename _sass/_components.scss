@@ -44,7 +44,7 @@
 }
 
 .btn {
-    padding: 2% 4%;
+    padding: 8px 20px;
     margin-top: 2.5%;
     background-color: $secondary-color;
     box-shadow: 0px -3px 0px rgba(0, 0, 0, 0.15) inset;
@@ -68,6 +68,9 @@
         background-color: $blue;
     }
     &.btn-green {
+        background-color: $sunny-grass;
+    }
+    &.btn-newsletter {
         background-color: $sunny-grass;
     }
 }

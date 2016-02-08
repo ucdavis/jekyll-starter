@@ -65,14 +65,6 @@ ol {
 ul.event-info li b {
   color: #ba0c2f; }
 
-ul.feed-list li {
-  margin-top: 6%;
-  margin-bottom: 4%;
-  border-bottom: 1px solid #C8C7CC;
-  padding-bottom: 2%;
-  list-style-type: none;
-  min-height: 242px; }
-
 ul.footer-list {
   list-style-type: none;
   padding-left: 0px;
@@ -665,7 +657,7 @@ input[type="button"].button-primary:focus {
   padding-bottom: 4%; }
 
 .btn {
-  padding: 2% 4%;
+  padding: 8px 20px;
   margin-top: 2.5%;
   background-color: #CFA21A;
   box-shadow: 0px -3px 0px rgba(0, 0, 0, 0.15) inset;
@@ -685,6 +677,8 @@ input[type="button"].button-primary:focus {
   .btn.btn-blue {
     background-color: #016FC4; }
   .btn.btn-green {
+    background-color: #78be20; }
+  .btn.btn-newsletter {
     background-color: #78be20; }
 
 .float-right {
@@ -937,7 +931,8 @@ nav {
     background-image: url(/media/fish_banner.jpg);
     background-size: cover;
     background-repeat: no-repeat; }
-    .banner.banner_fish h2, .banner.banner_fish p {
+    .banner.banner_fish h2,
+    .banner.banner_fish p {
       text-shadow: 1px 1px 2px #1c1c1c; }
   .banner .banner_contents {
     max-width: 1200px;
@@ -982,6 +977,45 @@ nav {
         max-width: 100%; }
       .news_landing .news_landing_contents .news_landing_piece:last-child {
         margin-right: 0px; }
+
+ul.feed-list li {
+  margin-top: 6%;
+  margin-bottom: 4%;
+  border-bottom: 1px solid #C8C7CC;
+  padding-bottom: 2%;
+  list-style-type: none; }
+
+.event-date {
+  display: inline-block;
+  vertical-align: top;
+  width: 13%;
+  margin-right: 10px; }
+  .event-date .event-date-wrapper {
+    width: 90px; }
+  .event-date span.event-month {
+    display: block;
+    padding: 4px 1px;
+    background: #ba0c2f;
+    color: #fff;
+    text-align: center; }
+  .event-date span.event-day {
+    display: block;
+    padding: 6px 2px;
+    border-left: 1px solid #C8C7CC;
+    border-bottom: 1px solid #C8C7CC;
+    border-right: 1px solid #C8C7CC;
+    color: #333433;
+    text-align: center; }
+
+.event-main {
+  display: inline-block;
+  vertical-align: top;
+  width: 80%;
+  margin-left: 3%;
+  margin-top: -15px; }
+
+ul.news-list-main li {
+  min-height: 242px; }
 
 /*
  * jQuery Nivo Slider v3.2

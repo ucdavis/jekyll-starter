@@ -23,7 +23,7 @@ layout: default
             <a class="archive" href="/news/archive">
                 <p>See the Archive</p> 
             </a>
-            <ul class="feed-list">
+            <ul class="feed-list news-list-main">
                 {% for post in site.categories.news %}
                 <li>
                     {% if post.image %}<a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><img class="img_article_thumb" src="{{ post.image }}"></a>{% endif %}

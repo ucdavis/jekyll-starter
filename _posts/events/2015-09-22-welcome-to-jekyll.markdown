@@ -4,6 +4,14 @@ title:  "UC Davis Apple Harvest"
 description: "Apple's aplenty for all at UC Davis"
 author: "Cal Doval"
 date:   2015-09-22 16:25:17
+event-month: March
+event-day: 1st
+event-date: August 8th
+event-time: 15:30 - 16:30
+event-contact: Calvin Doval
+event-email: cydoval@mac.com
+event-location: 38 Mrak
+event-button: http://cydoval.com/
 tags: "Apple"
 category: "events"
 ---
