@@ -43,7 +43,7 @@ a {
     text-align: right; }
     a.archive p {
       color: #016FC4;
-      margin-top: -40px;
+      margin-top: -60px;
       font-size: 1.4rem; }
       a.archive p:hover {
         color: #DDB307; }
@@ -107,6 +107,10 @@ p {
   font-size: 1.6rem;
   font-family: "proxima-nova", arial, sans-serif;
   color: #333433; }
+  p.page_description {
+    border-bottom: 1px solid #C8C7CC;
+    margin-bottom: 4%;
+    padding-bottom: 2%; }
   .banner p {
     color: #fff; }
   p.image_caption {

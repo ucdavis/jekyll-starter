@@ -28,7 +28,7 @@ a {
         text-align: right;
         p {
             color: $a-link;
-            margin-top: -40px;
+            margin-top: -60px;
             font-size: 1.4rem;
             &:hover {
                 color: $a-hover;
@@ -125,6 +125,11 @@ p {
     font-size: 1.6rem;
     font-family: $sans-serif;
     color: $primary-font;
+    &.page_description {
+        border-bottom:1px solid $borders;
+        margin-bottom:4%;
+        padding-bottom:2%;
+    }
     .banner & {
         color: #fff;
     }
