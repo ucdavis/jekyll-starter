@@ -1,13 +1,18 @@
 .nav_wrapper {
-    background-color:$bg-color;
-    padding:0.5% 0%;
-    padding-bottom:0px;
-    border-bottom:1px solid $borders;
-    clear:both;
+    background-color: $bg-color;
+    padding: 0.5% 0%;
+    padding-bottom: 0px;
+    border-bottom: 1px solid $borders;
+    clear: both;
 }
+
 nav {
     @include container;
+    ul.submenu {
+        @include transitiontime;
+    }
 }
+
 #nav {
     // width: 65%;
     // position: absolute;
@@ -16,8 +21,8 @@ nav {
     // background-color:orange;
     ul {
         list-style-type: none;
-        margin:0px;
-        margin-left:-12px;
+        margin: 0px;
+        margin-left: -12px;
     }
 }
 
@@ -26,7 +31,7 @@ nav {
     a {
         font-size: 1.4rem;
         text-transform: uppercase;
-        font-weight:500;
+        font-weight: 500;
         display: block;
         color: $secondary-font;
         &:hover {
@@ -37,6 +42,8 @@ nav {
         // }
     }
 }
+
+
 /* first level */
 
 header {
@@ -66,7 +73,7 @@ header {
             > a {
                 line-height: 2.5em;
                 text-align: left;
-                padding:0px 15px;
+                padding: 0px 15px;
             }
         }
     }
@@ -88,6 +95,8 @@ header {
 #nav > ul:not(:hover) > li.active > a {
     // background-color: darken(blue,4);
 }
+
+
 /* second level */
 
 #nav li ul {
@@ -125,8 +134,7 @@ header {
 }
 
 #nav li ul li a:hover,
-#nav li ul:not(:hover) li.active a {
-}
+#nav li ul:not(:hover) li.active a {}
 
 @media all and (max-width: 1250px) {
     #nav {
@@ -163,34 +171,41 @@ header {
 /* 640 */
 
 {
+    nav ul.submenu {
+        li {
+            text-align: left;
+            padding-left: 15px;
+        }
+    }
     nav a.active {
-        border-bottom:none !important;
+        border-bottom: none !important;
     }
     ul#nav_upperlevel {
-        width:80%;
-        margin-left:10%;
-        border:1px solid $borders;
-        margin-top:-6px;
-        border-top:3px solid $blue;
-        margin-bottom:5%;
+        width: 80%;
+        margin-left: 10%;
+        border: 1px solid $borders;
+        margin-top: -6px;
+        border-top: 3px solid $blue;
+        margin-bottom: 5%;
     }
-    .nav_open, .nav_close {
+    .nav_open,
+    .nav_close {
         width: 40px;
         height: 33px;
-        line-height:40px;
-        font-size:20px;
-         background-color: $blue;
-         color:#fff;
-         margin-left:10%;
-         margin-top:3px;
-         margin-bottom:6px;
-         i {
-            font-size:24px;
-            padding-left:9px;
-         }
-         i.fa-times {
-            padding-left:11px;
-         }
+        line-height: 40px;
+        font-size: 20px;
+        background-color: $blue;
+        color: #fff;
+        margin-left: 10%;
+        margin-top: 3px;
+        margin-bottom: 6px;
+        i {
+            font-size: 24px;
+            padding-left: 10px;
+        }
+        i.fa-times {
+            padding-left: 11px;
+        }
     }
     #nav > a {
         text-align: left;
@@ -220,9 +235,9 @@ header {
         height: auto;
         text-align: left;
         padding: 0 0.833em;
-        font-size:1.6rem;
-        padding-top:1%;
-        padding-bottom:1%;
+        font-size: 1.6rem;
+        padding-top: 1%;
+        padding-bottom: 1%;
         /* 20 (24) */
     }
     #nav > ul > li:not(:last-child) > a {}
@@ -234,12 +249,15 @@ header {
         padding-top: 0;
     }
 }
+
 .arrow_box {
     position: relative;
     background: #fff;
     border: 1px solid #c7c8c0;
 }
-.arrow_box:after, .arrow_box:before {
+
+.arrow_box:after,
+.arrow_box:before {
     bottom: 100%;
     left: 50%;
     border: solid transparent;
@@ -256,6 +274,7 @@ header {
     border-width: 5px;
     margin-left: -5px;
 }
+
 .arrow_box:before {
     border-color: rgba(199, 200, 192, 0);
     border-bottom-color: #c7c8c0;

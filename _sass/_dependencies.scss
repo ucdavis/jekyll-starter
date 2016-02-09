@@ -85,6 +85,20 @@
 
   }
 }
+@mixin transitiontime {
+  transition-delay: 0s;
+    transition-duration: 0.25s;
+    transition-property: all;
+    transition-timing-function: ease;
+    -webkit-transition-delay: 0s;
+    -webkit-transition-duration: 0.25s;
+    -webkit-transition-property: all;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-delay: 0s;
+    -moz-transition-duration: 0.25s;
+    -moz-transition-property: all;
+    -moz-transition-timing-function: ease;
+}
 @mixin transformer {
   -webkit-transition: all 500ms ease;
   -moz-transition: all 500ms ease;
