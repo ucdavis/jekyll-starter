@@ -64,6 +64,9 @@ ul.feed-list {
         border-bottom: 1px solid $borders;
         padding-bottom: 2%;
         list-style-type: none;
+        &:last-child {
+        	border-bottom:none;
+        }
     }
 }
 
@@ -78,6 +81,9 @@ ul.events-list-main {
     margin-right: 10px;
  	.event-date-wrapper {
  		width:90px;
+ 		&:hover span.event-month {
+        	background: lighten($unitrans-red,5)
+        }
  	}
     span.event-month {
         display: block;
@@ -85,6 +91,7 @@ ul.events-list-main {
         background: $unitrans-red;
         color: #fff;
         text-align: center;
+
         // border-top-right-radius: 2px;
         // border-top-left-radius: 2px;
     }

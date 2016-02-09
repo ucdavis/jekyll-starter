@@ -984,6 +984,8 @@ ul.feed-list li {
   border-bottom: 1px solid #C8C7CC;
   padding-bottom: 2%;
   list-style-type: none; }
+  ul.feed-list li:last-child {
+    border-bottom: none; }
 
 .event-date {
   display: inline-block;
@@ -992,6 +994,8 @@ ul.feed-list li {
   margin-right: 10px; }
   .event-date .event-date-wrapper {
     width: 90px; }
+    .event-date .event-date-wrapper:hover span.event-month {
+      background: #d20e35; }
   .event-date span.event-month {
     display: block;
     padding: 4px 1px;
