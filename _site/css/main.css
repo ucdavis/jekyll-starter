@@ -767,10 +767,14 @@ nav {
     -moz-transition-delay: 0s;
     -moz-transition-duration: 0.25s;
     -moz-transition-property: all;
-    -moz-transition-timing-function: ease; }
+    -moz-transition-timing-function: ease;
+    background-color: #f7f7f7;
+    border: 1px solid #C8C7CC;
+    padding: 1%;
+    border-top: #f7f7f7;
+    list-style-type: none; }
 
-#nav ul {
-  list-style-type: none;
+#nav > ul {
   margin: 0px;
   margin-left: -12px; }
 
