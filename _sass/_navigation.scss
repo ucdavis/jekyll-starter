@@ -176,10 +176,12 @@ header {
 
 {
     nav ul.submenu {
-        background-color:rgba(255,255,255,.05);
+        background-color:rgba(255,255,255,.8);
         border:none!important;
         padding:1%;
         list-style-type: none;
+        padding-bottom:0px !important;
+        padding-top:0px !important;
         li {
             text-align: left;
             padding-left: 15px;
@@ -191,10 +193,13 @@ header {
     ul#nav_upperlevel {
         width: 80%;
         margin-left: 10%;
-        border: 1px solid $borders;
+        border:none;
         margin-top: -6px;
         border-top: 3px solid $blue;
-        margin-bottom: 5%;
+        margin-bottom: 30px;
+        > li:hover {
+            background-color:#efefef;
+        }
     }
     .nav_open,
     .nav_close {
