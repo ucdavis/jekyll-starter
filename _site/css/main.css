@@ -848,9 +848,14 @@ nav {
   .search_form {
     top: 168px; } }
 @media only screen and (max-width: 640px) {
-  nav ul.submenu li {
-    text-align: left;
-    padding-left: 15px; }
+  nav ul.submenu {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: none !important;
+    padding: 1%;
+    list-style-type: none; }
+    nav ul.submenu li {
+      text-align: left;
+      padding-left: 15px; }
 
   nav a.active {
     border-bottom: none !important; }
