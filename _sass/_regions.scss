@@ -28,6 +28,9 @@
             display: inline-block;
             vertical-align: top;
             width: 75%;
+            @include breakpoint(smallmobile) {
+            	width:66%
+            }
         }
         .news_landing_more {
             width: 22%;
@@ -36,12 +39,21 @@
             padding-left: 2%;
             display: inline-block;
             vertical-align: top;
+            @include breakpoint(smallmobile) {
+            	width:30%
+            }
         }
         .news_landing_piece {
             display: inline-block;
             width: 29%;
             margin-right: 5%;
             vertical-align: top;
+            @include breakpoint(smallmobile) {
+                width:100%;
+                img.img_article_thumb {
+                	width:90%;
+                }
+            }
             img.img_article_thumb {
                 float: none;
                 width: 100%;
@@ -65,7 +77,7 @@ ul.feed-list {
         padding-bottom: 2%;
         list-style-type: none;
         &:last-child {
-        	border-bottom:none;
+            border-bottom: none;
         }
     }
 }
@@ -79,19 +91,18 @@ ul.events-list-main {
     vertical-align: top;
     width: 13%;
     margin-right: 10px;
- 	.event-date-wrapper {
- 		width:90px;
- 		&:hover span.event-month {
-        	background: lighten($unitrans-red,5)
+    .event-date-wrapper {
+        width: 90px;
+        &:hover span.event-month {
+            background: lighten($unitrans-red, 5)
         }
- 	}
+    }
     span.event-month {
         display: block;
         padding: 4px 1px;
         background: $unitrans-red;
         color: #fff;
         text-align: center;
-
         // border-top-right-radius: 2px;
         // border-top-left-radius: 2px;
     }
@@ -110,8 +121,8 @@ ul.events-list-main {
     display: inline-block;
     vertical-align: top;
     width: 80%;
-    margin-left:3%;
-    margin-top:-15px;
+    margin-left: 3%;
+    margin-top: -15px;
 }
 
 ul.news-list-main {
