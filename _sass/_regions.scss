@@ -28,8 +28,11 @@
             display: inline-block;
             vertical-align: top;
             width: 75%;
-            @include breakpoint(smallmobile) {
+            @include breakpoint(mobileonly) {
             	width:66%
+            }
+            @include breakpoint(smallmobile){
+            	width:100%;
             }
         }
         .news_landing_more {
@@ -39,8 +42,12 @@
             padding-left: 2%;
             display: inline-block;
             vertical-align: top;
-            @include breakpoint(smallmobile) {
+            @include breakpoint(mobileonly) {
             	width:30%
+            }
+            @include breakpoint(smallmobile){
+            	width:100%;
+            	border-left:none;
             }
         }
         .news_landing_piece {
@@ -48,10 +55,17 @@
             width: 29%;
             margin-right: 5%;
             vertical-align: top;
-            @include breakpoint(smallmobile) {
+            @include breakpoint(mobileonly) {
                 width:100%;
                 img.img_article_thumb {
                 	width:90%;
+                }
+            }
+            @include breakpoint(smallmobile){
+            	margin-bottom:20px;
+                img.img_article_thumb {
+                	width:90%;
+                	margin-bottom:0px;
                 }
             }
             img.img_article_thumb {
