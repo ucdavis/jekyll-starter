@@ -83,7 +83,7 @@ ul.footer-list {
     margin-top: 0px;
     li {
         display: inline-block;
-        border-right: 1px solid transparentize($primary-color, .5);
+        border-right: 1px solid $borders;
         padding-right: 10px;
         margin-right: 10px;
         padding-top: 0px;

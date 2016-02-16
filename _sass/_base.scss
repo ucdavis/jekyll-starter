@@ -52,7 +52,7 @@ footer {
     .footer_contents {
         @include container;
         .foot_top {
-            border-bottom: 1px solid transparentize($primary-color, .5);
+            border-bottom: 1px solid $borders;
             padding-bottom: 4px;
             margin-bottom: 8px;
         }
