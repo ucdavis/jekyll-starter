@@ -105,11 +105,11 @@ $shingle-brown: #4f2c1d;
     -moz-transition-timing-function: ease;
 }
 
-@mixin transformer {
-    -webkit-transition: all 500ms ease;
-    -moz-transition: all 500ms ease;
-    -o-transition: all 500ms ease;
-    transition: all 500ms ease;
+
+@mixin transition($values: 0.3s ease-in) {
+    transition: $values;
+    -webkit-transition: $values;
+    -webkit-transform: translateZ(0); // Fix animation in Safari
 }
 
 @mixin container {
@@ -266,3 +266,5 @@ html {
         background: stripes($custom-stops, 90deg);
     }
 }
+
+

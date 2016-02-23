@@ -47,14 +47,6 @@ layout: default
 </div>
 <div class="main">
     <div class="main_contents">
-    <ul class="posts">
-    {% for post in paginator.posts %}
-        <li>
-            <span class="list_date">{{ post.date | date_to_string }}</span> &raquo; <span class="list_title"> {{ post.title }} </span><br>
-            <span class="list_content">{{ post.content | strip_html | truncatewords:35}}</span> 
-            <a href="{{ post.url }}">more...</a>
-        </li>
-    {% endfor %}
-</ul>
+        
     </div>
 </div>

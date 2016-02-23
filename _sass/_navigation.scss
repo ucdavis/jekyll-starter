@@ -9,7 +9,7 @@
 nav {
     @include container;
     ul.submenu {
-        @include transitiontime;
+        @include transition;
         background-color:$bg-color;
         border:1px solid $borders;
         padding:1%;

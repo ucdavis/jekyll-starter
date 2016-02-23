@@ -780,18 +780,9 @@ nav {
     nav {
       width: 90%; } }
   nav ul.submenu {
-    transition-delay: 0s;
-    transition-duration: 0.75s;
-    transition-property: all;
-    transition-timing-function: ease;
-    -webkit-transition-delay: 0s;
-    -webkit-transition-duration: 0.75s;
-    -webkit-transition-property: all;
-    -webkit-transition-timing-function: ease;
-    -moz-transition-delay: 0s;
-    -moz-transition-duration: 0.75s;
-    -moz-transition-property: all;
-    -moz-transition-timing-function: ease;
+    transition: 0.3s ease-in;
+    -webkit-transition: 0.3s ease-in;
+    -webkit-transform: translateZ(0);
     background-color: #f7f7f7;
     border: 1px solid #C8C7CC;
     padding: 1%;
