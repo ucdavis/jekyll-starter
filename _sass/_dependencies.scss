@@ -58,6 +58,11 @@ $cork-oak: #aca39a;
 $shingle-brown: #4f2c1d;
 // mixins
 @mixin breakpoint($point) {
+    @if $point==hdres {
+        @media (max-width:1600px){
+            @content ;
+        }
+    }
     @if $point==desktop {
         @media (max-width: 1250px) {
             @content ;

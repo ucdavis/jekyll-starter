@@ -74,7 +74,6 @@
 
 
 /* Caption styles */
-
 .nivo-caption {
     position: absolute;
     color: $primary-font;
@@ -93,7 +92,10 @@
     height: auto;
     bottom: 2%;
     z-index: 100;
-    left: 9%;
+    left:18%;
+    @include breakpoint(hdres){
+        left:9%;
+    }
     @include breakpoint(mobileonly) {
         left:3%;
         bottom:0%;
