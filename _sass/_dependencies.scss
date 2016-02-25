@@ -30,6 +30,8 @@ $cydoval_gray: #444B58; // logo gray
 $bg-color: rgb(247,247,247); // background
 $borders: #C8C7CC; // border color
 
+$nav-active: #E7F2FF;
+
 $a-link: #016FC4;
 $a-hover: #DDB307;
 
@@ -118,7 +120,7 @@ $shingle-brown: #4f2c1d;
 }
 
 @mixin container {
-    max-width: 1200px;
+    max-width: 1400px;
     width: 80%;
     margin: 0 auto;
     min-width: 300px;

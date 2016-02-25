@@ -85,7 +85,7 @@
 
 ul.feed-list {
     li {
-        margin-top: 6%;
+        margin-top: 4%;
         margin-bottom: 4%;
         border-bottom: 1px solid $borders;
         padding-bottom: 2%;
@@ -105,6 +105,7 @@ ul.events-list-main {
     vertical-align: top;
     width: 13%;
     margin-right: 10px;
+    font-weight:600;
     .event-date-wrapper {
         width: 90px;
         &:hover span.event-month {
