@@ -808,7 +808,7 @@ nav {
     #nav > ul > li:last-child {
       margin-right: -5px; }
     #nav > ul > li:hover {
-      background-color: #E7F2FF; }
+      background-color: #fff; }
     #nav > ul > li > a {
       line-height: 2.5em;
       text-align: left;
@@ -816,11 +816,11 @@ nav {
       padding: 4px 20px; }
       #nav > ul > li > a.active {
         color: #DDB307;
-        background-color: #E7F2FF; }
+        background-color: #fff; }
 
 /* second level */
 #nav li ul {
-  background-color: #E7F2FF;
+  background-color: #fff;
   display: none;
   position: absolute;
   top: 100%; }
