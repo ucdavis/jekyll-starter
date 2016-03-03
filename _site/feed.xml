@@ -6,8 +6,8 @@
 </description>
     <link>http://jekyll-starter.ucdavis.edu/</link>
     <atom:link href="http://jekyll-starter.ucdavis.edu/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 03 Mar 2016 14:43:44 -0800</pubDate>
-    <lastBuildDate>Thu, 03 Mar 2016 14:43:44 -0800</lastBuildDate>
+    <pubDate>Thu, 03 Mar 2016 15:21:19 -0800</pubDate>
+    <lastBuildDate>Thu, 03 Mar 2016 15:21:19 -0800</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -17,6 +17,19 @@ gente respiceret et? Pictasque solet! Tibi index fratres custodit
 &lt;a href=&quot;http://html9responsiveboilerstrapjs.com/&quot;&gt;corniger&lt;/a&gt; quos: ducit mihi coniuge
 tamen. Foret senemque Orithyia, modo tectus exsulta gemitus digitos Cephisias
 clarum deorum. Causa buxi tegendas fata, perfectaque atque tamen falce vestigia.&lt;/p&gt;
+
+&lt;div class=&quot;image_wrapper image_center image_full&quot;&gt;
+	&lt;a class=&quot;gallery&quot; href=&quot;/media/placeholder3.jpg&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;/media/placeholder3.jpg&quot; srcset=&quot;/media/placeholder3.jpg 1x, /media/placeholder3.jpg 2x&quot; /&gt;
+	&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;image_wrapper image_center image_full&quot;&gt;
+	&lt;a class=&quot;gallery&quot; href=&quot;/media/placeholder3.jpg&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;/media/placeholder3.jpg&quot; srcset=&quot;/media/placeholder3.jpg 1x, /media/placeholder3.jpg 2x&quot; /&gt;
+	&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;image_wrapper image_center image_full&quot;&gt;
+	&lt;a class=&quot;gallery&quot; href=&quot;/media/placeholder3.jpg&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;/media/placeholder3.jpg&quot; srcset=&quot;/media/placeholder3.jpg 1x, /media/placeholder3.jpg 2x&quot; /&gt;
+	&lt;/a&gt;
+&lt;/div&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Iovis media de qui maris caespite dirimant&lt;/li&gt;

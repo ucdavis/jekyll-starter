@@ -15,6 +15,19 @@ gente respiceret et? Pictasque solet! Tibi index fratres custodit
 tamen. Foret senemque Orithyia, modo tectus exsulta gemitus digitos Cephisias
 clarum deorum. Causa buxi tegendas fata, perfectaque atque tamen falce vestigia.
 
+<div class="image_wrapper image_center image_full">
+	<a class="gallery" href="/media/placeholder3.jpg"><img alt="Bonjour" src="/media/placeholder3.jpg" srcset="/media/placeholder3.jpg 1x, /media/placeholder3.jpg 2x" alt=""/>
+	</a>
+</div>
+<div class="image_wrapper image_center image_full">
+	<a class="gallery" href="/media/placeholder3.jpg"><img alt="Bonjour" src="/media/placeholder3.jpg" srcset="/media/placeholder3.jpg 1x, /media/placeholder3.jpg 2x" alt=""/>
+	</a>
+</div>
+<div class="image_wrapper image_center image_full">
+	<a class="gallery" href="/media/placeholder3.jpg"><img alt="Bonjour" src="/media/placeholder3.jpg" srcset="/media/placeholder3.jpg 1x, /media/placeholder3.jpg 2x" alt=""/>
+	</a>
+</div>
+
 1. Iovis media de qui maris caespite dirimant
 2. Duro tergo inerti victum
 3. Plura opus quantus at tetigere multum invidia
