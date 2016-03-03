@@ -226,10 +226,11 @@ header {
       header .header_contents {
         width: 90%; } }
     header .header_contents .logo_wrapper {
-      width: 30%;
+      width: 50%;
       display: inline-block; }
     header .header_contents .search_wrapper {
-      width: 40%;
+      width: 49%;
+      text-align: right;
       display: inline-block; }
 
 .main .main_contents {
@@ -781,6 +782,8 @@ nav {
     -webkit-transform: translateZ(0);
     background-color: #f7f7f7;
     padding: 1%;
+    padding-left: 8px;
+    padding-right: 8px;
     list-style-type: none; }
 
 #nav > ul {

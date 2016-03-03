@@ -8,12 +8,13 @@ header {
     .header_contents {
         @include container;
         .logo_wrapper {
-            width: 30%;
+            width: 50%;
             display: inline-block;
         }
         .search_wrapper {
-            width: 40%;
-            display:inline-block;
+            width: 49%;
+            text-align:right;
+            display: inline-block;
         }
     }
 }
