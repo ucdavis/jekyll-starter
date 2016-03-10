@@ -215,7 +215,6 @@ header {
   padding-bottom: 0.5%;
   background-color: #ffffff; }
   header .header_contents {
-    max-width: 1400px;
     width: 80%;
     margin: 0 auto;
     min-width: 300px; }
@@ -234,7 +233,6 @@ header {
       display: inline-block; }
 
 .main .main_contents {
-  max-width: 1400px;
   width: 80%;
   margin: 0 auto;
   min-width: 300px;
@@ -262,23 +260,26 @@ article {
   padding-left: 1%; }
 
 footer {
-  margin-top: 4%;
-  margin-bottom: 4%; }
-  footer .footer_contents {
-    max-width: 1400px;
-    width: 80%;
-    margin: 0 auto;
-    min-width: 300px; }
-    @media (max-width: 850px) {
-      footer .footer_contents {
-        width: 85%; } }
-    @media (max-width: 640px) {
-      footer .footer_contents {
-        width: 90%; } }
-    footer .footer_contents .foot_top {
-      border-bottom: 1px solid #C8C7CC;
-      padding-bottom: 4px;
-      margin-bottom: 8px; }
+  position: fixed;
+  padding-bottom: 4%;
+  bottom: 0;
+  left: 10%;
+  right: 10%;
+  width: 80%; }
+  @media (max-width: 850px) {
+    footer {
+      width: 85%;
+      left: 7.5%;
+      right: 7.5%; } }
+  @media (max-width: 640px) {
+    footer {
+      width: 90%;
+      right: 5%;
+      left: 5%; } }
+  footer .footer_contents .foot_top {
+    border-bottom: 1px solid #C8C7CC;
+    padding-bottom: 4px;
+    margin-bottom: 8px; }
 
 /**
  * Code formatting
@@ -766,7 +767,6 @@ label {
   clear: both; }
 
 nav {
-  max-width: 1400px;
   width: 80%;
   margin: 0 auto;
   min-width: 300px; }
@@ -948,7 +948,6 @@ nav {
     .banner.banner_fish p {
       text-shadow: 1px 1px 2px #1c1c1c; }
   .banner .banner_contents {
-    max-width: 1400px;
     width: 80%;
     margin: 0 auto;
     min-width: 300px; }
@@ -967,7 +966,6 @@ nav {
   padding-top: 2%;
   margin-top: -29px; }
   .news_landing .news_landing_contents {
-    max-width: 1400px;
     width: 80%;
     margin: 0 auto;
     min-width: 300px; }
