@@ -444,7 +444,8 @@ pre {
 
 html {
   position: relative;
-  min-height: 100%; }
+  min-height: 100%;
+  height: inherit; }
 
 body {
   padding: 0px;
