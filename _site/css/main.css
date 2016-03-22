@@ -58,6 +58,21 @@ ol {
   ol.no-bullet li {
     list-style-type: none; }
 
+ul.tabs {
+  border-bottom: 1px solid #C8C7CC;
+  list-style: none; }
+  ul.tabs li {
+    display: inline-block; }
+    ul.tabs li a {
+      color: pink;
+      padding: 15px; }
+    ul.tabs li.active a {
+      color: green;
+      cursor: default;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-bottom-color: transparent; }
+
 ul.event-info li b {
   color: #ba0c2f; }
 

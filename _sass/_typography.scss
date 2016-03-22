@@ -61,6 +61,25 @@ ol {
     }
 }
 
+ul.tabs {
+    border-bottom:1px solid $borders;
+    list-style: none;
+    li {
+        display:inline-block;
+        a {
+            color:pink;
+            padding: 15px;
+        }
+        &.active a {
+            color: green;
+            cursor: default;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-bottom-color: transparent;
+        }
+    }
+}
+
 ul.event-info {
     li {
         b {
