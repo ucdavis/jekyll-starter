@@ -1239,6 +1239,12 @@ ul.news-list-main li {
 .nivo-controlNav a.active {
   font-weight: bold; }
 
+.tab-content > .tab-pane {
+  display: none; }
+
+.tab-content > .active {
+  display: block; }
+
 [role="button"] {
   cursor: pointer; }
 
