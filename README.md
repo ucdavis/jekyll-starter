@@ -10,3 +10,5 @@ This project is built using Jekyll - please use http://jekyllrb.com/ for install
 Once Jekyll is installed and you are in the folder within terminal use jekyll serve to set up a localhost. Pushes to the 'gh-pages' branch will push to jekyll-ucdavis.edu
 
 
+bg images
+background-image: url(../media/geometric.svg);
