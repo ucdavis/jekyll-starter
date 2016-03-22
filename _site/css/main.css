@@ -60,12 +60,16 @@ ol {
 
 ul.tabs {
   border-bottom: 1px solid #C8C7CC;
-  list-style: none; }
+  list-style: none;
+  margin-bottom: 20px;
+  display: block; }
   ul.tabs li {
     display: inline-block; }
     ul.tabs li a {
       color: pink;
-      padding: 15px; }
+      padding: 10px 15px;
+      display: block;
+      margin-bottom: -1px; }
     ul.tabs li.active a {
       color: green;
       cursor: default;
