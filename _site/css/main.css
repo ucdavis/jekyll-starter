@@ -32,13 +32,13 @@ html {
 
 a {
   text-decoration: none;
-  color: #016FC4; }
+  color: #68441a; }
   a:hover {
     color: #DDB307; }
   a.archive {
     text-align: right; }
     a.archive p {
-      color: #016FC4;
+      color: #68441a;
       margin-top: -60px;
       font-size: 1.4rem; }
       a.archive p:hover {
@@ -270,6 +270,11 @@ aside {
   padding-right: 2%;
   margin-top: 1%;
   margin-right: 2%; }
+  @media (max-width: 640px) {
+    aside {
+      width: 100%;
+      margin-right: 0px;
+      padding-right: 0px; } }
 
 article {
   width: 67%;
@@ -277,6 +282,11 @@ article {
   vertical-align: top;
   margin-left: 1%;
   padding-left: 1%; }
+  @media (max-width: 640px) {
+    article {
+      width: 100%;
+      margin-left: 0px;
+      padding-left: 0px; } }
 
 footer {
   position: absolute;
@@ -705,7 +715,7 @@ input[type="button"].button-primary:focus {
 .btn {
   padding: 8px 20px;
   margin-top: 2.5%;
-  background-color: #CFA21A;
+  background-color: #68441a;
   box-shadow: 0px -3px 0px rgba(0, 0, 0, 0.15) inset;
   border-radius: 2px;
   font-family: "proxima-nova", arial, sans-serif;
@@ -828,7 +838,7 @@ nav {
     display: block;
     color: #5a585c; }
     #nav li a:hover {
-      color: #CFA21A; }
+      color: #68441a; }
 
 /* first level */
 #nav > a {
@@ -859,7 +869,7 @@ nav {
   #nav li ul a {
     color: #5a585c; }
     #nav li ul a:hover {
-      color: #CFA21A; }
+      color: #68441a; }
 
 #nav li:hover ul {
   display: block;
