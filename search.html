@@ -1,0 +1,34 @@
+---
+layout: default
+permalink: /search.html
+---
+
+
+<div id="head"><div class="head_icon"><a href="http://www.tipue.com"><img src="../../img/head.png" alt="Tipue"></a></div></div>
+
+
+<!-- body -->
+
+
+<div class="center" style="padding-top: 90px;"><a href="http://www.tipue.com/search"><img src="../../img/radio3.png" alt="Tipue Search"></a></div>
+<div class="center"><div class="inner" style="padding-top: 27px;"><h2>Tipue Search Static Mode Demo</h2></div></div>
+
+<div class="block" style="padding-top: 39px;">
+
+<form action="search.html">
+<input type="text" name="q" id="tipue_search_input" autocomplete="off" required>
+</form>
+<div id="tipue_search_content"></div>
+
+
+
+<div class="center ital" style="padding: 39px 0 30px 0;">&copy; 2015, <a href="http://www.tipue.com">Tipue</a>. Made in London.</div>
+
+<script>
+$(document).ready(function() {
+     $('#tipue_search_input').tipuesearch();
+});
+</script>
+
+</body>
+</html>
