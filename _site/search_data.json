@@ -1,0 +1,51 @@
+{
+  
+
+    "news-2016-02-11-dan": {
+      "title": "Churr",
+      "url": " /news/2016/02/11/dan/",
+      "category": "news"
+    }
+    ,
+  
+
+    "news-2016-01-11-crazed-cage": {
+      "title": "Crazed Cage",
+      "url": " /news/2016/01/11/Crazed-Cage/",
+      "category": "news"
+    }
+    ,
+  
+
+    "news-2015-12-07-carter-unfit-for-play": {
+      "title": "Carter unfit for play",
+      "url": " /news/2015/12/07/Carter-unfit-for-play/",
+      "category": "news"
+    }
+    ,
+  
+
+    "news-2015-11-28-bob-ross-symposium": {
+      "title": "Bob Ross, adored by the nation",
+      "url": " /news/2015/11/28/Bob-Ross-Symposium/",
+      "category": "news"
+    }
+    ,
+  
+
+    "events-2015-11-23-news-article": {
+      "title": "College Celebration",
+      "url": " /events/2015/11/23/news-article/",
+      "category": "events"
+    }
+    ,
+  
+
+    "events-2015-09-22-welcome-to-jekyll": {
+      "title": "UC Davis Apple Harvest",
+      "url": " /events/2015/09/22/welcome-to-jekyll/",
+      "category": "events"
+    }
+    
+  
+}

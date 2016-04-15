@@ -38,18 +38,18 @@
   <link href="//cdn.rawgit.com/noelboss/featherlight/1.3.5/release/featherlight.gallery.min.css" type="text/css" rel="stylesheet" />
   <link rel="stylesheet" href="/css/main.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  <link rel="canonical" href="http://jekyll-starter.ucdavis.edu/search.html">
+  <link rel="canonical" href="http://jekyll-starter.ucdavis.edu/search/">
   
   <link rel="alternate" type="application/rss+xml" title="Jekyll Starter" href="http://jekyll-starter.ucdavis.edu/feed.xml" />
 
 
-  <!-- le Search -->
+  <!-- le Search 
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="tipuesearch/tipuesearch_content.js"></script>
   <link href="tipuesearch/tipuesearch.css" rel="stylesheet">
   <script src="tipuesearch/tipuesearch_set.js"></script>
-  <script src="tipuesearch/tipuesearch.min.js"></script>
+  <script src="tipuesearch/tipuesearch.min.js"></script>-->
 
 
 </head>
@@ -108,35 +108,16 @@
 
 
     
-        <div id="head"><div class="head_icon"><a href="http://www.tipue.com"><img src="../../img/head.png" alt="Tipue"></a></div></div>
-
-
-<!-- body -->
-
-
-<div class="center" style="padding-top: 90px;"><a href="http://www.tipue.com/search"><img src="../../img/radio3.png" alt="Tipue Search"></a></div>
-<div class="center"><div class="inner" style="padding-top: 27px;"><h2>Tipue Search Static Mode Demo</h2></div></div>
-
-<div class="block" style="padding-top: 39px;">
-
-<form action="search.html">
-<input type="text" name="q" id="tipue_search_input" autocomplete="off" required>
+        <form action="get" id="site_search">
+  <label for="search_box">Search</label><input type="text" id="search_box">
+  <input type="submit" value="search">
 </form>
-<div id="tipue_search_content"></div>
 
+<ul id="search_results"></ul>
 
-
-<div class="center ital" style="padding: 39px 0 30px 0;">&copy; 2015, <a href="http://www.tipue.com">Tipue</a>. Made in London.</div>
-
-<script>
-$(document).ready(function() {
-     $('#tipue_search_input').tipuesearch();
-});
-</script>
-
-</body>
-</html>
-
+<script src="/js/lunr.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="/js/search.js"></script>
 
 
     <footer>
@@ -221,10 +202,10 @@ $(document).ready(function() {
     </script>
     <script src="//cdn.rawgit.com/noelboss/featherlight/1.3.5/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="//cdn.rawgit.com/noelboss/featherlight/1.3.5/release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
-<script>
+<!--<script>
 $(document).ready(function() {
      $('#tipue_search_input').tipuesearch();
 });
-</script>
+</script> -->
 
 </html>
