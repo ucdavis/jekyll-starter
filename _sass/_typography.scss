@@ -131,6 +131,14 @@ p {
     font-size: 1.6rem;
     font-family: $sans-serif;
     color: $primary-font;
+    &.lead {
+        font-size:1.8rem;
+        color:#000;
+        margin-top:0px;
+        border-bottom:1px solid $borders;
+        padding-bottom:1%;
+        margin-bottom:3%;
+    }
     &.page_description {
         border-bottom: 1px solid $borders;
         margin-bottom: 4%;
