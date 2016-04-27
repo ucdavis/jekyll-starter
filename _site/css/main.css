@@ -32,13 +32,13 @@ html {
 
 a {
   text-decoration: none;
-  color: #68441a; }
+  color: #1A3E68; }
   a:hover {
     color: #DDB307; }
   a.archive {
     text-align: right; }
     a.archive p {
-      color: #68441a;
+      color: #1A3E68;
       margin-top: -60px;
       font-size: 1.4rem; }
       a.archive p:hover {
@@ -722,7 +722,7 @@ input[type="button"].button-primary:focus {
 .btn {
   padding: 8px 20px;
   margin-top: 2.5%;
-  background-color: #68441a;
+  background-color: #DDB307;
   box-shadow: 0px -3px 0px rgba(0, 0, 0, 0.15) inset;
   border-radius: 2px;
   font-family: "proxima-nova", arial, sans-serif;
@@ -845,7 +845,7 @@ nav {
     display: block;
     color: #5a585c; }
     #nav li a:hover {
-      color: #68441a; }
+      color: #DDB307; }
 
 /* first level */
 #nav > a {
@@ -876,7 +876,7 @@ nav {
   #nav li ul a {
     color: #5a585c; }
     #nav li ul a:hover {
-      color: #68441a; }
+      color: #DDB307; }
 
 #nav li:hover ul {
   display: block;
