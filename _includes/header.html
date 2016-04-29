@@ -4,41 +4,77 @@
             <a href="/"><img class="caeslogo" src="/media/caes_logo.svg" alt=""></a>
         </div>
         <div class="search_wrapper">
-<form action="search.html">
-<input type="text" name="q" id="tipue_search_input" autocomplete="off" required>
-</form>
-<div id="tipue_search_content"></div>
-
+            <form action="search.html">
+                <input type="text" name="q" id="tipue_search_input" autocomplete="off" required>
+            </form>
+            <div id="tipue_search_content"></div>
         </div>
     </div>
 </header>
-<div class="nav_wrapper">
+<!--<div class="nav_wrapper">
     <nav id="nav" role="navigation">
         <a class="nav_open" href="#nav" title="Show navigation"><i class="fa fa-bars"></i></a>
         <a class="nav_close" href="#" title="Hide navigation"><i class="fa fa-times"></i></a>
         <ul id="nav_upperlevel">
-            <li>
-                <a href="/components" aria-haspopup="true">Components</a>
-                <ul class="submenu">
-                    <li><a href="/components#nivo">Slider</a></li>
-                    <li><a href="/components#bgvideo">Video</a></li>
-                    <li><a href="/components#icons">Icons</a></li>
+     
+                <ul>
+                    <li>
+                        <a href="/components">Components</a>
+                        <ul class="submenu">
+                            <li><a href="/components#nivo">Slider</a></li>
+                            <li><a href="/components#bgvideo">Video</a></li>
+                            <li><a href="/components#icons">Icons</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/styleguide">Styleguide</a>
+                    </li>
+                    <li>
+                        <a href="/news">News</a>
+                      <ul class="submenu">
+                            <li><a href="/feed/">News</a></li>
+                            <li><a href="/feed/events.html">Events</a></li>
+                            <li><a href="/feed/tags.html">Tag list</a></li>
+                        </ul> 
+                    </li>
+                    <li>
+                        <a href="/events">Events</a>
+                    </li>
                 </ul>
-            </li>
-            <li>
-                <a href="/styleguide">Styleguide</a>
-            </li>
-            <li>
-                <a href="/news">News</a>
-                <!-- <ul class="submenu">
-                    <li><a href="/feed/">News</a></li>
-                    <li><a href="/feed/events.html">Events</a></li>
-                    <li><a href="/feed/tags.html">Tag list</a></li>
-                </ul> -->
-            </li>
-            <li>
-                <a href="/events">Events</a>
-            </li>
-        </ul>
-    </nav>
+            </nav>
+        </div>-->
+   
+
+   <!-- Pushy Menu -->
+<nav class="pushy pushy-left">
+    <ul>
+        <!-- Submenu -->
+        <li class="pushy-submenu">
+            <a href="#">Components</a>
+            <ul>
+                <li class="pushy-link"><a href="components#nivo">Slider</a></li>
+                <li class="pushy-link"><a href="components#bgvideo">Video</a></li>
+                <li class="pushy-link"><a href="components#icons">Icons</a></li>
+            </ul>
+        </li>
+        <li class="pushy-link"><a href="/styleguide">Styleguide</a></li>
+        <!-- Submenu news -->
+        <li class="pushy-submenu">
+            <a href="/news">News</a>
+            <ul>
+                <li><a href="/feed/">News</a></li>
+                            <li><a href="/feed/events.html">Events</a></li>
+                            <li><a href="/feed/tags.html">Tag list</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+
+<!-- Site Overlay -->
+<div class="site-overlay"></div>
+
+<!-- Your Content -->
+<div id="container">
+    <!-- Menu Button -->
+    <div class="menu-btn">&#9776; Menu</div>
 </div>
