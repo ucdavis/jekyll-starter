@@ -42,7 +42,7 @@
   transform: translate3d(-200px, 0, 0);
 }
 
-.pushy-open-left #container,
+.pushy-open-left #pushy-container,
 .pushy-open-left .push {
   -webkit-transform: translate3d(200px, 0, 0);
   -ms-transform: translate3d(200px, 0, 0);
@@ -55,7 +55,7 @@
   transform: translate3d(200px, 0, 0);
 }
 
-.pushy-open-right #container,
+.pushy-open-right #pushy-container,
 .pushy-open-right .push {
   -webkit-transform: translate3d(-200px, 0, 0);
   -ms-transform: translate3d(-200px, 0, 0);
@@ -70,7 +70,7 @@
 }
 
 /* Menu Transitions */
-#container,
+#pushy-container,
 .pushy,
 .push {
   transition: transform 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99);
@@ -133,7 +133,7 @@
   position: absolute;
   top: 50%;
   right: 15px;
-  background: url("../img/arrow.svg") no-repeat;
+  background: url("../media/arrow.svg") no-repeat;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -170,3 +170,5 @@
 }
 
 /*# sourceMappingURL=pushy.css.map */
+
+

@@ -1,0 +1,42 @@
+.pushy{
+	@include breakpoint(hdres){
+            	display: none;
+            }
+            @include breakpoint(desktop){
+            	display: none;
+            }
+            @include breakpoint(laptop){
+            	display: none;
+            }
+            @include breakpoint(rufus){
+            	display: none;
+            }
+             @include breakpoint(tablet){
+            	display: inline;
+            }
+            @include breakpoint(smallmobile){
+            	display: inline;
+            }
+
+}
+
+.menu-btn {
+	@include breakpoint(hdres){
+            	display: none;
+            }
+            @include breakpoint(desktop){
+            	display: none;
+            }
+            @include breakpoint(laptop){
+            	display: none;
+            }
+            @include breakpoint(rufus){
+            	display: none;
+            }
+             @include breakpoint(tablet){
+            	display: inline;
+            }
+            @include breakpoint(smallmobile){
+            	display: inline;
+            }
+}

@@ -806,6 +806,44 @@ label {
   text-transform: uppercase;
   margin-bottom: 5px; }
 
+@media (max-width: 1600px) {
+  .pushy {
+    display: none; } }
+@media (max-width: 1250px) {
+  .pushy {
+    display: none; } }
+@media (max-width: 1000px) {
+  .pushy {
+    display: none; } }
+@media (max-width: 850px) {
+  .pushy {
+    display: none; } }
+@media (max-width: 750px) {
+  .pushy {
+    display: inline; } }
+@media (max-width: 450px) {
+  .pushy {
+    display: inline; } }
+
+@media (max-width: 1600px) {
+  .menu-btn {
+    display: none; } }
+@media (max-width: 1250px) {
+  .menu-btn {
+    display: none; } }
+@media (max-width: 1000px) {
+  .menu-btn {
+    display: none; } }
+@media (max-width: 850px) {
+  .menu-btn {
+    display: none; } }
+@media (max-width: 750px) {
+  .menu-btn {
+    display: inline; } }
+@media (max-width: 450px) {
+  .menu-btn {
+    display: inline; } }
+
 .banner {
   background-color: #1A3E68;
   padding: 2% 0; }
