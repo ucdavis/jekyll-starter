@@ -20,8 +20,9 @@
   <script src="https://use.typekit.net/ved8sye.js"></script>
   <script>try{Typekit.load();}catch(e){}</script>
 
-  <title>College Celebration</title>
-  <meta name="description" content="You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different wa...">
+  <title>Jekyll Starter</title>
+  <meta name="description" content="This is a Jekyll Starter template developed by cydoval.com.
+">
 
   
   <!-- le Apple -->
@@ -50,7 +51,7 @@
    <link href="/css/pushy.css" rel="stylesheet" type="text/css"/>
   <link rel="stylesheet" href="/css/main.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  <link rel="canonical" href="http://jekyll-starter.ucdavis.edu/events/2015/11/23/news-article/">
+  <link rel="canonical" href="http://jekyll-starter.ucdavis.edu/page2/">
   
   <link rel="alternate" type="application/rss+xml" title="Jekyll Starter" href="http://jekyll-starter.ucdavis.edu/feed.xml" />
   
@@ -178,42 +179,87 @@
 
 
     
-        <div class="main">
+        <div id="slider" class="nivoSlider">
+    <img src="/media/slide1.jpg" title="#htmlcaption1" />
+    <img src="/media/slide2.jpg" title="#htmlcaption2" />
+    <img src="/media/slide3.jpg" title="#htmlcaption3" />
+</div>
+    <div id="htmlcaption1" class="nivo-html-caption">
+        <h2>Are you a beet?</h2>
+        <p>Titanium white, Thalo green, Prussian blue, Van Dyke brown, Alizarin crimson, Sap green, Cad yellow, and Permanent red.</p>
+    </div>
+    <div id="htmlcaption2" class="nivo-html-caption">
+        <h2 class="bg-wine-grape">Red hot Chili Peppers</h2>
+        <p>This is your world, whatever makes you happy you can put in it.</p>
+    </div>
+    <div id="htmlcaption3" class="nivo-html-caption">
+        <h2 class="bg-sunny-grass">Prussian blue</h2>
+        <p>
+            You can create the world you want to see and be a part of
+        </p>
+    </div>
+<div class="news_landing">
+    <div class="news_landing_contents">
+        <h1 class="sectionheader">News</h1>
+        <div class="news_landing_current">
+            
+            <div class="news_landing_piece">
+                
+                <a class="post-link" href="/news/2016/02/11/dan/"><img class="img_article_thumb" src="/media/placeholder3.jpg"></a>
+                <h2 class="feed-title">
+                      <a class="post-link" href="/news/2016/02/11/dan/">Churr</a>
+                    </h2>
+                <p class="feed-description">Have fun with it. Van Dyke Brown is a very nice brown, it's almost like a chocolate brown. We'll paint one happy little tree right here.</p>
+            </div>
+            
+            <div class="news_landing_piece">
+                
+                <a class="post-link" href="/news/2016/01/11/Crazed-Cage/"><img class="img_article_thumb" src="/media/placeholder3.jpg"></a>
+                <h2 class="feed-title">
+                      <a class="post-link" href="/news/2016/01/11/Crazed-Cage/">Crazed Cage</a>
+                    </h2>
+                <p class="feed-description">Have fun with it. Van Dyke Brown is a very nice brown, it's almost like a chocolate brown. We'll paint one happy little tree right here.</p>
+            </div>
+            
+            <div class="news_landing_piece">
+                
+                <a class="post-link" href="/news/2015/12/07/Carter-unfit-for-play/"><img class="img_article_thumb" src="/media/placeholder2.jpg"></a>
+                <h2 class="feed-title">
+                      <a class="post-link" href="/news/2015/12/07/Carter-unfit-for-play/">Carter unfit for play</a>
+                    </h2>
+                <p class="feed-description">The light is your friend. Preserve it. Just go back and put one little more happy tree in there. There comes a nice little fluffer.</p>
+            </div>
+            
+        </div>
+        <div class="news_landing_more">
+            <h3>Newsletter</h3>
+            <p>Stay updated by signing up for our newsletter</p>
+            <a href="" class="btn btn-newsletter">Sign up</a>
+            <br>
+            <p><a href="/news">View more articles here</a></p>
+        </div>
+    </div>
+</div>
+<div class="main">
     <div class="main_contents">
-        <aside>
-            <h3>Event Info</h3>
-            <ul class="event-info no-bullet">
-                <li><b>Date:</b> August 5th</li>
-                <li><b>Time:</b> 15:30 - 16:30</li>
-                <li><b>Location:</b> 38 Mrak</li>
-                <li><b>Contact:</b> <a href="mailto:cydoval@mac.com">Calvin Doval</a></li>
-                
-                <br>
-                <li><a class="btn btn-blue" href="http://cydoval.com/">Register</a></li>
-                
+        <div>
+            <!-- Nav tabs -->
+            <ul class="tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+                <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+                <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+                <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
             </ul>
-        </aside>
-        <article>
-            <h1 class="document_heade">College Celebration</h1>
-            <h1 class="post-title"></h1>
-            <h5 class="feed-date">Published Nov 23, 2015 by Frederick Ferguson</h5>
-            <p class="feed-summary">Join UC Davis in their 5th Annual College Celebration</p>
-            <p><p>You’ll find this post in your <code>_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code>jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
-
-<p>To add new posts, simply add a file in the <code>_posts</code> directory that follows the convention <code>YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
-
-<p>Jekyll also offers powerful support for code snippets:</p>
-
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">&quot;Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">&quot;</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">&#39;Tom&#39;</span><span class="p">)</span>
-<span class="c1">#=&gt; prints &#39;Hi, Tom&#39; to STDOUT.</span></code></pre></div>
-
-<p>Check out the <a href="http://jekyllrb.com">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://github.com/jekyll/jekyll-help">Jekyll’s dedicated Help repository</a>.</p>
-
-</p>
-        </article>
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="home">
+                <p>Home</p>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="profile"><p>profile</p></div>
+                <div role="tabpanel" class="tab-pane" id="messages"><p>Messages</p></div>
+                <div role="tabpanel" class="tab-pane" id="settings"><p>Settings</p></div>
+            </div>
+        </div>
     </div>
 </div>
 

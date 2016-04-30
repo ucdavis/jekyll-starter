@@ -844,6 +844,61 @@ label {
   .menu-btn {
     display: inline; } }
 
+#main-nav ul li {
+  background-color: #f7f7f7; }
+
+#main-nav ul {
+  list-style: none;
+  margin: 0; }
+
+#main-nav li {
+  color: #5a585c;
+  display: block;
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase; }
+
+#main-nav li a {
+  color: #5a585c;
+  text-decoration: none;
+  display: block; }
+
+#main-nav li a:hover {
+  background-color: #fff;
+  color: #DDB307;
+  cursor: pointer; }
+
+#main-nav ul:hover {
+  background-color: #fff; }
+
+#main-nav ul li ul {
+  background-color: #fff;
+  visibility: hidden;
+  float: left;
+  min-width: 150px;
+  position: absolute;
+  transition: visibility 0.65s ease-in;
+  left: 0;
+  z-index: 999; }
+
+#main-nav ul li:hover > ul,
+#main-nav ul li ul:hover {
+  background-color: #fff;
+  visibility: visible; }
+
+#main-nav ul li ul li {
+  clear: both;
+  padding: 5px 0 5px 18px;
+  width: 100%; }
+
+#main-nav ul li ul li:hover {
+  background-color: #fff; }
+
 .banner {
   background-color: #1A3E68;
   padding: 2% 0; }
