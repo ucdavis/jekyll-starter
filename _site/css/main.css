@@ -826,20 +826,9 @@ label {
     display: inline; } }
 
 .menu-btn, .close-btn {
-  font-size: 25px;
-  color: #5a585c; }
-  @media (max-width: 1600px) {
-    .menu-btn, .close-btn {
-      display: none; } }
-  @media (max-width: 1250px) {
-    .menu-btn, .close-btn {
-      display: none; } }
-  @media (max-width: 1000px) {
-    .menu-btn, .close-btn {
-      display: none; } }
-  @media (max-width: 850px) {
-    .menu-btn, .close-btn {
-      display: none; } }
+  font-size: 30px;
+  color: #5a585c;
+  display: none; }
   @media (max-width: 750px) {
     .menu-btn, .close-btn {
       display: inline; } }

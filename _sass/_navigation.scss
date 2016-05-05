@@ -22,22 +22,13 @@
     }
 }
 
-.menu-btn, .close-btn {
-    font-size: 25px;
-    color: #5a585c;
 
-    @include breakpoint(hdres) {
-        display: none;
-    }
-    @include breakpoint(desktop) {
-        display: none;
-    }
-    @include breakpoint(laptop) {
-        display: none;
-    }
-    @include breakpoint(rufus) {
-        display: none;
-    }
+.menu-btn, .close-btn {
+    font-size: 30px;
+    color: #5a585c;
+    display: none;
+
+    
     @include breakpoint(tablet) {
         display: inline;
     }
@@ -45,6 +36,7 @@
         display: inline;
     }
 }
+
 
 
 #main-nav {
