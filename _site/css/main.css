@@ -836,6 +836,9 @@ label {
     .menu-btn, .close-btn {
       display: inline; } }
 
+#slideout-nav ul {
+  list-style: none; }
+
 @media (max-width: 750px) {
   #main-nav {
     display: none; } }
