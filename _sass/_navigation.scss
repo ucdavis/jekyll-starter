@@ -25,6 +25,7 @@
 .menu-btn, .close-btn {
     font-size: 25px;
     color: #5a585c;
+
     @include breakpoint(hdres) {
         display: none;
     }
@@ -44,6 +45,7 @@
         display: inline;
     }
 }
+
 
 #main-nav {
 
