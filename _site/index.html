@@ -66,8 +66,26 @@
 
   <body>
 
+<!-- Site Overlay -->
+<div class="site-overlay"></div>
+<!-- Your Content -->
+<div id="pushy-container">
+    <!-- Menu Button -->
+    <!--<div class="menu-btn">&#9776;</div>-->
+    <div class="menu-btn">
+        <i class="fa fa-bars"></i>
+    </div>
+
+    <!--  <div class="close-btn">
+        <i class="fa fa-times"></i>
+    </div> -->
+    
+
+
+
     <header>
     <div class="header_contents">
+
         <div class="logo_wrapper">
             <a href="/"><img class="caeslogo" src="/media/caes_logo.svg" alt=""></a>
         </div>
@@ -84,99 +102,102 @@
         <a class="nav_open" href="#nav" title="Show navigation"><i class="fa fa-bars"></i></a>
         <a class="nav_close" href="#" title="Hide navigation"><i class="fa fa-times"></i></a>
         <ul id="nav_upperlevel">
-     
+            
+            <ul>
+                <li>
+                    <a href="/components">Components</a>
+                    <ul class="submenu">
+                        <li><a href="/components#nivo">Slider</a></li>
+                        <li><a href="/components#bgvideo">Video</a></li>
+                        <li><a href="/components#icons">Icons</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/styleguide">Styleguide</a>
+                </li>
+                <li>
+                    <a href="/news">News</a>
+                    <ul class="submenu">
+                        <li><a href="/feed/">News</a></li>
+                        <li><a href="/feed/events.html">Events</a></li>
+                        <li><a href="/feed/tags.html">Tag list</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/events">Events</a>
+                </li>
+            </ul>
+        </nav>
+    </div>-->
+    
+    <!-- Main Nav -->
+    <nav id="main-nav">
+        <ul>
+            <li>
+                <a href="/components">Components</a>
                 <ul>
-                    <li>
-                        <a href="/components">Components</a>
-                        <ul class="submenu">
-                            <li><a href="/components#nivo">Slider</a></li>
-                            <li><a href="/components#bgvideo">Video</a></li>
-                            <li><a href="/components#icons">Icons</a></li>
+                    <li><a href="/components#nivo">Slider</a></li>
+                    <li><a href="/components#bgvideo">Video</a></li>
+                    <li><a href="/components#icons">Icons</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="/styleguide">Styleguide</a>
+            </li>
+            <li>
+                <a href="/news">News</a>
+                <ul>
+                    <li><a href="/feed/">News</a></li>
+                    <li><a href="/feed/events.html">Events</a></li>
+                    <li><a href="/feed/tags.html">Tag list</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="/events">Events</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="slideout-wrapper">
+            <!-- Pushy Menu -->
+            <nav id="slideout-nav" class="pushy pushy-left">
+                <ul>
+                    <!-- Submenu -->
+                    <li class="pushy-submenu">
+                        <a href="#">Components</a>
+                        <ul>
+                            <li class="pushy-link"><a href="components#nivo">Slider</a></li>
+                            <li class="pushy-link"><a href="components#bgvideo">Video</a></li>
+                            <li class="pushy-link"><a href="components#icons">Icons</a></li>
                         </ul>
                     </li>
-                    <li>
-                        <a href="/styleguide">Styleguide</a>
-                    </li>
-                    <li>
+                    <li class="pushy-link"><a href="/styleguide">Styleguide</a></li>
+                    <!-- Submenu news -->
+                    <li class="pushy-submenu">
                         <a href="/news">News</a>
-                      <ul class="submenu">
+                        <ul>
                             <li><a href="/feed/">News</a></li>
                             <li><a href="/feed/events.html">Events</a></li>
                             <li><a href="/feed/tags.html">Tag list</a></li>
-                        </ul> 
-                    </li>
-                    <li>
-                        <a href="/events">Events</a>
+                        </ul>
                     </li>
                 </ul>
             </nav>
-        </div>-->
-<!-- Main Nav -->
-
-<nav id="main-nav">
-    <ul>
-        <li>
-            <a href="/components">Components</a>
-            <ul>
-                <li><a href="/components#nivo">Slider</a></li>
-                <li><a href="/components#bgvideo">Video</a></li>
-                <li><a href="/components#icons">Icons</a></li>
-            </ul>
-        </li>
-        <li>
-            <a href="/styleguide">Styleguide</a>
-        </li>
-        <li>
-            <a href="/news">News</a>
-            <ul>
-                <li><a href="/feed/">News</a></li>
-                <li><a href="/feed/events.html">Events</a></li>
-                <li><a href="/feed/tags.html">Tag list</a></li>
-            </ul>
-        </li>
-        <li>
-            <a href="/events">Events</a>
-        </li>
-    </ul>
-</nav>
-<!-- Pushy Menu -->
-<nav id="slideout-nav" class="pushy pushy-left">
-    <ul>
-        <!-- Submenu -->
-        <li class="pushy-submenu">
-            <a href="#">Components</a>
-            <ul>
-                <li class="pushy-link"><a href="components#nivo">Slider</a></li>
-                <li class="pushy-link"><a href="components#bgvideo">Video</a></li>
-                <li class="pushy-link"><a href="components#icons">Icons</a></li>
-            </ul>
-        </li>
-        <li class="pushy-link"><a href="/styleguide">Styleguide</a></li>
-        <!-- Submenu news -->
-        <li class="pushy-submenu">
-            <a href="/news">News</a>
-            <ul>
-                <li><a href="/feed/">News</a></li>
-                <li><a href="/feed/events.html">Events</a></li>
-                <li><a href="/feed/tags.html">Tag list</a></li>
-            </ul>
-        </li>
-    </ul>
-</nav>
-
-<!-- Site Overlay -->
-<div class="site-overlay"></div>
-<!-- Your Content -->
-<div id="pushy-container">
+        </div>
+    <!-- Site Overlay -->
+    <!-- <div class="site-overlay"></div> -->
+    <!-- Your Content -->
+    <!-- <div id="pushy-container"> -->
     <!-- Menu Button -->
-    <!--<div class="menu-btn">&#9776;</div>-->
+    <!--     <div class="menu-btn">&#9776;</div>
     <div class="menu-btn">
-    <i class="fa fa-bars"></i>
-    <i class="fa fa-times close-btn"></i>
-    </div>
-    
-</div>
-
+        <i class="fa fa-bars"></i>
+    </div> -->
+    <!--  <div class="close-btn">
+        <i class="fa fa-times"></i>
+    </div> -->
+    <!--
+</div> -->
 
     
         <div id="slider" class="nivoSlider">
@@ -298,7 +319,7 @@
     </div>
 </footer>
 
-
+</div>
   </body>
   <!-- Modal -->
   <script>

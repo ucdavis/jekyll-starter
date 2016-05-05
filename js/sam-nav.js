@@ -3,7 +3,12 @@
 
 $(document).ready(function(){
 	console.log('ready');
-	$( "#target" ).click(function() {
-  alert( "Handler for .click() called." );
+// 	$(".close-btn").hide();
+// 	$( ".menu-btn" ).click(function() {
+// 		$(".menu-btn").hide();
+// 		$(".close-btn").show();
+//   alert( "Did i disappear?" );
+// });
 });
-});
+
+

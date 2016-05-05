@@ -1,7 +1,7 @@
 
 
 .pushy {
-  }
+  
     @include breakpoint(hdres) {
         display: none;
     }
@@ -22,7 +22,7 @@
     }
 }
 
-.menu-btn {
+.menu-btn, .close-btn {
     font-size: 25px;
     color: #5a585c;
     @include breakpoint(hdres) {
@@ -46,9 +46,7 @@
 }
 
 #main-nav {
-@include breakpoint(rufus) {
-        display: none;
-    }
+
     @include breakpoint(tablet) {
         display: none;
     }
@@ -58,13 +56,18 @@
 
 }
 
+
+#main-nav {
+  background: #f7f7f7;
+}
+
 #main-nav ul {
 text-align: left;
   display: inline;
   margin: 0;
   padding: 20px 4px 20px 0;
   list-style: none;
-  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+  
 }
 
 #main-nav ul li a {
