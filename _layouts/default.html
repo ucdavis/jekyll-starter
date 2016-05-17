@@ -4,6 +4,21 @@
   {% include head.html %}
   <body>
 
+<!-- Site Overlay -->
+<div class="site-overlay"></div>
+<!-- Your Content -->
+<div id="pushy-container">
+    <!-- Menu Button -->
+    <!--<div class="menu-btn">&#9776;</div>-->
+  
+
+    <!--  <div class="close-btn">
+        <i class="fa fa-times"></i>
+    </div> -->
+    
+</div>
+
+
     {% include header.html %}
 
     
@@ -65,5 +80,23 @@ $(document).ready(function() {
      $('#tipue_search_input').tipuesearch();
 });
 </script> -->
+
+<!--<script>
+
+$(document).ready(function(){
+  console.log('ready');
+  $(".flexnav").flexNav();
+
+  //$(".flexnav li").hoverIntent(toggleHeight);
+  $(".flexnav li").tooltip({
+    show: {
+      effect:"slideDown",
+      delay: 250
+    }
+  });
+});
+</script>-->
+  <script src="/js/pushy.min.js"></script>
+  
 
 </html>
