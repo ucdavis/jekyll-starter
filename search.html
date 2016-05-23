@@ -1,14 +1,18 @@
 ---
 layout: default
 ---
-
-<form action="get" id="site_search">
-  <label for="search_box">Search</label><input type="text" id="search_box">
-  <input type="submit" value="search">
-</form>
-
-<ul id="search_results"></ul>
-
+<div class="main">
+    <div class="main_contents">
+        <div class="main_search">
+            <form class="search_form" action="get" id="site_search">
+                <label for="search_box">Search</label>
+                <input class="search_input" type="text" id="search_box">
+                <input class="search_go" type="submit" value="search">
+            </form>
+        </div>
+        <ul id="search_results"></ul>
+    </div>
+</div>
 <script src="/js/lunr.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="/js/search.js"></script>

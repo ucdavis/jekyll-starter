@@ -778,24 +778,33 @@ input[type="button"].button-primary:focus {
     max-width: 60rem;
     margin-top: -100px; }
 
-form .main {
-  background-color: #f7f7f7;
-  padding: 2%;
-  border-left: 3px solid #028474;
-  padding-left: 4%; }
-form input.search_input {
-  background-image: url(/media/search_form.svg);
-  background-repeat: no-repeat;
-  background-size: 20px 20px;
-  width: 240px;
+.main_search {
+  width: 100%;
+  margin: 0 auto;
+  border-bottom: 1px solid #C8C7CC;
+  padding-bottom: 20px;
+  margin-bottom: 20px; }
+
+form.search_form input.search_input {
+  width: 80%;
   font-size: 1.6rem;
   color: #333433;
   background-color: #fff;
   border-radius: 2px;
   border: 1px solid #C8C7CC;
   height: 40px;
-  padding-left: 35px;
+  margin-top: 1px;
+  padding-left: 10px;
   background-position: 10px center; }
+form.search_form input.search_go {
+  width: 19%;
+  height: 40px; }
+
+form .main {
+  background-color: #f7f7f7;
+  padding: 2%;
+  border-left: 3px solid #028474;
+  padding-left: 4%; }
 
 label {
   display: block;
