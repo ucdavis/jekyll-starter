@@ -4,7 +4,7 @@ title:  "Dan Carter unfit for play"
 description: "The light is your friend. Preserve it. Just go back and put one little more happy tree in there. There comes a nice little fluffer."
 author: "Frederick Ferguson"
 date:   2015-12-07 12:25:17
-tags: "Rugby"
+tags: "iPhone"
 category: "news"
 image: /media/placeholder2.jpg
 image-caption: Take a look at the source for this post
