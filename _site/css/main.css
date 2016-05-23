@@ -786,7 +786,7 @@ input[type="button"].button-primary:focus {
   margin-bottom: 20px; }
 
 form.search_form input.search_input {
-  width: 80%;
+  width: 85%;
   font-size: 1.6rem;
   color: #333433;
   background-color: #fff;
@@ -797,7 +797,9 @@ form.search_form input.search_input {
   padding-left: 10px;
   background-position: 10px center; }
 form.search_form input.search_go {
-  width: 19%;
+  width: 14%;
+  font-size: 1.6rem;
+  border-radius: 0px;
   height: 40px; }
 
 form .main {

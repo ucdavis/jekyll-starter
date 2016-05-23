@@ -8,7 +8,7 @@
 }
 form.search_form {
     input.search_input {
-        width:80%;
+        width:85%;
         font-size:1.6rem;
         color:$primary-font;
         background-color:#fff;
@@ -20,7 +20,9 @@ form.search_form {
         background-position:10px center;
     }
     input.search_go {
-        width:19%;
+        width:14%;
+        font-size:1.6rem;
+        border-radius:0px;
         height:40px;
     }
 }
