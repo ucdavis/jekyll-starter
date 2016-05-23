@@ -5,7 +5,6 @@ jQuery(function() {
     this.field('id');
     this.field('title', { boost: 10 });
     this.field('author');
-    this.field('tags');
     this.field('content');
     this.field('category');
   });
