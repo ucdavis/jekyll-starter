@@ -4,7 +4,6 @@ jQuery(function() {
   window.idx = lunr(function () {
     this.field('id');
     this.field('title', { boost: 10 });
-    this.field('author');
     this.field('content');
     this.field('category');
   });
