@@ -778,6 +778,9 @@ input[type="button"].button-primary:focus {
     max-width: 60rem;
     margin-top: -100px; }
 
+form.gsc-search-box {
+  font-size: 1.6rem; }
+
 form .main {
   background-color: #f7f7f7;
   padding: 2%;
