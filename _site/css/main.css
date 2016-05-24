@@ -848,7 +848,8 @@ label {
   list-style: none; }
 
 #main-nav {
-  background: #f7f7f7; }
+  background: #f7f7f7;
+  border-bottom: 1px solid #C8C7CC; }
   @media (max-width: 750px) {
     #main-nav {
       display: none; } }

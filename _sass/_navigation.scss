@@ -23,6 +23,7 @@
 
 #main-nav {
     background: #f7f7f7;
+    border-bottom:1px solid $borders;
     @include breakpoint(tablet) {
         display: none;
     }
