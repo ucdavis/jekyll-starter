@@ -4,6 +4,7 @@ jQuery(function() {
   window.idx = lunr(function () {
     this.field('id');
     this.field('title', { boost: 10 });
+    this.field('description');
     this.field('content');
     this.field('category');
   });
@@ -18,7 +19,7 @@ jQuery(function() {
         $.extend({ "id": index }, value)
       );
     });
-  });
+});
 
   // Event when the form is submitted
   $("#site_search").submit(function(event){
@@ -43,7 +44,7 @@ jQuery(function() {
           var item = loaded_data[result.ref];
 
           // Build a snippet of HTML for this result
-          var appendString = '<li><a href="' + item.url + '">' + item.title + '</a></li>';
+          var appendString = '<li><a href="' + item.url + '">' + item.title + '</a><p>' + item.description + '</p></li>';
 
           // Add it to the results
           $search_results.append(appendString);
