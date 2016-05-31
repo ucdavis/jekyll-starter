@@ -6,6 +6,24 @@
     padding-bottom:20px;
     margin-bottom:20px;
 }
+form.small_search {
+    input {
+        background-image:url(/media/search_form.svg);
+        background-repeat:no-repeat;
+        background-size: 20px 20px;
+        width:200px;
+        font-size:1.6rem;
+        color:$primary-font;
+        background-color:#fff;
+        border-radius:2px;
+        border:1px solid $borders;
+        height:32px;
+        padding-left:35px;
+        background-position:10px center;
+        margin-top:6px;
+        box-sizing:inherit !important;
+    }
+}
 form.search_form {
     input.search_input {
         width:85%;
