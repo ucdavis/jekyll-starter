@@ -10,7 +10,7 @@
 .menu-btn,
 .close-btn {
     font-size: 30px;
-    color: #5a585c;
+    color: #333333;
     display: none;
     margin-left:5%;
     @include breakpoint(tablet) {
@@ -40,12 +40,26 @@
             padding: 15px 20px;
             cursor: pointer;
             color: #5a585c;
-            ul {
+            a {
+                color: #5a585c;
+                font-weight:600;
+                &:hover {
+                    color: $primary-color;  
+                }
+            }
+            &:hover {
+                background: #fff;
+            }
+            
+        }
+    }
+    ul.dropdown {
                 padding: 0;
                 position: absolute;
-                top: 48px;
+                top: 55px;
                 left: 0;
-                width: 150px;
+                width:100%;
+                min-width: 150px;
                 /* width of drop down box */
                 -webkit-box-shadow: none;
                 -moz-box-shadow: none;
@@ -73,18 +87,6 @@
                     }
                 }
             }
-            &:hover {
-                background: #fff;
-            }
-            a {
-                color: #5a585c;
-                font-weight:600;
-                &:hover {
-                    color: $primary-color;  
-                }
-            }
-        }
-    }
 }
 
 #main-nav ul li:hover ul {
