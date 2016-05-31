@@ -1397,7 +1397,9 @@ ul.news-list-main li {
   display: none !important; }
 
 .affix {
-  position: fixed; }
+  position: fixed;
+  top: 100px;
+  right: 5%; }
 
 #mylightbox {
   display: none; }
