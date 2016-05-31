@@ -47,6 +47,16 @@ a {
 ul,
 ol {
   padding-left: 0px; }
+  ul.two_col_list li,
+  ol.two_col_list li {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top; }
+    @media (max-width: 640px) {
+      ul.two_col_list li,
+      ol.two_col_list li {
+        width: 100%;
+        display: block; } }
   ul li,
   ol li {
     font-size: 1.6rem;

@@ -45,6 +45,17 @@ a {
 // }
 ul,
 ol {
+    &.two_col_list {
+        li {
+            width:49%;
+            display:inline-block;
+            vertical-align: top;
+            @include breakpoint(mobileonly) {
+                width:100%;
+                display: block;
+            }
+        }
+    }
     padding-left: 0px;
     li {
         font-size: 1.6rem;
