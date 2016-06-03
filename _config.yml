@@ -9,6 +9,7 @@ author:
 designer: 
 replyto: 
 themecolor: 22274d
+repo: "https://github.com/ucdavis/jekyll-starter"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://jekyll-starter.ucdavis.edu" # the base hostname & protocol for your site
 

@@ -222,6 +222,9 @@ h2,
 h3,
 .h3 {
     font-size: 2rem;
+    & + p {
+        margin-top:-5px;
+    }
 }
 
 h4,

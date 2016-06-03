@@ -208,6 +208,9 @@ h2,
 h3,
 .h3 {
   font-size: 2rem; }
+  h3 + p,
+  .h3 + p {
+    margin-top: -5px; }
 
 h4,
 .h4 {
