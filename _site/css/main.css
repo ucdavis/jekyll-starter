@@ -35,14 +35,6 @@ a {
   color: #016FC4; }
   a:hover {
     color: #DDB307; }
-  a.archive {
-    text-align: right; }
-    a.archive p {
-      color: #016FC4;
-      margin-top: -60px;
-      font-size: 1.4rem; }
-      a.archive p:hover {
-        color: #DDB307; }
 
 ul,
 ol {
@@ -79,7 +71,8 @@ ul.tabs {
       color: pink;
       padding: 10px 15px;
       display: block;
-      margin-bottom: -1px; }
+      margin-bottom: -1px;
+      border: 1px solid transparent; }
     ul.tabs li.active a {
       color: green;
       cursor: default;

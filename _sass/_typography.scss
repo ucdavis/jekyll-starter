@@ -18,31 +18,8 @@ a {
     &:hover {
         color: $a-hover;
     }
-    &.archive {
-        text-align: right;
-        p {
-            color: $a-link;
-            margin-top: -60px;
-            font-size: 1.4rem;
-            &:hover {
-                color: $a-hover;
-            }
-        }
-    }
 }
 
-// ol {
-//  padding-left:0px;
-//  li {
-//      font-size:1.5rem;
-//      letter-spacing:.025rem;
-//      font-family:$serif;
-//      color:$primary-font;
-//      a {
-//          // font-size1.5rem;
-//      }
-//  }
-// }
 ul,
 ol {
     &.two_col_list {
@@ -84,6 +61,7 @@ ul.tabs {
             padding:10px 15px;
             display:block;
             margin-bottom:-1px;
+            border:1px solid transparent;
         }
         &.active a {
             color: green;
