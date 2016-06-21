@@ -1,7 +1,8 @@
 ---
 layout: default
 ---
-<div class="breadcrumbs-wrapper">
+<div class="breadcrumb">
+<div class="breadcrumb__wrapper">
 	<ol class="breadcrumb">
     <li><a href="{{ site.baseurl }}/">Home</a></li>
     {% capture page_url_without_index_html %}{{ page.url | remove: "/index.html" }}{% endcapture %}
@@ -24,6 +25,8 @@ layout: default
         {% endfor %}
     {% endfor %}
     </ol>
+</div>
+	
 </div>
 <div class="main">
     <div class="main_contents">
