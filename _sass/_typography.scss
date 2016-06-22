@@ -122,9 +122,8 @@ p {
     color: $primary-font;
     &.lead {
         font-size:1.8rem;
-        color:#000;
+        color:$secondary-font;
         margin-top:0px;
-        border-bottom:1px solid $borders;
         padding-bottom:1%;
         margin-bottom:3%;
     }
@@ -136,26 +135,12 @@ p {
     .banner & {
         color: #fff;
     }
-    &.image_caption {
+    &.image__caption {
         font-size: 1.4rem;
         line-height: 1.4;
         color: $tertiary-font;
         margin-bottom: 10px;
         display: inline;
-    }
-    &.feed-description {
-        margin-top: 0px;
-        .news_landing & {
-            font-size: 1.4rem;
-        }
-    }
-    &.feed-summary {
-        color: $secondary-font;
-        font-size: 1.8rem;
-        border-bottom: 1px solid $borders;
-        margin-bottom: 2%;
-        padding-bottom: 2%;
-        margin-top: 0px;
     }
 }
 
@@ -204,7 +189,7 @@ h2,
         margin-bottom: 20px;
         color: $mint-green;
     }
-    &.feed-title {
+    &.article__title {
         margin-bottom: 0px;
         font-size: 3.2rem;
         .news_landing & {
@@ -233,10 +218,10 @@ h4,
 }
 
 h5 {
-    &.feed-date {
+    &.article__date {
         font-size: 1.5rem;
         // text-transform: uppercase;
-        color: $tertiary-font;
+        color: $primary-font;
         font-family: $sans-serif;
         margin-top: 0px;
         margin-bottom: 8px;

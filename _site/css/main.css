@@ -119,9 +119,8 @@ p {
   color: #333433; }
   p.lead {
     font-size: 1.8rem;
-    color: #000;
+    color: #5a585c;
     margin-top: 0px;
-    border-bottom: 1px solid #C8C7CC;
     padding-bottom: 1%;
     margin-bottom: 3%; }
   p.page_description {
@@ -130,23 +129,12 @@ p {
     padding-bottom: 2%; }
   .banner p {
     color: #fff; }
-  p.image_caption {
+  p.image__caption {
     font-size: 1.4rem;
     line-height: 1.4;
     color: #A6A6A6;
     margin-bottom: 10px;
     display: inline; }
-  p.feed-description {
-    margin-top: 0px; }
-    .news_landing p.feed-description {
-      font-size: 1.4rem; }
-  p.feed-summary {
-    color: #5a585c;
-    font-size: 1.8rem;
-    border-bottom: 1px solid #C8C7CC;
-    margin-bottom: 2%;
-    padding-bottom: 2%;
-    margin-top: 0px; }
 
 h1,
 h2,
@@ -191,18 +179,18 @@ h2,
     margin-top: 0px;
     margin-bottom: 20px;
     color: #028474; }
-  h2.feed-title,
-  .h2.feed-title {
+  h2.article__title,
+  .h2.article__title {
     margin-bottom: 0px;
     font-size: 3.2rem; }
-    .news_landing h2.feed-title, .news_landing
-    .h2.feed-title {
+    .news_landing h2.article__title, .news_landing
+    .h2.article__title {
       font-size: 2.4rem; }
-    h2.feed-title a,
-    .h2.feed-title a {
+    h2.article__title a,
+    .h2.article__title a {
       color: #333433; }
-      h2.feed-title a:hover,
-      .h2.feed-title a:hover {
+      h2.article__title a:hover,
+      .h2.article__title a:hover {
         color: #016FC4; }
 
 h3,
@@ -216,9 +204,9 @@ h4,
 .h4 {
   font-size: 1.4rem; }
 
-h5.feed-date {
+h5.article__date {
   font-size: 1.5rem;
-  color: #A6A6A6;
+  color: #333433;
   font-family: "proxima-nova", arial, sans-serif;
   margin-top: 0px;
   margin-bottom: 8px; }
@@ -280,26 +268,26 @@ aside {
   width: 25%;
   display: inline-block;
   vertical-align: top;
-  padding-right: 2%;
+  padding-left: 2%;
   margin-top: 1%;
-  margin-right: 2%; }
+  margin-left: 2%; }
   @media (max-width: 640px) {
     aside {
       width: 100%;
-      margin-right: 0px;
-      padding-right: 0px; } }
+      margin-left: 0px;
+      padding-left: 0px; } }
 
 article {
   width: 67%;
   display: inline-block;
   vertical-align: top;
-  margin-left: 1%;
-  padding-left: 1%; }
+  margin-right: 1%;
+  padding-right: 1%; }
   @media (max-width: 640px) {
     article {
       width: 100%;
-      margin-left: 0px;
-      padding-left: 0px; } }
+      margin-right: 0px;
+      padding-right: 0px; } }
 
 footer {
   position: absolute;
@@ -727,23 +715,23 @@ ol.breadcrumb {
 .section_divider {
   margin-bottom: 10%; }
 
-.image-wrapper {
+.imagewrapper {
   width: auto;
   margin-top: 7px; }
-  .image-wrapper img {
+  .imagewrapper img {
     margin: 0px;
     padding: 0px;
     padding-bottom: 10px; }
-  .image-wrapper.left {
+  .imagewrapper.imagewrapper--left {
     float: left;
     max-width: 300px;
     padding-right: 5%; }
-  .image-wrapper.right {
+  .imagewrapper.imagewrapper--right {
     float: right;
     max-width: 300px;
     padding-left: 5%; }
-  .image-wrapper.full-width {
-    max-width: 800px; }
+  .imagewrapper.imagewrapper--fullwidth img {
+    width: 100%; }
 
 .img_article_thumb {
   float: left;

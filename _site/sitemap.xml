@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://jekyll-starter.ucdavis.edu/news/2016/02/11/dan/</loc>
-<lastmod>2016-02-11T22:25:17-08:00</lastmod>
+<loc>http://jekyll-starter.ucdavis.edu/news/2016/06/21/Nonu-unlikely/</loc>
+<lastmod>2016-06-21T09:25:17-07:00</lastmod>
 </url>
 <url>
-<loc>http://jekyll-starter.ucdavis.edu/news/2016/01/11/Crazed-Cage/</loc>
-<lastmod>2016-01-11T22:25:17-08:00</lastmod>
+<loc>http://jekyll-starter.ucdavis.edu/news/2016/01/12/June-Allstars/</loc>
+<lastmod>2016-01-12T08:25:17-08:00</lastmod>
 </url>
 <url>
 <loc>http://jekyll-starter.ucdavis.edu/news/2015/12/07/Carter-unfit-for-play/</loc>
 <lastmod>2015-12-07T04:25:17-08:00</lastmod>
-</url>
-<url>
-<loc>http://jekyll-starter.ucdavis.edu/news/2015/11/28/Bob-Ross-Symposium/</loc>
-<lastmod>2015-11-28T08:25:17-08:00</lastmod>
 </url>
 <url>
 <loc>http://jekyll-starter.ucdavis.edu/events/2015/11/23/news-article/</loc>
@@ -53,5 +49,8 @@
 </url>
 <url>
 <loc>http://jekyll-starter.ucdavis.edu/search/</loc>
+</url>
+<url>
+<loc>http://jekyll-starter.ucdavis.edu/page2/</loc>
 </url>
 </urlset>

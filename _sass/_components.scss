@@ -49,7 +49,7 @@ ol.breadcrumb {
 //     }
 // }
 //images 
-.image-wrapper {
+.imagewrapper {
     width: auto;
     margin-top: 7px;
     img {
@@ -57,18 +57,18 @@ ol.breadcrumb {
         padding: 0px;
         padding-bottom: 10px;
     }
-    &.left {
+    &.imagewrapper--left {
         float: left;
         max-width: 300px;
         padding-right: 5%;
     }
-    &.right {
+    &.imagewrapper--right {
         float: right;
         max-width: 300px;
         padding-left: 5%;
     }
-    &.full-width {
-        max-width: 800px;
+    &.imagewrapper--fullwidth img {
+        width:100%;
     }
 }
 
