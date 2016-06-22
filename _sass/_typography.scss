@@ -127,6 +127,9 @@ p {
         padding-bottom:1%;
         margin-bottom:3%;
     }
+    &.article__feedsummary {
+        font-size:1.4rem;
+    }
     &.article__tag {
         color:$tertiary-font;
         font-size:1.2rem;
@@ -190,6 +193,15 @@ h2,
         margin-top: 0px;
         margin-bottom: 20px;
         color: $mint-green;
+    }
+    &.article__feedtitle {
+        a {
+            font-size:2.4rem;
+            color:$primary-font;
+            &:hover {
+                color:$primary-color;
+            }
+        }
     }
     &.article__title {
         margin-bottom: 0px;

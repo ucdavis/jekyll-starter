@@ -123,6 +123,8 @@ p {
     margin-top: 0px;
     padding-bottom: 1%;
     margin-bottom: 3%; }
+  p.article__feedsummary {
+    font-size: 1.4rem; }
   p.article__tag {
     color: #A6A6A6;
     font-size: 1.2rem;
@@ -181,6 +183,13 @@ h2,
     margin-top: 0px;
     margin-bottom: 20px;
     color: #028474; }
+  h2.article__feedtitle a,
+  .h2.article__feedtitle a {
+    font-size: 2.4rem;
+    color: #333433; }
+    h2.article__feedtitle a:hover,
+    .h2.article__feedtitle a:hover {
+      color: #016FC4; }
   h2.article__title,
   .h2.article__title {
     margin-bottom: 0px;
@@ -742,14 +751,14 @@ ol.breadcrumb {
     padding-left: 5%; }
   .imagewrapper.imagewrapper--fullwidth img {
     width: 100%; }
-
-.img_article_thumb {
-  float: left;
-  max-width: 45%;
-  padding-right: 3%;
-  padding-top: 1%;
-  padding-bottom: 4%;
-  max-height: 240px; }
+  .imagewrapper.imagewrapper--thumb {
+    float: left;
+    max-width: 45%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 4%;
+    max-height: 240px;
+    margin-top: 0px; }
 
 .btn {
   padding: 8px 20px;
@@ -963,7 +972,8 @@ label {
   .banner.banner_fish {
     background-image: url(/media/fish_banner.jpg);
     background-size: cover;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    min-height: 200px; }
     .banner.banner_fish h2,
     .banner.banner_fish p {
       text-shadow: 1px 1px 2px #1c1c1c; }
@@ -1045,14 +1055,16 @@ label {
       .news_landing .news_landing_contents .news_landing_piece:last-child {
         margin-right: 0px; }
 
-ul.feed-list li {
+ul.feedlist li {
   margin-top: 4%;
   margin-bottom: 4%;
   border-bottom: 1px solid #C8C7CC;
   padding-bottom: 2%;
   list-style-type: none; }
-  ul.feed-list li:last-child {
+  ul.feedlist li:last-child {
     border-bottom: none; }
+ul.feedlist.feedlist--news li {
+  min-height: 230px; }
 
 .event-date {
   display: inline-block;
@@ -1085,9 +1097,6 @@ ul.feed-list li {
   width: 80%;
   margin-left: 3%;
   margin-top: -15px; }
-
-ul.news-list-main li {
-  min-height: 242px; }
 
 /*
  * jQuery Nivo Slider v3.2
