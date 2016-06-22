@@ -711,11 +711,9 @@ ol.breadcrumb {
   border: 0px;
   display: block; }
   ol.breadcrumb li {
-    font-size: 1.4rem; }
+    font-size: 1.2rem; }
   ol.breadcrumb a {
     color: #016FC4; }
-    ol.breadcrumb a:hover {
-      color: #00365f; }
   ol.breadcrumb > li {
     display: inline-block; }
     ol.breadcrumb > li + li:before {
@@ -724,7 +722,7 @@ ol.breadcrumb {
     color: #5a585c; }
   ol.breadcrumb > li + li:before {
     color: #016FC4;
-    content: "\003E\00a0"; }
+    content: "/"; }
 
 .section_divider {
   margin-bottom: 10%; }
