@@ -715,18 +715,19 @@ input[type="button"].button-primary:focus {
       width: 90%; } }
 
 .calloutheader {
-  background-color: #016FC4;
   display: inline-block;
-  padding: 10px 20px;
+  border-bottom: 5px solid;
+  border-color: #016FC4;
+  padding-bottom: 4px;
   padding-right: 30px;
-  margin-top: 1.7%;
-  color: #fff; }
+  margin-top: 20px;
+  color: #5a585c; }
   .calloutheader.calloutheader--sunnygrass {
-    background-color: #78be20; }
+    border-color: #78be20; }
   .calloutheader.calloutheader--unitransred {
-    background-color: #ba0c2f; }
+    border-color: #ba0c2f; }
   .calloutheader.calloutheader--secondary {
-    background-color: #DDB307; }
+    border-color: #DDB307; }
 
 ol.breadcrumb {
   padding-top: 16px;
@@ -1069,7 +1070,6 @@ ul.feedlist a.post-link:hover li h2 {
 ul.feedlist li {
   margin-top: 4%;
   margin-bottom: 4%;
-  border-bottom: 1px solid #C8C7CC;
   padding-bottom: 2%;
   list-style-type: none; }
   ul.feedlist li:last-child {

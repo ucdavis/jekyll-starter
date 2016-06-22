@@ -1,23 +1,24 @@
 ---
 layout: submain
-title: News & Information
-breadcrumb: News
+title: Topic Rugby
+breadcrumb: Rugby
 ---
-<div class="banner banner--text">
-            <div class="banner_contents">
-            <h1>{{ page.title }}</h1>
-            <p class="lead">A Collection of interesting Tidbits</p>
-            </div>
-        </div>
+<div class="banner banner--text bg-unitrans-red">
+    <div class="banner_contents">
+        <h1>{{ page.title }}</h1>
+        <p class="lead">A Collection of interesting Tidbits</p>
+    </div>
+</div>
+{% include breadcrumbs.html %}
 <div class="main">
     <div class="main_contents">
         <article class="article--fullwidth">
         
         <div class="row">
             <div class="eight columns">
-            <h2 class="calloutheader">Latest News</h2>
+            <h2 class="calloutheader calloutheader--unitransred">Topic Search: Rugby</h2>
                 <ul class="feedlist feedlist--news list--nopadding">
-                {% for post in site.categories.news %}
+                {% for post in site.tags.Rugby %}
                 <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><li>
                     {% if post.image %}<img class="imagewrapper imagewrapper--thumb" src="{{ post.image }}-thumb.jpg">{% endif %}
                    {% if post.tags %}
@@ -37,9 +38,9 @@ breadcrumb: News
             </ul>
             </div>
             <div class="four columns">
-                <h2 class="calloutheader calloutheader--sunnygrass">Topics</h2>
+                <h3>Learn more about our Categories</h3>
                 <ul class="taglist no-bullet list--nopadding">
-                    <li><a href="/topics/rugby">Rugby</a></li>
+                    <li><a href="#">Rugby</a></li>
                     <li><a href="#">Top 14</a></li>
                     <li><a href="#">International</a></li>
                     <li><a href="#">Team of the Week</a></li>

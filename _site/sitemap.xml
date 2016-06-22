@@ -30,7 +30,7 @@
 <loc>http://jekyll-starter.ucdavis.edu/contact/</loc>
 </url>
 <url>
-<loc>http://jekyll-starter.ucdavis.edu/about/</loc>
+<loc>http://jekyll-starter.ucdavis.edu/topics/</loc>
 </url>
 <url>
 <loc>http://jekyll-starter.ucdavis.edu/support/</loc>
@@ -42,10 +42,16 @@
 <loc>http://jekyll-starter.ucdavis.edu/</loc>
 </url>
 <url>
+<loc>http://jekyll-starter.ucdavis.edu/about/</loc>
+</url>
+<url>
 <loc>http://jekyll-starter.ucdavis.edu/events/</loc>
 </url>
 <url>
 <loc>http://jekyll-starter.ucdavis.edu/about/people/</loc>
+</url>
+<url>
+<loc>http://jekyll-starter.ucdavis.edu/topics/rugby/</loc>
 </url>
 <url>
 <loc>http://jekyll-starter.ucdavis.edu/search/</loc>
