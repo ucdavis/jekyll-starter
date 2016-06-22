@@ -7,6 +7,8 @@ date:   2016-6-21 16:25:17
 category: "news"
 image: /media/newsitems/nonu-unlikely
 image-caption: Ma'Nonu with teammates at Toulouse
+tags:
+- Rugby
 ---
 
 The All Blacks centurion, who joined Toulon after winning his second Rugby World Cup last year, has endured a mixed season but scored in the last weekend’s semi-final win over Montpellier.

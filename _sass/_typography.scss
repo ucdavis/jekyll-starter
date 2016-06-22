@@ -127,10 +127,12 @@ p {
         padding-bottom:1%;
         margin-bottom:3%;
     }
-    &.page_description {
-        border-bottom: 1px solid $borders;
-        margin-bottom: 4%;
-        padding-bottom: 2%;
+    &.article__tag {
+        color:$tertiary-font;
+        font-size:1.2rem;
+        text-transform: uppercase;
+        font-weight:600;
+        margin:7px 0px;
     }
     .banner & {
         color: #fff;

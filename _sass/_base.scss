@@ -45,16 +45,23 @@ aside {
 }
 
 article {
-    width: 67%;
+    width: 71%;
+    background-color:#fff;
+    border:1px solid $borders;
+    padding:2% 6% 4% 4%;
     display: inline-block;
     vertical-align: top;
     margin-right: 1%;
-    padding-right: 1%;
     @include breakpoint(mobileonly) {
       width:100%;
       margin-right:0px;
       padding-right:0px;
     }
+    &.article--fullwidth {
+        width:100%;
+        padding:4%;
+        padding-top:2%;
+        margin-right:0%;    }
 }
 
 

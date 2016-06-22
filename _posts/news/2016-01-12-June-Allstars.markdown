@@ -7,7 +7,10 @@ date:   2016-1-12 16:25:17
 category: "news"
 image: /media/newsitems/june-tests
 image-caption: Israel Dagg, Chris Robshaw, Ruan Combrinck
-tags: "Team of the Week"
+tags: 
+- Team of the week
+- Test Match
+- Rugby
 ---
 
 A resilient and clinical defensive effort from England secured them a first-ever series win over the Wallabies in Australia while a come-from-behind victory for the Springboks set up a third Test decider against Ireland.
