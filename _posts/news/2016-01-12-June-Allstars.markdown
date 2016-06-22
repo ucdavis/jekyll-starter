@@ -9,7 +9,7 @@ image: /media/newsitems/june-tests
 image-caption: Israel Dagg, Chris Robshaw, Ruan Combrinck
 tags: 
 - Team of the week
-- Test Match
+- International
 - Rugby
 ---
 

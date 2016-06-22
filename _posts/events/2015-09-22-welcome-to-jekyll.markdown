@@ -12,7 +12,6 @@ event-contact: Calvin Doval
 event-email: cydoval@mac.com
 event-location: 38 Mrak
 event-button: http://cydoval.com/
-tags: "Apple"
 category: "events"
 ---
 

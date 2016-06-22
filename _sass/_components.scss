@@ -4,7 +4,23 @@
         @include container;
     }
 }
-
+.calloutheader {
+    background-color:$primary-color;
+    display: inline-block;
+    padding: 10px 20px;
+    padding-right:30px;
+    margin-top:1.7%;
+    color: #fff;
+    &.calloutheader--sunnygrass {
+        background-color:$sunny-grass;
+    }
+    &.calloutheader--unitransred {
+        background-color:$unitrans-red;
+    }
+    &.calloutheader--secondary {
+        background-color:$secondary-color;
+    }
+}
 ol.breadcrumb {
     padding-top: 16px;
     list-style: none;
@@ -74,7 +90,7 @@ ol.breadcrumb {
         float: left;
         max-width: 45%;
         padding-right: 3%;
-        padding-top: 1%;
+        padding-top: 0px;
         padding-bottom: 4%;
         max-height: 240px;
         margin-top:0px;
