@@ -977,12 +977,15 @@ label {
         text-transform: none;
         font-size: 1.6rem;
         font-weight: 400; }
+      #main-nav ul.dropdown li ul.dropdown {
+        visibility: hidden;
+        left: 0; }
 
 #main-nav ul li:hover ul {
   display: block;
   opacity: 1;
   visibility: visible;
-  z-index: 99; }
+  z-index: 999; }
 
 .banner {
   background-color: #016FC4;

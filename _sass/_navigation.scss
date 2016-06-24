@@ -84,6 +84,11 @@
                 font-size: 1.6rem;
                 font-weight: 400;
             }
+
+           ul.dropdown {
+                visibility: hidden;
+                left: 0;
+            }
         }
     }
 }
@@ -92,5 +97,9 @@
     display: block;
     opacity: 1;
     visibility: visible;
-    z-index: 99;
+    z-index: 999;
 }
+
+
+
+
