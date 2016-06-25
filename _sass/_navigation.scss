@@ -26,7 +26,7 @@
 
 #main-nav {
     border-bottom: 1px solid $borders;
-    background-color:#fff;
+    background-color: #fff;
     @include breakpoint(tablet) {
         display: none;
     }
@@ -84,10 +84,39 @@
                 font-size: 1.6rem;
                 font-weight: 400;
             }
-
-           ul.dropdown {
-                visibility: hidden;
+            ul.subdropdown {
+                padding: 0;
+                position: absolute;
+                top: 55px;
                 left: 0;
+                width: 100%;
+                min-width: 150px;
+                /* width of drop down box */
+                -webkit-box-shadow: none;
+                -moz-box-shadow: none;
+                box-shadow: none;
+                display: block;
+                opacity: 0;
+                visibility: hidden;
+                -webkit-transiton: opacity 0.2s;
+                -moz-transition: opacity 0.2s;
+                -ms-transition: opacity 0.2s;
+                -o-transition: opacity 0.2s;
+                -transition: opacity 0.2s;
+                box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+                li {
+                    background-color: #fff;
+                    display: block;
+                    color: #DDB307;
+                    &:hover {
+                        background-color: $bg-color;
+                    }
+                    a {
+                        text-transform: none;
+                        font-size: 1.6rem;
+                        font-weight: 400;
+                    }
+                }
             }
         }
     }
@@ -97,9 +126,12 @@
     display: block;
     opacity: 1;
     visibility: visible;
-    z-index: 999;
+    z-index: 99;
 }
 
-
-
-
+#main-nav ul li ul li:hover ul li{
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    z-index: 999;
+}
