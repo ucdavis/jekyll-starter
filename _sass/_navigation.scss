@@ -89,15 +89,18 @@
 }
 
 
-
 #main-nav ul li:hover ul {
    display: block;
    opacity: 1;
    visibility: visible;
    z-index: 999;
+   ul.subdropdown {
+    visibility: hidden;
+    display:none;
+   }
 }
 
-/*#main-nav ul li ul li:hover ul.subdropdown {
+#main-nav ul li ul li:hover ul.subdropdown {
    display: inline;
    opacity: 1;
    visibility: visible;
@@ -124,4 +127,3 @@
    font-weight: 400;
    margin-left: 15px;
 }
-*/
