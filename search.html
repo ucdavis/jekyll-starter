@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<div class="main">
+    <div class="main_contents">
+    <h1>Search Results:</h1>
+        <div class="main_search">
+            <form class="search_form" method="get" id="site_search">
+                <input class="search_input" name="q" type="text" id="search_box">
+                <input class="search_go" type="submit" value="search" id="search_btn">
+            </form>
+        </div>
+        <p id="search_name_result"></p>
+        <ul id="search_results"></ul>
+    </div>
+</div>
+
+<script src="/js/lunr.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="/js/search.js"></script>
+

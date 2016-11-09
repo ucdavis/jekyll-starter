@@ -1,0 +1,46 @@
+---
+layout: default
+title: Events
+---
+<div class="banner banner--text bg-recpool-blue">
+            <div class="banner_contents">
+            <h1>{{ page.title }}</h1>
+            <p class="lead">Come hang out!</p>
+            </div>
+        </div>
+<div class="main">
+    <div class="main_contents">
+        <article class="article--fullwidth">
+            <h1>Jekyll Starter Events template</h1>
+            <p class="page_description">Stay up to date with our latest events</p>
+            <a class="archive" href="/news/archive">
+                <p>See the Archive</p> 
+            </a>
+            <ul class="feed-list event-list-main no-bullet list--nopadding">
+                {% for post in site.categories.events %}
+                <li>
+                <div class="event-date">
+                <div class="event-date-wrapper">
+                    <a href="{{ post.url | prepend: site.baseurl }}">
+                         <span class="event-month">{{ post.event-month }}</span>
+                        <span class="event-day">{{ post.event-day }}</span>
+                    </a>
+                </div>
+                    
+                       
+                    
+                </div>
+                <div class="event-main">
+                    <h2 class="feed-title">
+                      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                    </h2>
+                    <p class="feed-description">{{ post.description }}</p>
+                </div>
+                    
+                </li>
+                {% endfor %}
+            </ul>
+            <!-- <p class="rss-subscribe">subscribe <a href="{{ " /feed.xml " | prepend: site.baseurl }}">via RSS</a></p> -->
+        </article>
+    </div>
+</div>

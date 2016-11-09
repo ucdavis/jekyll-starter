@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<div class="main">
+    <div class="main_contents">
+        <article>
+            {% if page.tags %}
+                <p class="article__tag">
+                    {{ page.tags | join: ', '}}
+                </p>
+            {% endif %}
+            <h1>{{ page.title }}</h1>
+            <h5 class="article__date">Published {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} by {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</h5>
+            <p class="lead">{{ page.description }}</p>
+
+            {% if page.image %} 
+            <div class="imagewrapper imagewrapper--fullwidth">
+                <a href="#" data-featherlight="#mylightbox">
+                    <img src="{{ page.image }}.jpg" alt="{{ page.image-caption }}">
+                </a>
+                <div id="mylightbox"><img src="{{ page.image }}@2x.jpg" alt="{{ page.image-caption }}">
+                    <p>{{ page.image-caption }}</p>
+                </div>
+                {% if page.image-caption %}
+                <p class="image__caption">
+                    {{ page.image-caption }}
+                </p>
+                {% endif %}
+            </div>
+            {% endif %}
+
+           	<p>{{ content }}</p>
+            
+        </article>
+        <aside>
+            <h3>News</h3>
+            <p>This is a news template!</p>
+        </aside>
+    </div>
+</div>

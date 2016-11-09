@@ -1,36 +1,54 @@
 ---
-layout: default
+layout: submain
+title: News & Information
+breadcrumb: News
 ---
-
-<div class="banner">
-    <div class="banner_contents">
-        <h2>Become a Tiger</h2>
-        <p>
-            I'm sort of a softy, I couldn't shoot Bambi except with a camera.
-        </p>
-        <a href="" class="btn darken_primary">Click me</a>
-    </div>
-</div>
-<main>
+<div class="banner banner--text">
+            <div class="banner_contents">
+            <h1>{{ page.title }}</h1>
+            <p class="lead">A Collection of interesting Tidbits</p>
+            </div>
+        </div>
+<div class="main">
     <div class="main_contents">
-        <aside>
-            <h3>Lagunitas</h3>
-            <p>Adding new quotes to the generator nearly daily. Shareable quote images coming in a few days.</p>
-        </aside>
-        <article>
-            <h1 class="document_header">Site News</h1>
-            <h2 class="document_description">A collection of interesting tidebits</h2>
-            <ul class="post-list">
-                {% for post in site.posts %}
-                <li>
-                    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-                    <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+        <article class="article--fullwidth">
+
+        <div class="row">
+            <div class="eight columns">
+            <h2 class="calloutheader">Latest News</h2>
+                <ul class="feedlist feedlist--news list--nopadding">
+                {% for post in site.categories.news %}
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><li>
+                    {% if post.image %}<img class="imagewrapper imagewrapper--thumb" src="{{ post.image }}-thumb.jpg">{% endif %}
+                   {% if post.tags %}
+                    <p class="article__tag">
+                      {% for tag in post.tags %}
+                      <a href="/topics/{{ tag }}">{{ tag }}</a>
+                      {% endfor %}
+
+
+                    </p>
+                    {% endif %}
+                    <h2 class="article__feedtitle">
+                      {{ post.title }}
+                    </h2>
+                    <h5 class="article__date">Published {{ post.date | date: "%b %-d, %Y" }}{% if post.author %} by {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</h5>
+                    <p class="article__feedsummary">{{ post.description }}</p>
+
                 </li>
+                </a>
                 {% endfor %}
             </ul>
-            <p class="rss-subscribe">subscribe <a href="{{ " /feed.xml " | prepend: site.baseurl }}">via RSS</a></p>
+            </div>
+            <div class="four columns">
+                <h2 class="calloutheader calloutheader--sunnygrass">Topics</h2>
+                {% include taglist.html %}
+
+            </div>
+        </div>
+
+
+            <!-- <p class="rss-subscribe">subscribe <a href="{{ " /feed.xml " | prepend: site.baseurl }}">via RSS</a></p> -->
         </article>
     </div>
-</main>
+</div>

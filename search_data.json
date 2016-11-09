@@ -1,0 +1,20 @@
+---
+layout: null
+---
+{
+  {% for post in site.posts %}
+
+    "{{ post.url | slugify }}": {
+      "title": "{{ post.title | xml_escape }}",
+      "url": "{{ post.url | xml_escape | prepend: site.url }}",
+      "description": "{{ post.description | xml_escape }}",
+      "content"	 : "{{post.content | strip_html | strip_newlines | remove:  "	" | escape | remove: "\"}}",
+      "category": "{{ post.category | xml_escape }}"
+
+    }
+    {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+}
+
+
+

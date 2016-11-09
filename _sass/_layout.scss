@@ -1,12 +1,18 @@
+
+html {
+  position:relative;
+  min-height: 100%;
+  height:inherit;
+}
 body {
-	padding:0px;
-	margin:0px;
-	// background-color:$bg-color;
+  padding:0px;
+  margin:0px;
+  margin-bottom:180px;
+  background:url(/media/bg.jpg) repeat;
 }
 img {
   max-width: 100%;
 }
-
 /* Skeleton Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -155,3 +161,5 @@ input[type="button"].button-primary:focus {
   content: "";
   display: table;
   clear: both; }
+
+

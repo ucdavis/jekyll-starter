@@ -1,6 +1,28 @@
+##UC Davis CAES CRU Web Dev
+
 Jekyll Starter for Web projects with the College of Agricultural and Environmental Sciences at UC Davis.
 
-Author: Cal Doval cydoval
+Author: Cal Doval cydoval@ucdavis.edu
+Website: Jekyll-starter.ucdavis.edu
 
-Jekyll
-Sass
+This project is built using Jekyll - please use http://jekyllrb.com/ for installation
+
+Once Jekyll is installed and you are in the folder within terminal use jekyll serve to set up a localhost. Pushes to the 'gh-pages' branch will push to jekyll-ucdavis.edu
+
+Gems
+	Sitemap
+	Github Pages
+
+Vendors:
+	Bootstrap
+		- Affix
+		- Panels
+		- Modal
+	Search
+		- Lunr.js
+	Slider
+		- Nivoslider
+	Navigation
+		- Pushy
+	Lightbox
+		- Featherlight

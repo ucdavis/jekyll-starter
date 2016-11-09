@@ -1,41 +1,13 @@
 <header>
     <div class="header_contents">
-        <div class="logo">
-            <a href="/"><img class="rocket_logo" src="/media/jekyll_logo.svg" alt=""></a>
+        <div class="logo_wrapper">
+            <a href="/"><img class="caeslogo" src="/media/caes_logo.svg" alt=""></a>
+        </div>
+        <div class="search_wrapper">
+            <form class="small_search" action="/search" method="GET">
+                <input type="text" name="q" autocomplete="off" required>
+            </form>
         </div>
     </div>
 </header>
-<div class="nav_wrapper">
-    <nav id="nav" role="navigation">
-        <a href="#nav" title="Show navigation">Show navigation</a>
-        <a href="#" title="Hide navigation">Hide navigation</a>
-        <ul>
-            <li>
-                <a href="/about" aria-haspopup="true">About</a>
-                <ul class="submenu arrow_box">
-                    <li><a href="#">Me</a></li>
-                    <li><a href="#">Myself</a></li>
-                    <li><a href="#">Irene</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="/learning-materials">Portfolio</a>
-            </li>
-            <li>
-                <a href="/about">Components</a>
-            </li>
-            <li>
-                <a href="/about">Our Work</a>
-            </li>
-            <li>
-                <a href="/news">News</a>
-            </li>
-        </ul>
-        <!--         <div class="search_form">
-        <form>
-            <input type="text" class="st-default-search-input">
-        </form>
-        
-        </div> -->
-    </nav>
-</div>
+{% include navigation.html %}

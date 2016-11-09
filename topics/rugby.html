@@ -1,0 +1,56 @@
+---
+layout: submain
+title: Topic Rugby
+breadcrumb: Rugby
+---
+<div class="banner banner--text bg-unitrans-red">
+    <div class="banner_contents">
+        <h1>{{ page.title }}</h1>
+        <p class="lead">A Collection of interesting Tidbits</p>
+    </div>
+</div>
+{% include breadcrumbs.html %}
+<div class="main">
+    <div class="main_contents">
+        <article class="article--fullwidth">
+        
+        <div class="row">
+            <div class="eight columns">
+            <h2 class="calloutheader calloutheader--unitransred">Topic Search: Rugby</h2>
+                <ul class="feedlist feedlist--news list--nopadding">
+                {% for post in site.tags.Rugby %}
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><li>
+                    {% if post.image %}<img class="imagewrapper imagewrapper--thumb" src="{{ post.image }}-thumb.jpg">{% endif %}
+                   {% if post.tags %}
+                    <p class="article__tag">
+                        {{ post.tags | join: ', '}}
+                    </p>
+                    {% endif %}
+                    <h2 class="article__feedtitle">
+                      {{ post.title }}
+                    </h2>
+                    <h5 class="article__date">Published {{ post.date | date: "%b %-d, %Y" }}{% if post.author %} by {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</h5>
+                    <p class="article__feedsummary">{{ post.description }}</p>
+
+                </li>
+                </a>
+                {% endfor %}
+            </ul>
+            </div>
+            <div class="four columns">
+                <h3>Learn more about our Categories</h3>
+                <ul class="taglist no-bullet list--nopadding">
+                    <li><a href="#">Rugby</a></li>
+                    <li><a href="#">Top 14</a></li>
+                    <li><a href="#">International</a></li>
+                    <li><a href="#">Team of the Week</a></li>
+                </ul>
+
+            </div>
+        </div>
+            
+            
+            <!-- <p class="rss-subscribe">subscribe <a href="{{ " /feed.xml " | prepend: site.baseurl }}">via RSS</a></p> -->
+        </article>
+    </div>
+</div>
