@@ -12,7 +12,7 @@ breadcrumb: News
 <div class="main">
     <div class="main_contents">
         <article class="article--fullwidth">
-        
+
         <div class="row">
             <div class="eight columns">
             <h2 class="calloutheader">Latest News</h2>
@@ -22,7 +22,11 @@ breadcrumb: News
                     {% if post.image %}<img class="imagewrapper imagewrapper--thumb" src="{{ post.image }}-thumb.jpg">{% endif %}
                    {% if post.tags %}
                     <p class="article__tag">
-                        {{ post.tags | join: ', '}}
+                      {% for tag in post.tags %}
+                      <a href="/topics/{{ tag }}">{{ tag }}</a>
+                      {% endfor %}
+
+
                     </p>
                     {% endif %}
                     <h2 class="article__feedtitle">
@@ -42,8 +46,8 @@ breadcrumb: News
 
             </div>
         </div>
-            
-            
+
+
             <!-- <p class="rss-subscribe">subscribe <a href="{{ " /feed.xml " | prepend: site.baseurl }}">via RSS</a></p> -->
         </article>
     </div>
