@@ -7,5 +7,5 @@ Now we don't want him to get lonely, so we'll give him a little friend. We'll ha
 
 ###Contact Information
 Email: [Contact Us](cydoval@mac.com)
-Telephone: (916) 224-3885
+
 
